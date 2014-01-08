@@ -41,17 +41,15 @@
                 <span class="btn-navbar-text">Menu</span>
               </a>
               <a class="brand" href="./index.html"><span class="logo">Primecoin</span></a>
+              <div class="navbar-collapse collapse">
               <div class="nav-user pull-right">
                 <ul class="nav nav-user-options">
-                  <li class="signup"><a href="user-signup.html" class="btn btn-purple">Download Wallet!</a></li>
+                  <li class="download"><a href="download.php">Download Wallet!</a></li>
                 </ul>
               </div><!-- end nav-user -->
-              <div class="navbar-collapse collapse">
                 <div class="nav-menu pull-right">
                   <ul class="nav nav-pills">
                     <li><a href="features.html">Features</a></li>
-                    <li><a href="portfolio-parent.html">Mine</a></li>
-                    <li><a href="blog-parent.html">Mint</a></li>
                     <li><a href="blog-parent.html">Forum</a></li>
                   </ul>
                 </div><!-- end nav-menu -->

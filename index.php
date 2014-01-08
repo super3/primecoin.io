@@ -1,37 +1,36 @@
 <?php include("header.php"); ?>
 
-  <header class="header container">
-    <h1>Primecoin</h1>
-    <h2>A new type of proof-of-work based on searching for prime numbers</h2>
+  <header class="header">
+    <div class="container">
+      <h1>Primecoin</h1>
+      <h2>A new type cryptocurrency which is proof-of-work based on searching for prime numbers.</h2>
+      <a class="btn why" href="#">Why Primecoin</a>
+      <a class="btn wallet" href="#">Download Wallet!</a>
+      <div class="header-icon"></div>
+    </div>
   </header>
 
     <div class="clear"></div>
 
-    <div class="container-wrapper">
+    <div class="container-wrapper features">
       <div class="container">
         <div class="row margin-bottom-20">
-          <div class="col-md-12 center">
-            <h2>Features</h2>
-          </div><!-- end col -->
         </div><!-- end row -->
         <div class="row">
           <div class="col-md-4 center">
-            <span class="fa fa-suitcase fa-5x blue"></span>
-            <h3 class="margin-top-10">What's included</h3>
-            <p>We include HTML, CSS, LESS, Javascript, Icons and Fonts ready and waiting for you.</p>
-            <p><a href="elements.html" class="btn btn-lg btn-purple">Learn More</a></p>
+            <h3 class="margin-top-10">What is Primecoin?</h3>
+            <p>Primecoin is an innovative cryptocurrency, a form of digital currency secured by cryptography and issued through a decentralized mining market. Derived from Satoshi Nakamoto's Bitcoin, Primecoin introduces an unique form of proof-of-work based on prime numbers.</p>
+            <a href="elements.html" class="btn btn-lg btn-inverse">Learn More</a>
           </div><!-- end col -->
           <div class="col-md-4 center">
-            <span class="fa fa-gears fa-5x"></span>
-            <h3 class="margin-top-10">Lots of features</h3>
-            <p>Zion has loads of elements, form inputs, buttons, and other great user interface features.</p>
-            <p><a href="features.html" class="btn btn-lg btn-primary">Take Tour</a></p>
+            <h3 class="margin-top-10">Advantages of Primecoin.</h3>
+            <p>The innovative prime proof-of-work in Primecoin not only provides security and minting to the network, but also generates a special form of prime number chains of interest to mathematical research. Thus primecoin network is energy-multiuse, compared to bitcoin.</p>
+            <p><a href="features.html" class="btn btn-lg btn-inverse">Learn More</a>
           </div><!-- end col -->
           <div class="col-md-4 center">
-            <span class="fa fa-heart fa-5x red"></span>
-            <h3 class="margin-top-10">Coded with care</h3>
-            <p>Plenty of TLC has gone into Zion. We appreciate you taking the time to look at our template!</p>
-            <p><a href="https://wrapbootstrap.com/theme/zion-responsive-template-WB0522F10" class="btn btn-lg btn-success">Buy Now</a></p>
+            <h3 class="margin-top-10">Value Behind Primecoin.</h3>
+            <p>Primecoin network searches for special prime number chains known as Cunningham chains and bi-twin chains. The distribution of these prime chains are not well-understood currently as even for its simplest case twin primes their infinite existence is not proven.</p>
+            <a href="https://wrapbootstrap.com/theme/zion-responsive-template-WB0522F10" class="btn btn-lg btn-inverse">Learn More</a>
           </div><!-- end col -->
         </div><!-- end row -->
       </div><!-- end container -->
