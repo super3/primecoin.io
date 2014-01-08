@@ -1,11 +1,120 @@
-/******************************************************
-  Name: Primecoin
-  Description: A new type of proof-of-work based on searching for prime numbers is introduced in peer-to-peer cryptocurrency designs.
-  Version: 1.0
-  Author: Primecoin Team
-  Website: http://www.primecoin.org
-********************************************************/
+/*
+ * Website name: Primecoin
+ * Version: 1.1
+ * URL: http://Primecoin.net
+ */
 
+
+/* Table of Contents
+
+1. Default Styling
+  1.1 Body
+2. Element Styling
+  2.1 Header
+*/
+
+
+/*
+*
+*
+1 Default Styling
+*/
+
+/* 1.1 Body */
+
+/* 1.2 Text */
+h2.tagline {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/*
+*
+*
+2 Element Styling
+*/
+
+/* 2.1 Header */
+.navbar-inner .download a {
+  border-radius: 3px;
+  background: none #0dc8e2;
+  color: #fff;
+  padding: 7px 20px;
+  box-shadow: inset 0 1px 0 #45e7fe;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+.navbar-inner .nav li.download a:hover {
+  background: none #1ddbf5;
+  box-shadow: inset 0 1px 0 #45e7fe;
+}
+
+header {
+  background-color: #45515e;
+  padding: 80px 0 40px 0;
+  color: #fff;
+}
+
+header .container {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  width: 60%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+header h2 {
+  color: #a8b2be;
+  font-size: 26px;
+  line-height: 34px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+header .btn {
+  padding: 16px 32px;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+header .header-icon {
+  background: url(../images/general/header-icon.png) no-repeat 0 0 transparent;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  bottom: -200px;
+  right: 0;
+}
+
+
+/* 2.2 Numbers */
+.numbers .row-feature {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.numbers h3 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #45515e;
+}
+
+.numbers p {
+  color: #c9d1d4;
+  font-size: 20px;
+}
+
+
+/* 2.3 Background Container */
+body .container-wrapper-bridge {
+background: url(../images/backgrounds/bridge.jpg) top center no-repeat #57448a;
+background-attachment: fixed;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
 
 /******************************************************
   FONTS
@@ -16,6 +125,8 @@
 /******************************************************
 @import url("http://fonts.googleapis.com/css?family=Raleway:400,100,800,900,700,600,500,200,300");
 @import url("http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300,400italic,700,700italic,900,900italic");
+
+
 
   COLOURS
 ********************************************************/
@@ -1264,7 +1375,7 @@ ul.dropdown-menu:after {
 }
 .navbar-inverse .navbar-inner {
   border: none;
-  background: #394552;
+  background: #252b32;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -o-border-radius: 0;
@@ -1287,7 +1398,7 @@ ul.dropdown-menu:after {
   color: #fff;
 }
 .navbar-inverse .brand .logo {
-  margin: 7px 0 0 0;
+  margin: 9px 0 0 0;
   display: block;
   vertical-align: top;
   width: 116px;
@@ -1301,7 +1412,7 @@ ul.dropdown-menu:after {
   color: #cfda55;
 }
 .navbar-inverse .nav-pills {
-  margin: 4px 20px 0 0;
+  margin: 6px 20px 0 0;
   text-align: left;
 }
 .navbar-inverse .nav-pills li {
@@ -3335,6 +3446,8 @@ body.search-results h1 em {
   -o-box-shadow: none;
   box-shadow: none;
   text-shadow: 0 1px 0 #fff;
+  position: relative;
+  z-index: 10;
 }
 .container-wrapper .row .col-md-12 {
   margin-left: auto;
