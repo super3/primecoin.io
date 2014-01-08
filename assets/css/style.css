@@ -14,6 +14,19 @@
 */
 
 
+/*
+*
+*
+1 Default Styling
+*/
+
+/* 1.1 Body */
+
+/* 1.2 Text */
+h2.tagline {
+  font-size: 60px;
+  font-weight: bold;
+}
 
 /*
 *
@@ -78,8 +91,29 @@ header .header-icon {
 }
 
 
-/* 2.2 Features */
-.features p {
+/* 2.2 Numbers */
+.numbers .row-feature {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.numbers h3 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #45515e;
+}
+
+.numbers p {
+  color: #c9d1d4;
+  font-size: 20px;
+}
+
+
+/* 2.3 Background Container */
+body .container-wrapper-bridge {
+background: url(../images/backgrounds/bridge.jpg) top center no-repeat #57448a;
+background-attachment: fixed;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
 }
 
 /******************************************************
@@ -91,12 +125,6 @@ header .header-icon {
 /******************************************************
 @import url("http://fonts.googleapis.com/css?family=Raleway:400,100,800,900,700,600,500,200,300");
 @import url("http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300,400italic,700,700italic,900,900italic");
-
-
-
-
-
-
 
 
 
