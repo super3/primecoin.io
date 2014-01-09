@@ -10,6 +10,7 @@
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
     <!--[if IE 7]>
       <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
     <![endif]-->
@@ -40,17 +41,18 @@
                 <span class="fa fa-bars"></span>
                 <span class="btn-navbar-text">Menu</span>
               </a>
-              <a class="brand" href="./index.html"><span class="logo">Primecoin</span></a>
+              <a class="brand" href="./index.php"><span class="logo">Primecoin</span></a>
               <div class="navbar-collapse collapse">
               <div class="nav-user pull-right">
                 <ul class="nav nav-user-options">
-                  <li class="download"><a href="download.php">Download Wallet!</a></li>
+                  <li class="download"><a href="downloads.php">Download Wallet!</a></li>
                 </ul>
               </div><!-- end nav-user -->
                 <div class="nav-menu pull-right">
                   <ul class="nav nav-pills">
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="blog-parent.html">Forum</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="resources.php">Resources</a></li>
+                    <li><a href="http://www.peercointalk.org/">Forum</a></li>
                   </ul>
                 </div><!-- end nav-menu -->
               </div><!-- end navbar-collapse -->
