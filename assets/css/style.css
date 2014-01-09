@@ -9,8 +9,14 @@
 
 1. Default Styling
   1.1 Body
+  1.2 Text
 2. Element Styling
   2.1 Header
+  2.2 Numbers
+  2.3 Background Container (bridge)
+  2.4 Downloads
+  2.5 Sidebar
+3. Media Queries
 */
 
 
@@ -21,11 +27,50 @@
 */
 
 /* 1.1 Body */
+.item {
+  margin-bottom: 40px;
+}
 
 /* 1.2 Text */
 h2.tagline {
   font-size: 60px;
   font-weight: bold;
+}
+
+h2.maintitle {
+  font-size: 38px;
+  font-weight: bold;
+  padding-top: 60px;
+  clear: both;
+}
+
+h2.maintitle a {
+  text-decoration: underline;
+}
+
+h2.maintitle a:hover {
+  text-decoration: none;
+}
+
+#content h2 {
+  font-weight: bold;
+  font-size: 36px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 40px;
+}
+
+#content h3 {
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 10px;
+  display: inline-block;
+  border-bottom: 2px solid #eee;
+}
+
+#content ul {
+  list-style: disc inside;
+  margin-bottom: 40px;
 }
 
 /*
@@ -90,6 +135,19 @@ header .header-icon {
   right: 0;
 }
 
+body .container-wrapper-prime {
+  background: url(../images/backgrounds/bridge.jpg) top center no-repeat #57448a;
+  background-attachment: fixed;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+body .container-wrapper-prime h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+}
+
 
 /* 2.2 Numbers */
 .numbers .row-feature {
@@ -116,6 +174,162 @@ background-attachment: fixed;
 text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
 }
 
+/* 2.4 Downloads */
+.downloads .inner {
+  padding: 20px 40px;
+  background-color: #fff;
+  position: relative;
+  color: #111;
+  border-radius: 4px;
+}
+
+.downloads .inner h2 {
+  color: #111;
+}
+
+.downloads span.icon {
+  display: block;
+  height: 64px;
+  width: 64px;
+  background: url(../../img/downloads/windows.png) no-repeat 0 0 transparent;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.downloads .inner h2 {
+  margin-bottom: 30px;
+}
+
+.downloads a {
+  display: block;
+}
+
+.downloads .mac span.icon {
+  background: url(../../img/downloads/mac.png) no-repeat 0 0 transparent;
+}
+
+
+/* 2.5 Sidebar */
+.sidebar .block.wrap {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.sidebar .block.notification {
+  border: 2px solid #EFDF71;
+  background-color: #FFFEF7;
+  color: #645e31;
+}
+
+.sidebar .block.notification h2,
+.sidebar .block.notification p,
+.sidebar .block.notification a {
+  color: #645e31;
+}
+
+.sidebar .block p,
+.sidebar .block a {
+  font-size: 17px;
+}
+
+.sidebar .block a:hover {
+  color: #000 !important;
+}
+
+.sidebar .block.notification a {
+  text-decoration: underline;
+}
+
+.sidebar .block.info {
+  border: 2px solid #dfdfdf;
+  background-color: #f7f7f7;
+  color: #645e31;
+}
+
+.sidebar .block.info h2,
+.sidebar .block.info p,
+.sidebar .block.info a {
+  color: #645e31;
+}
+
+.sidebar .block.info a {
+  text-decoration: underline;
+}
+
+body .sidebar ul li {
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+/*
+*
+*
+3 Media Queries
+*/
+
+/* 3.1 Mobile */
+@media (max-width: 991px) {
+  header.header {
+    text-align: center;
+    padding: 80px 0 300px 0;
+  }
+
+  header.header h1,
+  header.header h2 {
+    width: auto;
+  }
+
+  header .header-icon {
+    bottom: -480px;
+    right: 140px;
+  }
+
+  body .container-wrapper-prime h1 {
+    font-size: 50px;
+  }
+
+  .numbers h3 {
+  font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  header.header {
+    text-align: center;
+    padding: 30px 0 230px 0;
+    position: relative;
+  }
+
+  header.header h1 {
+    font-size: 50px;
+  }
+
+  header.header .btn {
+    margin-bottom: 20px;
+  }
+  header .header-icon {
+    bottom: -490px;
+    left: 50%;
+    margin-left: -250px;
+  }
+
+  body .container-wrapper-prime h1 {
+  font-size: 35px;
+  }
+
+  .numbers p {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  }
+  .numbers li:last-child p {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+
 /******************************************************
   FONTS
 ********************************************************/
@@ -123,10 +337,6 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
 
 /* Font Imports */
 /******************************************************
-@import url("http://fonts.googleapis.com/css?family=Raleway:400,100,800,900,700,600,500,200,300");
-@import url("http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300,400italic,700,700italic,900,900italic");
-
-
 
   COLOURS
 ********************************************************/
@@ -524,7 +734,7 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
   TYPOGRAPHY
 ********************************************************/
 a {
-  color: #7957D3;
+  color: #3b8ab5;
 }
 a:hover,
 a:focus {
@@ -588,10 +798,11 @@ h6 {
 }
 p {
   margin: 0 0 20px;
-  font-size: 15px;
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-size: 16px;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   line-height: 1.7;
-  color: #697b92;
+  font-weight: 300;
+  color: #3b4552;
 }
 p a {
   word-wrap: break-word;
@@ -610,9 +821,9 @@ ul li,
 ol li {
   margin: 5px 0;
   font-size: 15px;
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   line-height: 1.6;
-  color: #697b92;
+  color: #3b4552;
 }
 ul li ul,
 ol li ul,
@@ -656,7 +867,7 @@ code {
   border: 1px solid #e45f56;
 }
 blockquote {
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   font-style: normal;
   font-size: 15px;
   line-height: 1.7;
@@ -1670,7 +1881,7 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   padding: 7px 12px 5px;
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   height: auto;
 }
 textarea:focus,
@@ -1696,7 +1907,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   line-height: 22px;
 }
 label {
@@ -1897,7 +2108,7 @@ label.checkbox.inline {
 }
 .help-block,
 .help-inline {
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   font-size: 13px;
   color: #333;
 }
@@ -2076,7 +2287,7 @@ ol.list-tweets li small a:hover {
   padding: 0;
   position: relative;
   border: none;
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   font-size: 18px;
   font-style: italic;
   line-height: 1.5;
@@ -2316,7 +2527,7 @@ ul.features-icon-list li:last-child {
   text-align: center;
 }
 .summary p {
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
 }
 .summary p:last-child {
   margin: 0;
@@ -2801,7 +3012,7 @@ ul.breadcrumb li {
   font-size: 15px;
 }
 .table tr td {
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   font-size: 14px;
 }
 .table tr:hover td,
@@ -3046,7 +3257,7 @@ ul.popover-examples li {
 .post blockquote {
   margin: 30px;
   padding: 20px 30px;
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   font-style: normal;
   font-size: 15px;
   line-height: 1.7;
@@ -3211,7 +3422,7 @@ body.search-results h1 em {
 }
 .portfolio-wrapper .portfolio-item .portfolio-body p {
   margin: 0;
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   font-size: 13px;
 }
 .portfolio-wrapper .portfolio-item:hover .portfolio-thumb img {
@@ -3382,7 +3593,7 @@ body.search-results h1 em {
   content: "\f105";
 }
 .accordion .accordion-group .accordion-body .accordion-inner {
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   font-size: 13px;
   line-height: 1.6;
 }
@@ -3405,7 +3616,7 @@ body.search-results h1 em {
 .sidebar ol li {
   margin: 0 0 20px;
   list-style-type: none;
-  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  font-family: 'Nunito', Georgia, Times New Roman, serif;
   font-size: 14px;
   line-height: 1.6;
 }

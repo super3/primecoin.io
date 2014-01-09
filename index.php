@@ -4,7 +4,7 @@
     <div class="container">
       <h1>Primecoin</h1>
       <h2>A new type cryptocurrency which is proof-of-work based on searching for prime numbers.</h2>
-      <a class="btn why" href="#">Why Primecoin</a>
+      <a class="btn why smoothScroll" href="#why-primecoin">Why Primecoin</a>
       <a class="btn wallet" href="#">Download Wallet!</a>
       <div class="header-icon"></div>
     </div>
@@ -16,7 +16,7 @@
       <div class="container">
         <div class="row margin-bottom-20">
         </div><!-- end row -->
-        <div class="row">
+        <div class="row" id="why-primecoin">
           <div class="col-md-4 center">
             <h3 class="margin-top-10">What is Primecoin?</h3>
             <p>Primecoin is an innovative cryptocurrency, a form of digital currency secured by cryptography and issued through a decentralized mining market. Derived from Satoshi Nakamoto's Bitcoin, Primecoin introduces an unique form of proof-of-work based on prime numbers.</p>
@@ -107,6 +107,9 @@
                   </li>
                 </ul>
               </div><!-- end col -->
+              <div class="col-md-12 center">
+                <h2 class="maintitle"><a href="resources.php">All resources</a></h2>
+              </div>
             </div><!-- end row -->
           </div><!-- end container -->
         </div>
