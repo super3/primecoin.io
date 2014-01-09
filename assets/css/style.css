@@ -275,6 +275,11 @@ body .sidebar ul li {
     padding: 80px 0 300px 0;
   }
 
+  .navbar-inner .download a,
+  .navbar-inner .download a:hover {
+    box-shadow: none !important;
+  }
+
   header.header h1,
   header.header h2 {
     width: auto;
