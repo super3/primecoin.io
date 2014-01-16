@@ -16,6 +16,9 @@
   2.3 Background Container (bridge)
   2.4 Downloads
   2.5 Sidebar
+  2.6 Scrollto
+  2.7 World Records
+  2.x Misc
 3. Media Queries
 */
 
@@ -52,6 +55,10 @@ h2.maintitle a:hover {
   text-decoration: none;
 }
 
+#content ol {
+  margin-left: 30px;
+}
+
 #content h2 {
   font-weight: bold;
   font-size: 36px;
@@ -80,6 +87,14 @@ h2.maintitle a:hover {
 */
 
 /* 2.1 Header */
+.navbar-inverse.affix {
+  position: static !important;
+}
+
+.container-wrapper.container-top {
+  padding: 0 !important
+}
+
 .navbar-inner .download a {
   border-radius: 3px;
   background: none #0dc8e2;
@@ -96,7 +111,7 @@ h2.maintitle a:hover {
 
 header {
   background-color: #45515e;
-  padding: 80px 0 40px 0;
+  padding: 50px 0 60px 0;
   color: #fff;
 }
 
@@ -155,15 +170,23 @@ body .container-wrapper-prime h1 {
   padding-bottom: 0;
 }
 
-.numbers h3 {
-  font-size: 45px;
+.numbers span.title {
+  font-size: 36px;
   font-weight: bold;
   color: #45515e;
 }
 
-.numbers p {
+.numbers span.txt {
   color: #c9d1d4;
   font-size: 20px;
+  display: block;
+}
+
+.numbers .updated {
+  text-align: center;
+  padding-top: 40px;
+  color: #c9d1d4;
+  font-size: 15px;
 }
 
 
@@ -175,6 +198,16 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* 2.4 Downloads */
+.downloads {
+  text-align: center;
+}
+
+.downloads .col-md-4 {
+  float: none;
+  display: inline-block;
+  text-align: left;
+}
+
 .downloads .inner {
   padding: 20px 40px;
   background-color: #fff;
@@ -262,13 +295,65 @@ body .sidebar ul li {
   margin-bottom: 0;
 }
 
+/* 2.6 Scrollto */
+#what-xpm:before,
+#advantages-xpm:before,
+#value-xpm:before {
+    display: block;
+    content: "";
+    min-height: 100px;
+    margin: -100px 0 0;
+}
+
+/* 2.7 World Records */
+
+.world-records {
+  background: url(../images/backgrounds/beach.jpg) center center fixed #45515e;
+  background-size: cover;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.world-records h2,
+.world-records h3 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 60px;
+}
+
+.world-records h3 {
+  font-size: 24px;
+}
+
+.world-records h3 a{
+  text-decoration: underline;
+  font-size: 18px;
+  color: #fff;
+}
+
+
+/* 2.x Misc */
+.clearpc {
+  clear: both;
+}
+
 /*
 *
 *
 3 Media Queries
 */
 
-/* 3.1 Mobile */
+/* 3.1 */
+@media (max-width: 1200px) {
+  .numbers span.title {
+    font-size: 30px;
+  }
+
+  .numbers span.txt {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 991px) {
   header.header {
     text-align: center;
@@ -296,6 +381,14 @@ body .sidebar ul li {
 
   .numbers h3 {
   font-size: 30px;
+  }
+
+  .numbers span.title {
+    font-size: 20px;
+  }
+
+  .numbers span.txt {
+    font-size: 15px;
   }
 }
 
@@ -1614,13 +1707,15 @@ ul.dropdown-menu:after {
   color: #fff;
 }
 .navbar-inverse .brand .logo {
-  margin: 9px 0 0 0;
+  margin: 6px 0 0 0;
+  position: relative;
+  top: -2px;
   display: block;
   vertical-align: top;
-  width: 116px;
-  height: 17px;
+  width: 168px;
+  height: 39px;
   background: url(../images/general/logo.png) 0 0 no-repeat;
-  background-size: 116px 17px;
+  background-size: 168px 39px;
   text-indent: -9999px;
 }
 .navbar-inverse .brand:hover {
@@ -1628,7 +1723,8 @@ ul.dropdown-menu:after {
   color: #cfda55;
 }
 .navbar-inverse .nav-pills {
-  margin: 6px 20px 0 0;
+  margin: 0;
+  padding: 14px 20px 0 0;
   text-align: left;
 }
 .navbar-inverse .nav-pills li {
@@ -1728,7 +1824,8 @@ ul.dropdown-menu:after {
   background: #fff;
 }
 .navbar-inverse .nav-user-options {
-  margin: 1px 0 0;
+  margin: 0;
+  padding: 6px 0 0 0;
 }
 .navbar-inverse .nav-user-options li {
   margin: 0 0 0 20px;

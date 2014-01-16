@@ -22,9 +22,7 @@
           <a name="exchanges" class="anchor" href="#exchanges"><span class="octicon octicon-link"></span></a>Exchanges</h3>
 
           <ul>
-          <li>
-          <a href="https://mcxnow.com/exchange/XPM">mcxNOW</a> by realsolid</li>
-          <li><a href="https://btc-e.com/exchange/xpm_btc">btc-e</a></li>
+          <li><a href="https://btc-e.com/exchange/xpm_btc">BTC-e</a></li>
           <li>Cryptsy <a href="https://www.cryptsy.com/markets/view/63">BTC</a> <a href="https://www.cryptsy.com/markets/view/106">LTC</a> with XPM Market Section by BitJohn and bigvern</li>
           <li>Crypto-Trade <a href="https://www.crypto-trade.com/trade/xpm_usd">USD</a> <a href="https://www.crypto-trade.com/trade/xpm_btc">BTC</a> <a href="https://www.crypto-trade.com/trade/xpm_ppc">PPC</a> by neotrix</li>
           <li>Vircurex <a href="https://vircurex.com/welcome/index?base=usd&amp;alt=xpm">USD</a> <a href="https://vircurex.com/welcome/index?base=eur&amp;alt=xpm">EUR</a> <a href="https://vircurex.com/welcome/index?base=btc&amp;alt=xpm">BTC</a> <a href="https://vircurex.com/welcome/index?base=ppc&amp;alt=xpm">PPC</a>
@@ -121,21 +119,20 @@
 
           <div class="block wrap notification">
             <h2>Questions?</h2>
-            <p><a href="http://www.peercointalk.org/">Join the forums</a> and ask your question you might have. The community of Primecoin will help you out.</p>
+            <p><a href="http://www.peercointalk.org/" target="_blank">Join the forums</a> and ask your question you might have. The community of Primecoin will help you out.</p>
           </div>
 
           <div class="block wrap info">
             <h2>Quick Links</h2>
             <ul>
-              <li><a href="http://www.peercointalk.org/">Wiki</a></li>
-              <li><a href="http://www.peercointalk.org/">Forums</a></li>
-              <li><a href="http://www.peercointalk.org/">How to Mine</a></li>
-              <li><a href="http://www.peercointalk.org/">What is Minting</a></li>
-              <li><a href="http://www.peercointalk.org/">Exchange Markets</a></li>
+              <li><a href="https://github.com/primecoin/primecoin/wiki/" target="_blank">Wiki</a></li>
+              <li><a href="http://www.peercointalk.org/" target="_blank">Forums</a></li>
+              <li><a href="mine.php">How to Mine</a></li>
+              <li><a href="resources.php">Exchange Markets</a></li>
             </ul>
           </div>
 
-        </div>
+        </div><!-- end sidebar -->
       </div>
     </div><!-- end container -->
 
