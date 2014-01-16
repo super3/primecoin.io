@@ -3,11 +3,11 @@
 require('include/simple_html_dom.php');
 
 // Configuration values
-define('DB_PATH', 'ppcmarket.sqlite3');
+define('DB_PATH', 'xpmmarket.sqlite3');
 define('INFO_EXPIRY', 30); // Seconds before cached data is re-downloaded
 
 // Database schema is one table, as follows:
-// CREATE TABLE ppcmarket(
+// CREATE TABLE xpmmarket(
 //   price REAL NOT NULL,
 //   market_cap REAL NOT NULL,
 //   total_supply INTEGER NOT NULL,
@@ -19,10 +19,10 @@ function fetch_market_info() {
     // Grab the CMC homepage
     $html = file_get_html("http://www.coinmarketcap.com/");
     // Get Peercoin's table
-    $ppc_data = $html->find('#ppc', 0);
+    $xpm_data = $html->find('#xpm', 0);
 
     // Market cap is stored in the "data-usd" tag of a 'td'
-    $market_cap_td = $ppc_data->find('td[class=market-cap]', 0);
+    $market_cap_td = $xpm_data->find('td[class=market-cap]', 0);
     if (is_object($market_cap_td)) {
         $market_cap = $market_cap_td->getAttribute('data-usd');
         // Market cap is returned with commas that break floatval()
@@ -33,23 +33,23 @@ function fetch_market_info() {
     }
 
     // Individual price is stored in the "data-usd" tag of an 'a'
-    $ppc_usd_a = $ppc_data->find('a[class=price]', 0);
-    if (is_object($ppc_usd_a)) {
-        $ppc_usd = $ppc_usd_a->getAttribute('data-usd');
+    $xpm_usd_a = $xpm_data->find('a[class=price]', 0);
+    if (is_object($xpm_usd_a)) {
+        $xpm_usd = $xpm_usd_a->getAttribute('data-usd');
     }
     else {
-        $ppc_usd = null;
+        $xpm_usd = null;
     }
 
     // Total supply does not have a marking class,
     // but at the time of writing is the 5th <td>
-    $total_supply_td = $ppc_data->find('td', 4);
+    $total_supply_td = $xpm_data->find('td', 4);
     if (is_object($total_supply_td)) {
         $total_supply = $total_supply_td->plaintext;
         // Ugly hack because CMC doesn't provide a data tag
         // so we have to strip off the text
         $total_supply = str_replace(",", "", $total_supply);
-        $total_supply = str_replace(" PPC", "", $total_supply);
+        $total_supply = str_replace(" XPM", "", $total_supply);
     }
     else {
         $total_supply = null;
@@ -58,7 +58,7 @@ function fetch_market_info() {
     // Prepare an array for the data,
     // returned as floats
     $info = array(
-        'price' => floatval($ppc_usd),
+        'price' => floatval($xpm_usd),
         'market_cap' => floatval($market_cap),
         'total_supply' => intval($total_supply),
     );
