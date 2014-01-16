@@ -15,9 +15,9 @@ $(document).ready(function() {
                     $('#seconds-since-update').text(secondsSinceUpdate + " seconds ago");
                 }, 1000);
             }
-            $('#current-price').text("$" + data['price'] + " USD/PPC");
+            $('#current-price').text("$" + data['price'] + " USD/XPM");
             $('#market-cap').text("$" + commaSeparateNumber(data['market_cap']));
-            $('#total-supply').text(commaSeparateNumber(data['total_supply']) + " PPC");
+            $('#total-supply').text(commaSeparateNumber(data['total_supply']) + " XPM");
             secondsSinceUpdate = 0;
         });
     }
