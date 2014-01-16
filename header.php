@@ -32,7 +32,7 @@
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+    <div class="navbar navbar-inverse" id="navbar">
       <div class="navbar-inner">
         <div class="container">
           <div class="row">
@@ -51,6 +51,7 @@
                 <div class="nav-menu pull-right">
                   <ul class="nav nav-pills">
                     <li><a href="about.php">About</a></li>
+                    <li><a href="mine.php">How to Mine</a></li>
                     <li><a href="resources.php">Resources</a></li>
                     <li><a href="http://www.peercointalk.org/">Forum</a></li>
                   </ul>

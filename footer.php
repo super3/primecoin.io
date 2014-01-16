@@ -11,7 +11,7 @@
             <ul class="list-inline">
               <li><a href="about.php">About</a></li>
               <li><a href="resources.php">Resources</a></li>
-              <li><a href="http://www.peercointalk.org/">Forum</a></li>
+              <li><a href="http://www.peercointalk.org/" target="_blank">Forum</a></li>
               <li><a href="downloads.php">Downloads</a></li>
             </ul>
             <p>&copy; Copyright 2014. Primecoin.</p>
@@ -27,6 +27,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/zion.js"></script>
+    <script src="assets/js/ticker.js"></script>
     <script src="assets/js/primecoin.js"></script>
     <script type="text/javascript">
 

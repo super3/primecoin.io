@@ -13,21 +13,21 @@
             <div class="inner windows">
               <span class="icon"></span>
               <h2 class="margin-top-10">Windows.</h2>
-              <a href="elements.html" class="btn btn-lg btn-inverse">Download Wallet</a>
+              <a href="http://sourceforge.net/projects/primecoins/files/0.1.2/primecoin-0.1.2-win32-setup.exe/download" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
-          <div class="col-md-4">
+          <!--<div class="col-md-4">
             <div class="inner mac">
               <span class="icon"></span>
               <h2 class="margin-top-10">Mac.</h2>
               <a href="features.html" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
-          </div><!-- end col -->
+          </div> end col -->
           <div class="col-md-4">
             <div class="inner linux">
               <span class="icon"></span>
               <h2 class="margin-top-10">Linux.</h2>
-              <a href="https://wrapbootstrap.com/theme/zion-responsive-template-WB0522F10" class="btn btn-lg btn-inverse">Download Wallet</a>
+              <a href="http://sourceforge.net/projects/primecoins/files/0.1.2/primecoin-0.1.2-linux.tar.gz/download" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
         </div><!-- end row -->
@@ -199,21 +199,20 @@
 
           <div class="block wrap notification">
             <h2>Questions?</h2>
-            <p><a href="http://www.peercointalk.org/">Join the forums</a> and ask your question you might have. The community of Primecoin will help you out.</p>
+            <p><a href="http://www.peercointalk.org/" target="_blank">Join the forums</a> and ask your question you might have. The community of Primecoin will help you out.</p>
           </div>
 
           <div class="block wrap info">
             <h2>Quick Links</h2>
             <ul>
-              <li><a href="http://www.peercointalk.org/">Wiki</a></li>
-              <li><a href="http://www.peercointalk.org/">Forums</a></li>
-              <li><a href="http://www.peercointalk.org/">How to Mine</a></li>
-              <li><a href="http://www.peercointalk.org/">What is Minting</a></li>
-              <li><a href="http://www.peercointalk.org/">Exchange Markets</a></li>
+              <li><a href="https://github.com/primecoin/primecoin/wiki/" target="_blank">Wiki</a></li>
+              <li><a href="http://www.peercointalk.org/" target="_blank">Forums</a></li>
+              <li><a href="mine.php">How to Mine</a></li>
+              <li><a href="resources.php">Exchange Markets</a></li>
             </ul>
           </div>
 
-        </div>
+        </div><!-- end sidebar -->
       </div>
     </div><!-- end container -->
 
