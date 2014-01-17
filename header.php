@@ -3,6 +3,14 @@
 	<head>
 	<meta charset="utf-8">
 	<title>Primecoin</title>
+
+  <meta property="og:title" content="Primecoin"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://primecoin.org/"/>
+  <meta property="og:image" content="img/social-icons/primecoin-og-image.png"/>
+  <meta property="og:site_name" content="Primecoin"/>
+  <meta property="og:description" content="A new type cryptocurrency which is proof-of-work based on searching for prime numbers."/>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -22,10 +30,10 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/sample/logo-144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/sample/logo-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/sample/logo-72.png">
-    <link rel="apple-touch-icon-precomposed" href="img/sample/logo-57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/social-icons/primecoin-apple-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/social-icons/primecoin-apple-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/social-icons/primecoin-apple-72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/social-icons/primecoin-apple-57.png">
     <link rel="shortcut icon" href="img/sample/logo.png">
 
   </head>
