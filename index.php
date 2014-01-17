@@ -6,7 +6,7 @@
       <h2>A new type cryptocurrency which is proof-of-work based on searching for prime numbers.</h2>
       <a class="btn why smoothScroll" href="#why-primecoin">Why Primecoin</a>
       <a class="btn wallet" href="downloads.php">Download Wallet!</a>
-      <!--<div class="header-icon"></div> Leave it here, waiting for large logo -->
+      <div class="header-icon"></div>
     </div>
   </header>
 
