@@ -2,6 +2,11 @@
 
   <header class="header">
     <div class="container">
+      <div class="alert alert-success">
+        <strong>Well done!</strong> 
+        We broke another world record on 1/20. 
+        <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=368051">See details.</a>.
+      </div>
       <h1>Primecoin</h1>
       <h2>A new type cryptocurrency which is proof-of-work based on searching for prime numbers.</h2>
       <a class="btn why smoothScroll" href="#why-primecoin">Why Primecoin</a>
