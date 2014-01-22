@@ -49,7 +49,7 @@
           <ul>
           <li><a href="http://ypool.net/">yPool</a></li>
           <li><a href="http://beeeeer.org/">Beeeer</a></li>
-          <li><a href="http://rpool.net/">RPool</a></li>
+          <li><a href="http://candypool.net">Candypool.net</a></li>
           <li><a href="http://pool.cr.rs/primewinning.php">Joe's Pool (Under Testing)</a></li>
           <li><a href="https://bitcointalk.org/index.php?topic=255782.0">mikaelh's high performance build of primecoin</a></li>
           <li><a href="https://bitcointalk.org/index.php?topic=257623.0">jhPrimeminer for yPool</a></li>
