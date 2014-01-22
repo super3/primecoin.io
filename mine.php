@@ -1,4 +1,3 @@
-
 <?php include("header.php"); ?>
 
     <div class="container-wrapper container-top container-wrapper-prime">
@@ -75,7 +74,7 @@
             <p>To list records of length 11 prime chains of any type in Primecoin:<br><code>listprimerecords 11</code><br>
             To list records of length 10 prime chains of specific type in Primecoin:<br><code>listprimerecords 10 1CC</code><br><code>listprimerecords 10 2CC</code><br><code>listprimerecords 10 TWN</code>  </p>
             <p>In the output of listprimerecords, it shows the date, block height, digits, origin and its primorial form of all the record prime chains in Primecoin block chain. There is also an 'ismine' field for each record, it would show value 'true' if the miner key belongs to your wallet.</p>
-            <p>Refer to <a class="internal present" href="/primecoin/primecoin/wiki/World-records">world records</a> for the current records and milestones achieved by Primecoin network.</p>
+            <p>Refer to <a class="internal present" href="https://github.com/primecoin/primecoin/wiki/World-records">world records</a> for the current records and milestones achieved by Primecoin network.</p>
             <p>The world records for simultaneous primes and prime chains are maintained at</p>
             <ul>
               <li><a href="http://users.cybercity.dk/%7Edsl522332/math/simultprime.htm">Largest known simultaneous primes</a> maintained by Jens Kruse Andersen</li>
