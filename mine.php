@@ -48,21 +48,19 @@
 
                     <h4><strong>Get an account</strong></h4>
 
-                    <p>A) First we have to register an account with a cloud
+                    <p>First we have to register an account with a cloud
                     server provider. One of the best providers for
-                    cryptocurrency mining is Digital Ocean. Use the link below,
-                    or click <a href="#">here</a> to set-up an account. Enter
-                    your email adress and a password in the form like the one
-                    below.</p>
+                    cryptocurrency mining is Digital Ocean. Click <a href="https://www.digitalocean.com/?refcode=b42d05f9603c">here</a> 
+                    to set-up an account. Enter your email adress and a password in the form like the one below.</p>
                     <pre>Your Digital Ocean link</pre>
 
-                    <p><a href="#"><img src="img/DO1.png"></a></p><br>
+                    <p><a href="https://www.digitalocean.com/?refcode=b42d05f9603c"><img src="img/DO1.png"></a></p><br>
 
-                    <p>The next step is to charge your account with 10 dollars
-                    using your credit card or PayPal account. Click the green
+                    <p>The next step is to <b>charge your account with 10 dollars
+                    using your credit card or PayPal account</b>. Click the green
                     "Get Started" button under Update Billing. Fill in either a
-                    credit card or your PayPal information. Try and use this
-                    promo-code during the sign-up process: 2014SSD</p>
+                    credit card or your PayPal information.
+                    <b>See the sidebar for current promos.</b></p>
 
                     <h4><strong>Setting-up a server</strong></h4><br>
 
@@ -154,10 +152,10 @@
                     this url.</p>
                     <pre>http://beeeeer.org/user/"type your address here"</pre><br>
                     <br>
-                </div><a id="HomeMining" name="HomeMining"></a>
+                </div><a id="SoloMining" name="SoloMining"></a>
 
                 <div class="item">
-                    <h3>Mining</h3>
+                    <h3>Solo Mining</h3>
                 </div>
 
                 <div class="item">
@@ -298,13 +296,25 @@
             </div>
 
             <div class="col-md-4 sidebar">
-                <div class="block wrap notification">
+                <div class="block wrap">
                     <h2>Index</h2>
 
                     <ul>
                         <li><a href="#CloudMining">1. Cloud Mining in 5 Minutes</a></li>
-                        <li><a href="#HomeMining">2. Solo Mining</a></li>
+                        <li><a href="#SoloMining">2. Solo Mining</a></li>
                         <li><a href="#RecordMining">3. Did you Break a World Record?</a></li>
+                    </ul>
+                </div>
+
+                <div class="block wrap notification">
+                    <h2>Free $10 Credit</h2>
+                    We recommend <a href="https://www.digitalocean.com/?refcode=b42d05f9603c">Digital Ocean</a>
+                    for cloud mining. Here are some promocodes for $10+ credit.
+                    <ul>
+                        <li><a href="https://www.digitalocean.com/?refcode=b42d05f9603c">2014SSD</a></li>
+                        <li><a href="https://www.digitalocean.com/?refcode=b42d05f9603c">OMGSSD10</a></li>
+                        <li><a href="https://www.digitalocean.com/?refcode=b42d05f9603c">SSDCHP20</a></li>
+						<li><a href="https://www.digitalocean.com/?refcode=b42d05f9603c">GIT10</a></li>
                     </ul>
                 </div>
 
