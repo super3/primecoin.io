@@ -69,7 +69,30 @@
             <div class="item">
 			<h4><strong>Backing up and Moving Primecoin</strong></h4>
             <p>If you want to move Primecoin, install the Primecoin wallet software on the target computer and drop wallet.dat into the install folder. To backup your wallet, make a copy of the file wallet.dat.</p>
-            </div><br>
+            </div>
+			
+			<div class="item">
+            <h3>Noteworthy Links</h3>
+            <p>A GPU miner is being worked on <a href="https://bitcointalk.org/index.php?topic=273637">here</a>.</p>
+            <p>Weekly updates on Primecoin development are <a href="https://bitcointalk.org/index.php?topic=114994.40">here</a>.</p>
+            <!--<p>You can exchange Primecoin for prepaid debit cards <a href="http://www.visa4crypto.com/">here</a>.</p>-->
+            <p>Participate on the official forum <a href="http://www.ppcointalk.org/">here</a>.</p>
+          </div>
+
+			<div class="item">
+            <h3>I Mined Some Primecoins, How Can I Find Out If I Broke Some World Records Or Not?</h3>
+            <p>There is a 'listprimerecords' command since v0.1.2. It can be accessed from Qt debug window/console. There are two modes of this command, one lists records of any prime chain types, one lists records of a specific prime chain type.</p>
+            <p>To list records of length 11 prime chains of any type in Primecoin:<br><code>listprimerecords 11</code><br>
+            To list records of length 10 prime chains of specific type in Primecoin:<br><code>listprimerecords 10 1CC</code><br><code>listprimerecords 10 2CC</code><br><code>listprimerecords 10 TWN</code>  </p>
+            <p>In the output of listprimerecords, it shows the date, block height, digits, origin and its primorial form of all the record prime chains in Primecoin block chain. There is also an 'ismine' field for each record, it would show value 'true' if the miner key belongs to your wallet.</p>
+            <p>Refer to <a class="internal present" href="https://github.com/primecoin/primecoin/wiki/World-records">world records</a> for the current records and milestones achieved by Primecoin network.</p>
+            <p>The world records for simultaneous primes and prime chains are maintained at</p>
+            <ul>
+              <li><a href="http://users.cybercity.dk/%7Edsl522332/math/simultprime.htm">Largest known simultaneous primes</a> maintained by Jens Kruse Andersen</li>
+              <li><a href="http://users.cybercity.dk/%7Edsl522332/math/Cunningham_Chain_records.htm">Cunningham chain records</a> maintained by Dirk Augustin</li>
+              <li><a href="http://www.primenumbers.net/Henri/fr-us/BiTwinRec.htm">Bi-twin chain record</a> maintained by Henri Lifchitz</li>
+            </ul>
+          </div><br><br>
 
 		  <a name="CloudMining"></a>
           <div class="item">
@@ -167,30 +190,8 @@
 			<h4><strong>Payout and stats</strong></h4>
 				<p> The pool will automatically pay-out to the used address if you reach 3.0 XPM. You can run multiple miners on the same address to speed up the mining process. Check your current balance on the pool by filling in your address in this url. 
 					<pre>http://beeeeer.org/user/"type your address here"</pre><br><br>
-				</p>
-						
-            <div class="item">
-            <h3>Noteworthy Links</h3>
-            <p>A GPU miner is being worked on <a href="https://bitcointalk.org/index.php?topic=273637">here</a>.</p>
-            <p>Weekly updates on Primecoin development are <a href="https://bitcointalk.org/index.php?topic=114994.40">here</a>.</p>
-            <!--<p>You can exchange Primecoin for prepaid debit cards <a href="http://www.visa4crypto.com/">here</a>.</p>-->
-            <p>Participate on the official forum <a href="http://www.ppcointalk.org/">here</a>.</p>
-          </div>
+				</p>					
 
-          <div class="item">
-            <h3>I Mined Some Primecoins, How Can I Find Out If I Broke Some World Records Or Not?</h3>
-            <p>There is a 'listprimerecords' command since v0.1.2. It can be accessed from Qt debug window/console. There are two modes of this command, one lists records of any prime chain types, one lists records of a specific prime chain type.</p>
-            <p>To list records of length 11 prime chains of any type in Primecoin:<br><code>listprimerecords 11</code><br>
-            To list records of length 10 prime chains of specific type in Primecoin:<br><code>listprimerecords 10 1CC</code><br><code>listprimerecords 10 2CC</code><br><code>listprimerecords 10 TWN</code>  </p>
-            <p>In the output of listprimerecords, it shows the date, block height, digits, origin and its primorial form of all the record prime chains in Primecoin block chain. There is also an 'ismine' field for each record, it would show value 'true' if the miner key belongs to your wallet.</p>
-            <p>Refer to <a class="internal present" href="https://github.com/primecoin/primecoin/wiki/World-records">world records</a> for the current records and milestones achieved by Primecoin network.</p>
-            <p>The world records for simultaneous primes and prime chains are maintained at</p>
-            <ul>
-              <li><a href="http://users.cybercity.dk/%7Edsl522332/math/simultprime.htm">Largest known simultaneous primes</a> maintained by Jens Kruse Andersen</li>
-              <li><a href="http://users.cybercity.dk/%7Edsl522332/math/Cunningham_Chain_records.htm">Cunningham chain records</a> maintained by Dirk Augustin</li>
-              <li><a href="http://www.primenumbers.net/Henri/fr-us/BiTwinRec.htm">Bi-twin chain record</a> maintained by Henri Lifchitz</li>
-            </ul>
-          </div>
         </div>
 
         <div class="col-md-4 sidebar">
