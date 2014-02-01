@@ -4,8 +4,8 @@
     <div class="container">
       <div class="alert alert-success" style="margin-top:-20px;">
         <strong>Well done!</strong> 
-        We broke another world record on 1/20! Found a 13-chain with 107 digits (1CC).
-        <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=368051">See details...</a>.
+        We broke another world record on 2/1! Found a new 12 length bi-twin chain with 107 digits.
+        <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=383918">See details...</a>.
       </div>
       <h1>Primecoin</h1>
       <h2>A new type cryptocurrency which is proof-of-work based on searching for prime numbers.</h2>
