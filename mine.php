@@ -59,6 +59,10 @@
                     using your credit card or PayPal account</b>. Click the green
                     "Get Started" button under Update Billing. Fill in either a
                     credit card or your PayPal information.
+
+                    Digital Ocean is a great place to mine, but they may close your account if you only use free credit for mining.
+                    Use your free credit as quickly as possible, or fund your account with $10. Once you are a paying customer they 
+                    won't touch your account. 
                     <b>See the sidebar for current promos.</b></p>
 
                     <h4><strong>Setting-up a server</strong></h4><br>
