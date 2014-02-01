@@ -326,6 +326,7 @@
 						http://beeeeer.org/user/"type your address here"
 					</pre><br><br>
                 </div>
+                 </div>
 
                 <div class="col-md-4 sidebar">
                     <div class="block wrap notification">
@@ -355,9 +356,9 @@
                         </ul>
                     </div>
                 </div><!-- end sidebar -->
-            </div>
+           
+        </div><!-- end row -->
         </div><!-- end container -->
-        </div>
         <?php include("footer.php"); ?>
     </div>
 </body>
