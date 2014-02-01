@@ -22,7 +22,7 @@
     <div class="container" id="content">
         <div class="row">
             <div class="col-md-8">
-                 <br>
+                <br>
                 <a id="CloudMining" name="CloudMining"></a>
 
                 <div class="item">
@@ -54,9 +54,7 @@
                     or click <a href="#">here</a> to set-up an account. Enter
                     your email adress and a password in the form like the one
                     below.</p>
-					<pre>
-						Your Digital Ocean link
-					</pre>
+                    <pre>Your Digital Ocean link</pre>
 
                     <p><a href="#"><img src="img/DO1.png"></a></p><br>
 
@@ -113,17 +111,15 @@
                     <p><b>C)</b> If you use a droplet with 512 MB RAM then
                     start out with creating a swap file. Copy and paste over
                     this command and press enter:</p>
-					<pre>
-					dd if=/dev/zero of=/swapfile bs=64M count=16 &amp;&amp; mkswap /swapfile &amp;&amp; swapon /swapfile
-					</pre>
+                    <pre>dd if=/dev/zero of=/swapfile bs=64M count=16 &amp;&amp; mkswap /swapfile &amp;&amp; swapon /swapfile</pre>
 
                     <p><b>D)</b> Now install the requirements for the mining
                     software and then download and install the mining software.
                     Copy over this line and press enter:</p>
                     <pre>
-					apt-get update
-					apt-get install -y yasm  git make g++ build-essential libminiupnpc-dev libboost-all-dev libdb++-dev libgmp-dev libssl-dev dos2unix 
-					git clone https://github.com/thbaumbach/primecoin &amp;&amp; cd ~/primecoin/src &amp;&amp; make -f makefile.unix
+                    apt-get update
+                    apt-get install -y yasm  git make g++ build-essential libminiupnpc-dev libboost-all-dev libdb++-dev libgmp-dev libssl-dev dos2unix 
+                    git clone https://github.com/thbaumbach/primecoin &amp;&amp; cd ~/primecoin/src &amp;&amp; make -f makefile.unix
 					</pre>
 
                     <p><b>E)</b> The command above will take serveral minutes
@@ -136,9 +132,7 @@
                     the number of 's you ordered. If you picked the first
                     option it was one CPU, so "-genproclimit=1". You don't need
                     to change the password field.</p>
-                    <pre>
-					screen ./primeminer -poolip=54.200.248.75 -poolport=1337 -pooluser="your xpm adress here" -poolpassword=PASSWORD -genproclimit=1
-					</pre>
+                    <pre>screen ./primeminer -poolip=54.200.248.75 -poolport=1337 -pooluser="your xpm adress here" -poolpassword=PASSWORD -genproclimit=1</pre>
 
                     <p><b>F)</b> Congratulations, you are now mining! You can
                     close the browser and the server will continue mining. The
@@ -149,9 +143,7 @@
 
                     <p><b>G)</b> When reconnecting with the server, type this
                     to see the mining output again.</p>
-                    <pre>
-					screen -DDR
-					</pre>
+                    <pre>screen -DDR</pre>
 
                     <h4><strong>Payout and stats</strong></h4>
 
@@ -160,10 +152,8 @@
                     same address to speed up the mining process. Check your
                     current balance on the pool by filling in your address in
                     this url.</p>
-                    <pre>
-						http://beeeeer.org/user/"type your address here"
-					</pre><br><br>
-
+                    <pre>http://beeeeer.org/user/"type your address here"</pre><br>
+                    <br>
                 </div><a id="HomeMining" name="HomeMining"></a>
 
                 <div class="item">
@@ -210,7 +200,7 @@
                     <p>If you want to turn generation off you can use:</p>
 
                     <div class="highlight">
-						<pre><span class="n">setgenerate</span> <span class="nb">false</span></pre>
+                        <pre><span class="n">setgenerate</span> <span class="nb">false</span></pre>
                     </div>
 
                     <p>This allows you to keep the wallet running without
@@ -302,49 +292,46 @@
                         Bi-twin chain record</a> maintained by Henri
                         Lifchitz</li>
                     </ul>
-                </div><br>
-              
                 </div>
-                 </div>
+            </div>
 
-                <div class="col-md-4 sidebar">
-                	<div class="block wrap notification">
-                        <h2>Index</h2>
-                         <ul>
-                            <li><a href="#CloudMining">Cloud Mining in 5 Minutes</a></li>
-                            <li><a href="#HomeMining">Solo Mining</a></li>
-                        </ul>
+            <div class="col-md-4 sidebar">
+                <div class="block wrap notification">
+                    <h2>Index</h2>
 
-                        <hr/>
-                        <ul>
-                            <li><a href=
-                            "https://github.com/primecoin/primecoin/wiki/"
-                            target="_blank">Wiki</a></li>
+                    <ul>
+                        <li><a href="#CloudMining">Cloud Mining in 5
+                        Minutes</a></li>
 
-                            <li><a href="http://www.peercointalk.org/" target=
-                            "_blank">Forums</a></li>
+                        <li><a href="#HomeMining">Solo Mining</a></li>
+                    </ul>
+                    <hr>
 
-                            <li><a href="mine.php">How to Mine</a></li>
+                    <ul>
+                        <li><a href=
+                        "https://github.com/primecoin/primecoin/wiki/" target=
+                        "_blank">Wiki</a></li>
 
-                            <li><a href="resources.php">Exchange
-                            Markets</a></li>
-                        </ul>
-                    </div>
+                        <li><a href="http://www.peercointalk.org/" target=
+                        "_blank">Forums</a></li>
 
-                    <div class="block wrap info">
-                        <h2>Questions?</h2>
+                        <li><a href="mine.php">How to Mine</a></li>
 
-                        <p><a href="http://www.peercointalk.org/" target=
-                        "_blank">Join the forums</a> and ask your question you
-                        might have. The community of Primecoin will help you
-                        out.</p>
-                    </div>
+                        <li><a href="resources.php">Exchange Markets</a></li>
+                    </ul>
+                </div>
 
-                </div><!-- end sidebar -->
-           
+                <div class="block wrap info">
+                    <h2>Questions?</h2>
+
+                    <p><a href="http://www.peercointalk.org/" target=
+                    "_blank">Join the forums</a> and ask your question you
+                    might have. The community of Primecoin will help you
+                    out.</p>
+                </div>
+            </div><!-- end sidebar -->
         </div><!-- end row -->
-        </div><!-- end container -->
-        <?php include("footer.php"); ?>
-    </div>
+    </div><!-- end container -->
+    <?php include("footer.php"); ?>
 </body>
 </html>
