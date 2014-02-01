@@ -357,6 +357,7 @@
                 </div><!-- end sidebar -->
             </div>
         </div><!-- end container -->
+        </div>
         <?php include("footer.php"); ?>
     </div>
 </body>
