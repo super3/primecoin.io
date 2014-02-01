@@ -243,7 +243,7 @@
                     "http://www.ppcointalk.org/">here</a>.</p>
                 </div>
 
-                </div>
+               
                 <a id="RecordMining" name="RecordMining"></a>
                 <div class="item">
                     <h3>I Mined Some Primecoins, How Can I Find Out If I Broke
@@ -295,6 +295,7 @@
                         Lifchitz</li>
                     </ul>
                 </div>
+            </div>
 
             <div class="col-md-4 sidebar">
                 <div class="block wrap notification">
