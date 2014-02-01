@@ -52,7 +52,6 @@
                     server provider. One of the best providers for
                     cryptocurrency mining is Digital Ocean. Click <a href="https://www.digitalocean.com/?refcode=b42d05f9603c">here</a> 
                     to set-up an account. Enter your email adress and a password in the form like the one below.</p>
-                    <pre>Your Digital Ocean link</pre>
 
                     <p><a href="https://www.digitalocean.com/?refcode=b42d05f9603c"><img src="img/DO1.png"></a></p><br>
 
@@ -309,7 +308,7 @@
                 <div class="block wrap notification">
                     <h2>Free $10 Credit</h2>
                     We recommend <a href="https://www.digitalocean.com/?refcode=b42d05f9603c">Digital Ocean</a>
-                    for cloud mining. Here are some promocodes for $10+ credit.
+                    for cloud mining. Here are some promocodes for $10+ credit.<br/><br/>
                     <ul>
                         <li><a href="https://www.digitalocean.com/?refcode=b42d05f9603c">2014SSD</a></li>
                         <li><a href="https://www.digitalocean.com/?refcode=b42d05f9603c">OMGSSD10</a></li>
