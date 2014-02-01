@@ -243,6 +243,7 @@
                     "http://www.ppcointalk.org/">here</a>.</p>
                 </div>
 
+                </div><a id="RecordMining" name="RecordMining"></a>
                 <div class="item">
                     <h3>I Mined Some Primecoins, How Can I Find Out If I Broke
                     Some World Records Or Not?</h3>
@@ -300,13 +301,14 @@
                     <h2>Index</h2>
 
                     <ul>
-                        <li><a href="#CloudMining">Cloud Mining in 5
-                        Minutes</a></li>
-
-                        <li><a href="#HomeMining">Solo Mining</a></li>
+                        <li><a href="#CloudMining">1. Cloud Mining in 5 Minutes</a></li>
+                        <li><a href="#HomeMining">2. Solo Mining</a></li>
+                        <li><a href="#RecordMining">3. Did you Break a World Record?</a></li>
                     </ul>
-                    <hr>
+                </div>
 
+                 <div class="block wrap info">
+                 	<h2>Links</h2>
                     <ul>
                         <li><a href=
                         "https://github.com/primecoin/primecoin/wiki/" target=
@@ -315,7 +317,7 @@
                         <li><a href="http://www.peercointalk.org/" target=
                         "_blank">Forums</a></li>
 
-                        <li><a href="mine.php">How to Mine</a></li>
+                        <li><a href="downloads.php">Download Wallet</a></li>
 
                         <li><a href="resources.php">Exchange Markets</a></li>
                     </ul>
