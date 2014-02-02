@@ -111,7 +111,7 @@
                   <li>
                     <span class="fa fa-comment"></span>
                     <h3>Forums</h3>
-                    <p>Join the <a href="http://www.peercointalk.org/" target="_blank">forums</a> and lean what is happening around Primecoin and discuss with other community members.</p>
+                    <p>Join the <a href="http://www.peercointalk.org/" target="_blank">forums</a> and learn what is happening around Primecoin and discuss with other community members.</p>
                   </li>
                 </ul>
               </div><!-- end col -->
