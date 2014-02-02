@@ -4,6 +4,7 @@
       <div class="container container-top">
         <div class="row">
           <div class="col-md-12 center">
+            <a id="downloads" name="downloads"></a>
             <h1>Primecoin Downloads</h1>
           </div>
         </div><!-- end row -->
@@ -40,7 +41,6 @@
     <div id="content" class="container">
       <div class="row">
         <div class="col-md-8">
-          <h2>Download &amp; Installation</h2>
 
           <div class="item">
           <h3>Download</h3>
@@ -164,12 +164,13 @@
           <h2>Index</h2>
 
           <ul>
-            <li><a href="#CloudMining">1. Windows and Linux Downloads</a></li>
-            <li><a href="#SoloMining">2. Installation on Windows</a></li>
-            <li><a href="#RecordMining">3. Installation on Linux</a></li>
-            <li><a href="#RecordMining">4. Running on Windows</a></li>
-            <li><a href="#RecordMining">5. Backing up and Moving Primecoin</a></li>
-            <li><a href="#RecordMining">6. Noteworthy Links</a></li>
+            <li><a href="#downloads">1. Windows and Linux Downloads</a></li>
+            <li><a href="#installation-on-windows">2. Installation on Windows</a></li>
+            <li><a href="#installation-on-linux">3. Installation on Linux</a></li>
+            <li><a href="#windows">4. Running on Windows</a></li>
+            <li><a href="#linux">4. Running on Linux</a></li>
+            <li><a href="#backing-up-and-moving-primecoin">5. Backing up and Moving Primecoin</a></li>
+            <li><a href="#noteworthy-links">6. Noteworthy Links</a></li>
           </ul>
         </div>
 
