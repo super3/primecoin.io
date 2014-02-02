@@ -143,43 +143,6 @@
 
           <div class="item">
           <h3>
-          <a name="mining" class="anchor" href="#mining"><span class="octicon octicon-link"></span></a>Mining</h3>
-          <h4>
-          <a name="windows-1" class="anchor" href="#windows-1"><span class="octicon octicon-link"></span></a><strong>Windows</strong></h4>
-
-          <p>For some reason the Windows client will not start generating (<em>the Primecoin equivalent to Bitcoin's "hashing"</em>) until you run a command in the debug window. To do so:</p>
-
-          <ol>
-          <li>Go to Help.</li>
-          <li>Click Debug Window.</li>
-          </ol><p>This is the console where you will execute all commands to the Primecoin daemon.</p>
-
-          <p>Type this command to use all CPU cores:
-          </p><div class="highlight"><pre><span class="n">setgenerate</span> <span class="nb">true</span> <span class="o">-</span><span class="mi">1</span>
-          </pre></div>
-
-          <p>If you want to use a specific number of cores, instead of -1, type the number of cores.</p>
-
-          <p>You can then type the following to see the status of generation.
-          </p><div class="highlight"><pre><span class="n">getmininginfo</span>
-          </pre></div>
-          <p>Screenshot of the getmininginfo response, where "primepersec" is your generation rate: <a href="http://i.imgur.com/WfiagnJ.png">http://i.imgur.com/WfiagnJ.png</a></p>
-          <p>If you want to turn generation off you can use:</p>
-          <div class="highlight">
-          <pre><span class="n">setgenerate</span> <span class="nb">false</span></pre>
-          </div>
-          <p>This allows you to keep the wallet running without generating to receive/send transactions, messages, etc.</p>
-          <p>You are now generating. Transactions will appear in the Overview window. When you get paid for generating it will appear as an incoming transaction.</p>
-          <p>Screenshot of incoming transactions: <a href="http://i.imgur.com/ogqc1Mv.png">http://i.imgur.com/ogqc1Mv.png</a></p>
-          </div>
-
-          <div class="item">
-            <h4><strong>Linux</strong></h4>
-            <p>To generate Primecoin under Linux, refer to the commands above or by using the Primecoin help command.</p>
-          </div>
-
-          <div class="item">
-          <h3>
           <a name="backing-up-and-moving-primecoin" class="anchor" href="#backing-up-and-moving-primecoin"><span class="octicon octicon-link"></span></a>Backing up and Moving Primecoin</h3>
 
           <p>If you want to move Primecoin, install the Primecoin wallet software on the target computer and drop wallet.dat into the install folder. To backup your wallet, make a copy of the file wallet.dat.</p>
@@ -196,6 +159,19 @@
         </div>
 
         <div class="col-md-4 sidebar">
+
+        <div class="block wrap">
+          <h2>Index</h2>
+
+          <ul>
+            <li><a href="#CloudMining">1. Windows and Linux Downloads</a></li>
+            <li><a href="#SoloMining">2. Installation on Windows</a></li>
+            <li><a href="#RecordMining">3. Installation on Linux</a></li>
+            <li><a href="#RecordMining">4. Running on Windows</a></li>
+            <li><a href="#RecordMining">5. Backing up and Moving Primecoin</a></li>
+            <li><a href="#RecordMining">6. Noteworthy Links</a></li>
+          </ul>
+        </div>
 
           <div class="block wrap notification">
             <h2>Questions?</h2>
@@ -217,59 +193,5 @@
     </div><!-- end container -->
 
     <div class="clear"></div>
-
-    <div class="container-wrapper container-wrapper-bridge">
-          <div class="container">
-
-          <div class="row">
-            <div class="col-md-12 center">
-              <h2 class="tagline">Primecoin resources</h2>
-            </div>
-          </div>
-
-            <div class="row">
-              <div class="col-md-5 center">
-                <div class="space-20"></div>
-                <ul class="features-icon-list">
-                  <li>
-                    <span class="fa fa-cloud"></span>
-                    <h3>Downloads</h3>
-                    <p>You can easily <a href="downloads.php">download</a> and install the Primecoin Wallet on your Windows PC, Mac or Linux computer.</p>
-                  </li>
-                  <li>
-                    <span class="fa fa-question"></span>
-                    <h3>Wiki</h3>
-                    <p>If you have any other questions which still are unanswered, you can read the <a href="https://github.com/primecoin/primecoin/wiki">Primecoin Wiki</a>.</p>
-                  </li>
-                  <li>
-                    <span class="fa fa-comment"></span>
-                    <h3>Forums</h3>
-                    <p>Join the <a href="http://www.peercointalk.org/">forums</a> and lean what is happening around Primecoin and discuss with other Primecoiners.</p>
-                  </li>
-                </ul>
-              </div><!-- end col -->
-              <div class="col-md-5 col-md-offset-2 center">
-                <div class="space-20"></div>
-                <ul class="features-icon-list">
-                  <li>
-                    <span class="fa fa-flask"></span>
-                    <h3>How to Mine</h3>
-                    <p>Donec sed odio dui. Fusce dapibus, tellus ac cursus <a href="#">commodo</a>, tortor mauris condimentum nibh.</p>
-                  </li>
-                  <li>
-                    <span class="fa fa-leaf"></span>
-                    <h3>What is Minting</h3>
-                    <p>Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris <a href="#">condimentum</a> nibh.</p>
-                  </li>
-                  <li>
-                    <span class="fa fa-map-marker"></span>
-                    <h3>Exchange Markets</h3>
-                    <p>You can buy / sell Primecoins on many trustworthy markets. <a href="#">Here</a> you will find a complete list.</p>
-                  </li>
-                </ul>
-              </div><!-- end col -->
-            </div><!-- end row -->
-          </div><!-- end container -->
-        </div>
 
 <?php include("footer.php"); ?>
