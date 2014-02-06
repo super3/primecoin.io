@@ -1,0 +1,1 @@
+{"price":2.82,"market_cap":12151600,"total_supply":4315168,"updated":1391657551}
