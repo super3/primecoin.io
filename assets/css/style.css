@@ -242,6 +242,10 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
   background: url(../../img/downloads/mac.png) no-repeat 0 0 transparent;
 }
 
+.downloads .linux span.icon {
+  background: url(../../img/downloads/linux.png) no-repeat 0 0 transparent;
+}
+
 
 /* 2.5 Sidebar */
 .sidebar .block.wrap {
