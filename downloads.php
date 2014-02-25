@@ -152,7 +152,7 @@
           <h3>
           <a name="noteworthy-links" class="anchor" href="#noteworthy-links"><span class="octicon octicon-link"></span></a>Noteworthy Links</h3>
           <p>A GPU miner is being worked on <a href="https://bitcointalk.org/index.php?topic=273637">here</a>.</p>
-          <p>Get the Back High Performance Miner <a href="https://sourceforge.net/projects/primecoin-hp/files/">here</a>.</p>
+          <p>Get the High Performance Miner <a href="https://sourceforge.net/projects/primecoin-hp/files/">here</a>.</p>
           <p>Weekly updates on Primecoin development are <a href="https://bitcointalk.org/index.php?topic=114994.40">here</a>.</p>
           <p>You can exchange Primecoin for prepaid debit cards <a href="http://www.visa4crypto.com/">here</a>.</p>
           <p>Participate on the official forum <a href="http://www.ppcointalk.org/">here</a>.</p>

@@ -130,7 +130,7 @@
                   </li>
                   <li>
                     <span class="fa fa-book"></span>
-                    <h3>Back Primecoin Paper</h3>
+                    <h3>Primecoin Paper</h3>
                     <p>Primecoin: Cryptocurrency with Prime Number Proof-of-Work. <a href="/bin/primecoin-paper.pdf">Here</a> you can read the paper.</p>
                   </li>
                 </ul>
