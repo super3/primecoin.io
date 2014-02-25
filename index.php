@@ -128,6 +128,11 @@
                     <h3>Exchange Markets</h3>
                     <p>You can buy / sell Primecoins on many trustworthy markets. <a href="resources.php">Here</a> you will find a complete list.</p>
                   </li>
+                  <li>
+                    <span class="fa fa-book"></span>
+                    <h3>Back Primecoin Paper</h3>
+                    <p>Primecoin: Cryptocurrency with Prime Number Proof-of-Work. <a href="/bin/primecoin-paper.pdf">Here</a> you can read the paper.</p>
+                  </li>
                 </ul>
               </div><!-- end col -->
               <div class="col-md-12 center clearpc">
