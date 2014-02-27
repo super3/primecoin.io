@@ -14,7 +14,7 @@
   2.1 Header
     2.1.1 Congratulations
   2.2 Numbers
-  2.3 Background Container (bridge)
+  2.3 Resources
   2.4 Downloads
   2.5 Sidebar
   2.6 Scrollto
@@ -152,14 +152,13 @@ header .header-icon {
 }
 
 body .container-wrapper-prime {
-  background: url(../images/backgrounds/bridge.jpg) top center no-repeat #57448a;
+  background: url(../images/backgrounds/bridge.jpg) center center no-repeat;
   background-attachment: fixed;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
   color: #fff;
 }
 
 body .container-wrapper-prime h1 {
-  color: #fff;
+  color: #444;
   font-weight: bold;
   font-size: 60px;
 }
@@ -205,6 +204,7 @@ body .container-wrapper-prime h1 {
 
 .congratulations a:hover {
   text-decoration: none;
+  color: #ffe02e;
 }
 
 .congratulations-icon {
@@ -239,11 +239,34 @@ body .container-wrapper-prime h1 {
 }
 
 
-/* 2.3 Background Container */
-body .container-wrapper-bridge {
-background: url(../images/backgrounds/bridge.jpg) top center no-repeat #57448a;
-background-attachment: fixed;
-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+/* 2.3 Resources */
+.resources {
+  background: url(../images/backgrounds/bridge.jpg) center center no-repeat !important;
+  background-attachment: fixed;
+  color:#444;
+}
+
+.resources h2 {
+  color:#45515e !important;
+}
+
+.resources p {
+  color: #5F6769 !important;
+} 
+
+.resources span {
+  color:#45515e !important;
+}
+
+.resources a {
+  font-weight:bold;
+  color: #45515e !important;
+  text-decoration: underline;
+}
+
+.resources h3 {
+  font-weight:bold;
+  color: #45515e !important;
 }
 
 /* 2.4 Downloads */
@@ -401,6 +424,7 @@ body .sidebar ul li {
 
 .world-records a:hover {
   text-decoration: none;
+  color: #ffe02e;
 }
 
 .world-records-icon {
@@ -3843,7 +3867,6 @@ body.search-results h1 em {
   -webkit-box-shadow: none;
   -o-box-shadow: none;
   box-shadow: none;
-  text-shadow: 0 1px 0 #fff;
   position: relative;
   z-index: 10;
 }
@@ -4170,13 +4193,12 @@ body.search-results h1 em {
 }
 .container-wrapper-sky,
 .docs-bg-image-sky {
-  background: url(../img/sample/bg-3.jpg) top center no-repeat #ffffff;
+  background: url(../img/sample/bg-3.jpg) center center no-repeat;
   background-size: 100% auto;
 }
 .container-wrapper-bridge {
-  background: url(../img/sample/bg-2.jpg) top center no-repeat #57448a;
+  background: url(../img/sample/bg-2.jpg) center center no-repeat;
   background-attachment: fixed;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
 }
 .container-wrapper-bridge a {
   color: #ffc23f;

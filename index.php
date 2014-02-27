@@ -101,61 +101,61 @@
       </div>
     </div> 
 
-    <div class="container-wrapper container-wrapper-bridge">
-          <div class="container">
+    <div class="container-wrapper container-wrapper-bridge resources">
+      <div class="container">
 
-          <div class="row">
-            <div class="col-md-12 center">
-              <h2 class="tagline">Primecoin resources</h2>
-            </div>
+        <div class="row">
+          <div class="col-md-12 center">
+            <h2 class="tagline">Primecoin resources</h2>
           </div>
-
-            <div class="row">
-              <div class="col-md-5 center">
-                <div class="space-20"></div>
-                <ul class="features-icon-list">
-                  <li>
-                    <span class="fa fa-cloud"></span>
-                    <h3>Downloads</h3>
-                    <p>You can easily <a href="downloads.php">download</a> and install the Primecoin Wallet on your Windows PC and Linux computer.</p>
-                  </li>
-                  <li>
-                    <span class="fa fa-question"></span>
-                    <h3>Wiki</h3>
-                    <p>If you have any other questions which still are unanswered, you can read the <a href="https://github.com/primecoin/primecoin/wiki" target="_blank">Primecoin Wiki</a>.</p>
-                  </li>
-                  <li>
-                    <span class="fa fa-comment"></span>
-                    <h3>Forums</h3>
-                    <p>Join the <a href="http://www.peercointalk.org/" target="_blank">forums</a> and learn what is happening around Primecoin and discuss with other community members.</p>
-                  </li>
-                </ul>
-              </div><!-- end col -->
-              <div class="col-md-5 col-md-offset-2 center">
-                <div class="space-20"></div>
-                <ul class="features-icon-list">
-                  <li>
-                    <span class="fa fa-flask"></span>
-                    <h3>How to Mine</h3>
-                    <p>Learn how you can mine Primecoins on different operating systems. You can read it here on the <a href="mine.php">how to mine</a> page.</p>
-                  </li>
-                  <li>
-                    <span class="fa fa-map-marker"></span>
-                    <h3>Exchange Markets</h3>
-                    <p>You can buy / sell Primecoins on many trustworthy markets. <a href="resources.php">Here</a> you will find a complete list.</p>
-                  </li>
-                  <li>
-                    <span class="fa fa-book"></span>
-                    <h3>Back Primecoin Paper</h3>
-                    <p>Primecoin: Cryptocurrency with Prime Number Proof-of-Work. <a href="/bin/primecoin-paper.pdf">Here</a> you can read the paper.</p>
-                  </li>
-                </ul>
-              </div><!-- end col -->
-              <div class="col-md-12 center clearpc">
-                <h2 class="maintitle"><a href="resources.php">All resources</a></h2>
-              </div>
-            </div><!-- end row -->
-          </div><!-- end container -->
         </div>
+
+        <div class="row">
+          <div class="col-md-5 center">
+            <div class="space-20"></div>
+            <ul class="features-icon-list">
+              <li>
+                <span class="fa fa-cloud"></span>
+                <h3>Downloads</h3>
+                <p>You can easily <a href="downloads.php">download</a> and install the Primecoin Wallet on your Windows PC and Linux computer.</p>
+              </li>
+              <li>
+                <span class="fa fa-question"></span>
+                <h3>Wiki</h3>
+                <p>If you have any other questions which still are unanswered, you can read the <a href="https://github.com/primecoin/primecoin/wiki" target="_blank">Primecoin Wiki</a>.</p>
+              </li>
+              <li>
+                <span class="fa fa-comment"></span>
+                <h3>Forums</h3>
+                <p>Join the <a href="http://www.peercointalk.org/" target="_blank">forums</a> and learn what is happening around Primecoin and discuss with other community members.</p>
+              </li>
+            </ul>
+          </div><!-- end col -->
+          <div class="col-md-5 col-md-offset-2 center">
+            <div class="space-20"></div>
+            <ul class="features-icon-list">
+              <li>
+                <span class="fa fa-flask"></span>
+                <h3>How to Mine</h3>
+                <p>Learn how you can mine Primecoins on different operating systems. You can read it here on the <a href="mine.php">how to mine</a> page.</p>
+              </li>
+              <li>
+                <span class="fa fa-map-marker"></span>
+                <h3>Exchange Markets</h3>
+                <p>You can buy / sell Primecoins on many trustworthy markets. <a href="resources.php">Here</a> you will find a complete list.</p>
+              </li>
+              <li>
+                <span class="fa fa-book"></span>
+                <h3>Back Primecoin Paper</h3>
+                <p>Primecoin: Cryptocurrency with Prime Number Proof-of-Work. <a href="/bin/primecoin-paper.pdf">Here</a> you can read the paper.</p>
+              </li>
+            </ul>
+          </div><!-- end col -->
+          <div class="col-md-12 center clearpc">
+            <h2 class="maintitle"><a href="resources.php">All resources</a></h2>
+          </div>
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </div>
 
 <?php include("footer.php"); ?>
