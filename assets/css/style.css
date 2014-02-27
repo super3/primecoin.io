@@ -12,6 +12,7 @@
   1.2 Text
 2. Element Styling
   2.1 Header
+    2.1.1 Congratulations
   2.2 Numbers
   2.3 Background Container (bridge)
   2.4 Downloads
@@ -111,7 +112,7 @@ h2.maintitle a:hover {
 
 header {
   background-color: #45515e;
-  padding: 50px 0 60px 0;
+  padding: 0px 0 60px 0;
   color: #fff;
 }
 
@@ -163,6 +164,54 @@ body .container-wrapper-prime h1 {
   font-size: 60px;
 }
 
+/* 2.1.1 Congratulations */
+
+.congratulations {
+  background: #4a5664;
+  color: #fff;
+}
+
+.congratulations .container {
+  padding: 35px 0 13px;
+}
+
+.congratulations h2 {
+  font-weight: bold;
+  color: #ffe02e;
+  font-size: 30px;
+  text-transform:uppercase;
+}
+
+.congratulations h5 {
+  color:#f3f3f3;
+  font-size: 16px;
+  text-transform:uppercase;
+  font-weght:300;
+  padding-top: 10px;
+}
+
+.congratulations p {
+  color:#f3f3f3;
+  font-size:20px;
+}
+
+.congratulations a{
+  text-decoration: underline;
+  font-size: 21px;
+  color: #ffe02e;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+.congratulations a:hover {
+  text-decoration: none;
+}
+
+.congratulations-icon {
+  width:65px;
+  height:65px;
+  margin-top: 5px;
+}
 
 /* 2.2 Numbers */
 .numbers .row-feature {
@@ -312,29 +361,53 @@ body .sidebar ul li {
 /* 2.7 World Records */
 
 .world-records {
-  background: url(../images/backgrounds/beach.jpg) center center fixed #45515e;
-  background-size: cover;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  background: #4a5664;
   color: #fff;
+  padding-top:10px;
 }
 
-.world-records h2,
-.world-records h3 {
+.world-records h2 {
   font-weight: bold;
-  color: #fff;
-  font-size: 60px;
+  color: #ffe02e;
+  font-size: 30px;
+  text-transform:uppercase;
 }
 
-.world-records h3 {
-  font-size: 24px;
+.world-records h5 {
+  color:#f3f3f3;
+  font-size: 16px;
+  text-transform:uppercase;
+  font-weght:300;
+  padding-top: 10px;
 }
 
-.world-records h3 a{
+.world-records p {
+  color:#f3f3f3;
+  font-size:20px;
+}
+
+.world-records span {
+  color:#ffe02e;
+  font-weight: bold;
+}
+
+.world-records a{
   text-decoration: underline;
-  font-size: 18px;
-  color: #fff;
+  font-size: 21px;
+  color: #ffe02e;
+  font-weight: bold;
+  line-height: 34px;
 }
 
+.world-records a:hover {
+  text-decoration: none;
+}
+
+.world-records-icon {
+  width:65px;
+  height:65px;
+  margin-top:5px;
+}
 
 /* 2.x Misc */
 .clearpc {
@@ -393,6 +466,14 @@ body .sidebar ul li {
 
   .numbers span.txt {
     font-size: 15px;
+  }
+
+  .world-records {
+    text-align:center;
+  }
+
+  .congratulations {
+    text-align:center;
   }
 }
 

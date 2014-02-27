@@ -1,12 +1,25 @@
 <?php include("header.php"); ?>
 
+  <div class="congratulations">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <img class="congratulations-icon" src="assets/images/general/congratulations-icon.png">
+        </div>
+        <div class="col-md-9">
+          <h2>Congratulations!</h2>
+          <p>We broke another world record on 2/1! Found a new 12 length bi-twin chain with 107 digits.<p/>
+        </div>
+        <div class="col-md-2">
+          <h5>Last Record</h5>
+          <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=383918" target="_blank">02 Jan 2014</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+
   <header class="header">
     <div class="container">
-      <div class="alert alert-success" style="margin-top:-20px;">
-        <strong>Well done!</strong> 
-        We broke another world record on 2/1! Found a new 12 length bi-twin chain with 107 digits.
-        <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=383918">See details...</a>.
-      </div>
       <h1>Primecoin</h1>
       <h2>A new type cryptocurrency which is proof-of-work based on searching for prime numbers.</h2>
       <a class="btn why smoothScroll" href="#why-primecoin">Why Primecoin</a>
@@ -73,17 +86,20 @@
     <div class="world-records">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h2>Did you know</h2>
+          <div class="col-md-1">
+            <img class="world-records-icon" src="assets/images/general/world-records-icon.png">
           </div>
-          <div class="col-md-6">
-            <h3>Primecoin miners broke more than 3 world records for The Cunningham and BiTwin Chains?<br />
-            <a href="https://bitcointalk.org/index.php?topic=253409.0" target="_blank">Learn more about these world records</a></h3>
-
+          <div class="col-md-9">
+            <h2>Did you know?</h2>
+            <p>Primecoin miners broke more than <span>11 world records</span> for The Cunningham and BiTwin Chains?<p/>
+          </div>
+          <div class="col-md-2">
+            <h5>Interested?</h5>
+            <a href="https://bitcointalk.org/index.php?topic=253409.0" target="_blank">Learn More</a>
           </div>
         </div>
       </div>
-    </div>
+    </div> 
 
     <div class="container-wrapper container-wrapper-bridge">
           <div class="container">
@@ -130,7 +146,7 @@
                   </li>
                   <li>
                     <span class="fa fa-book"></span>
-                    <h3>Primecoin Paper</h3>
+                    <h3>Back Primecoin Paper</h3>
                     <p>Primecoin: Cryptocurrency with Prime Number Proof-of-Work. <a href="/bin/primecoin-paper.pdf">Here</a> you can read the paper.</p>
                   </li>
                 </ul>
