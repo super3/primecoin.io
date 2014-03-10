@@ -1,4 +1,8 @@
 <?php include("header.php"); ?>
+<?php include("coinbase-php/lib/Coinbase.php"); ?>
+<?php
+  $coinbase = Coinbase::withApiKey($_ENV['COINBASE_API_KEY'], $_ENV['COINBASE_API_SECRET'])
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
 <html>
@@ -59,13 +63,36 @@
                       <td>Azure</td>
                       <td>$150 Free Trial</td>
                       <td><a href="http://www.windowsazure.com/en-us/pricing/free-trial/" class="btn btn-default">Provider</a></td>
-                      <td><a href="mine-azure.php" class="btn btn-default">Read More</a></td>
+                      <td>
+                        <?php 
+                          $response = $coinbase->createButton("Primecoin Guide", "0.02", "BTC", "azure", array(
+                                    "description" => "Azure $150 Free Trial",
+                                    "type" => "buy_now",
+                                    "style" => "buy_now_small",
+                                    "callback_url" => "http://primecoin.io/coinbase-callback.php",
+                                    "include_email" => true
+                          ));
+                          echo $response->embedHtml;
+                        ?>
+                      </td>
                     </tr>
                     <tr>
                       <td>Rackspace</td>
                       <td>$300 Free Trial</td>
                       <td><a href="http://developer.rackspace.com/devtrial/" class="btn btn-default">Provider</a></td>
-                      <td><a href="mine-rackspace.php" class="btn btn-default">Read More</a></td>
+                      <!-- <td><a href="mine-rackspace.php" class="btn btn-default">Read More</a></td> -->
+                      <td>
+                        <?php 
+                          $response = $coinbase->createButton("Primecoin Guide", "0.02", "BTC", "rackspace", array(
+                                    "description" => "Rackspace $300 Free Trial",
+                                    "type" => "buy_now",
+                                    "style" => "buy_now_small",
+                                    "callback_url" => "http://primecoin.io/coinbase-callback.php",
+                                    "include_email" => true
+                          ));
+                          echo $response->embedHtml;
+                        ?>
+                      </td>
                     </tr>
                   </tbody>     
                 </table>
