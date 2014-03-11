@@ -10,7 +10,7 @@
         $data = file_get_contents("php://input");
         $data = json_decode($data);
 
-        $message .= "Hello,\n Thank you for purchasing a mining guide from Primecoin. \n You'll find your guide attached to this email.\r\n";
+        $message = "Hello,\n Thank you for purchasing a mining guide from Primecoin. \n You'll find your guide attached to this email.\r\n";
 
         $order   = array("\r\n", "\n", "\r");
         $replace = '<br />';
