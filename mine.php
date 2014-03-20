@@ -26,27 +26,6 @@
     <div class="container" id="content">
         <div class="row">
             <div class="col-md-8">
-                <h3>Free Mining Guides</h3>
-                <p>Trying to get started mining on your own computer or in the cloud? Here are some simple foolproof guides that will help you through the process step by step.</p>
-                <table class="table table-hover table-responsive table-mine">
-                  <thead>
-                    <tr>
-                      <th>Guide</th>
-                      <th>More Info</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Solo Mining</td>
-                      <td><a href="mine-solo.php" class="btn btn-default">Read More</a></td>
-                    </tr>
-                    <tr>
-                      <td>Cloud Mining in 5 Minutes</td>
-                      <td><a href="mine-cloud.php" class="btn btn-default">Read More</a></td>
-                    </tr>
-                  </tbody>     
-                </table>
-
                 <h3>Free Trail Guides</h3>
                 <p>Who says you have to spend a bunch of money on mining? We have listed a few cloud providers that offer free trails for their services, and guides to set it up. See how much profit you can make for free!</p>
                 <table class="table table-hover table-responsive table-mine">
@@ -93,6 +72,27 @@
                           echo $response->embedHtml;
                         ?>
                       </td>
+                    </tr>
+                  </tbody>     
+                </table>
+                
+                <h3>Free Mining Guides</h3>
+                <p>Trying to get started mining on your own computer or in the cloud? Here are some simple foolproof guides that will help you through the process step by step.</p>
+                <table class="table table-hover table-responsive table-mine">
+                  <thead>
+                    <tr>
+                      <th>Guide</th>
+                      <th>More Info</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Solo Mining</td>
+                      <td><a href="mine-solo.php" class="btn btn-default">Read More</a></td>
+                    </tr>
+                    <tr>
+                      <td>Cloud Mining in 5 Minutes</td>
+                      <td><a href="mine-cloud.php" class="btn btn-default">Read More</a></td>
                     </tr>
                   </tbody>     
                 </table>
