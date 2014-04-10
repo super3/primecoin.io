@@ -8,9 +8,9 @@
         </div>
         <div class="col-md-9">
           <h2>Congratulations!</h2>
-          <p>We broke another world record on 2/1! Found a new 
-          <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=383918">12 length bi-twin chain</a>
-          with 107 digits.<p/>
+          <p>We broke another world record on 7/4! Found a new 
+          <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=479357">10 length bi-twin chain</a>
+          with 138 digits. (<a href="records.php">view all records</a>)<p/>
         </div>
         <div class="col-md-2">
           <h5>Last Record</h5>

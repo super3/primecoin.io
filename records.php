@@ -152,7 +152,7 @@
 			<td>TWN</td>
 			<td>10</td>
 			<td>138</td>
-			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=85429">85429</a></td>
+			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=479357">479357</a></td>
 		</tr>
 				<tr>
 			<td>TWN</td>
@@ -163,8 +163,8 @@
 				<tr>
 			<td>TWN</td>
 			<td>12</td>
-			<td>107</td>
-			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=383918">383918</a></td>
+			<td>118</td>
+			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=476538">476538</a></td>
 		</tr>
 				<tr>
 			<td>TWN</td>
