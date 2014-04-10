@@ -14,7 +14,7 @@
         </div>
         <div class="col-md-2">
           <h5>Last Record</h5>
-          <a href="http://users.cybercity.dk/~dsl522332/math/Cunningham_Chain_records.htm">31 Jan 2014</a>
+          <a href="http://users.cybercity.dk/~dsl522332/math/Cunningham_Chain_records.htm">7 Apr 2014</a>
         </div>
       </div>
     </div>
