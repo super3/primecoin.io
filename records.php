@@ -157,8 +157,8 @@
 				<tr>
 			<td>TWN</td>
 			<td>11</td>
-			<td>123</td>
-			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=92203">92203</a></td>
+			<td>124</td>
+			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=487155">487155</a></td>
 		</tr>
 				<tr>
 			<td>TWN</td>
