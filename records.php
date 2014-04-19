@@ -121,8 +121,8 @@
 				<tr>
 			<td>2CC</td>
 			<td>13</td>
-			<td>94</td>
-			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=375981">375981</a></td>
+			<td>99</td>
+			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=493717">493717</a></td>
 		</tr>
 				<tr>
 			<td>TWN</td>
