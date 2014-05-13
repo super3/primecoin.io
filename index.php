@@ -8,9 +8,9 @@
         </div>
         <div class="col-md-9">
           <h2>Congratulations!</h2>
-          <p>We broke another world record on 4/19! Found a new 
-          <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=493717">13 length Cunningham chain of the second kind</a>
-          with 99 digits. (<a href="records.php">view all records</a>)<p/>
+          <p>We broke another world record on 5/13! Found a new 
+          <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=539977">13 length Cunningham chain of the second kind</a>
+          with 101 digits. (<a href="records.php">view all records</a>)<p/>
         </div>
         <div class="col-md-2">
           <h5>Last Record</h5>

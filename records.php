@@ -103,8 +103,8 @@
 				<tr>
 			<td>2CC</td>
 			<td>10</td>
-			<td>137</td>
-			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=125775">125775</a></td>
+			<td>145</td>
+			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=519253">519253</a></td>
 		</tr>
 				<tr>
 			<td>2CC</td>
@@ -121,8 +121,8 @@
 				<tr>
 			<td>2CC</td>
 			<td>13</td>
-			<td>99</td>
-			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=493717">493717</a></td>
+			<td>101</td>
+			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=539977">539977</a></td>
 		</tr>
 				<tr>
 			<td>TWN</td>
