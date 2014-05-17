@@ -24,6 +24,7 @@
         <div class="col-md-8">
           <h2>Overview</h2>
 	  <div class="panel panel-default">
+
 	<table class="table table-condensed table-hover table-striped">
 		<thead>
 		<tr>
@@ -123,6 +124,12 @@
 			<td>13</td>
 			<td>101</td>
 			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=539977">539977</a></td>
+		</tr>
+				<tr>
+			<td>2CC</td>
+			<td>14</td>
+			<td>100</td>
+			<td><a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=547276">547276</a></td>
 		</tr>
 				<tr>
 			<td>TWN</td>

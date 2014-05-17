@@ -8,13 +8,13 @@
         </div>
         <div class="col-md-9">
           <h2>Congratulations!</h2>
-          <p>We broke another world record on 5/13! Found a new 
-          <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=539977">13 length Cunningham chain of the second kind</a>
-          with 101 digits. (<a href="records.php">view all records</a>)<p/>
+          <p>Another world record broken on 5/16! We found our first 
+          <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=547276">14 length Cunningham chain of the second kind</a>! 
+          Which has on origin with 100 digits. (<a href="records.php">view all records</a>)<p/>
         </div>
         <div class="col-md-2">
           <h5>Last Record</h5>
-          <a href="http://users.cybercity.dk/~dsl522332/math/Cunningham_Chain_records.htm">19 Apr 2014</a>
+          <a href="http://users.cybercity.dk/~dsl522332/math/Cunningham_Chain_records.htm">16 May 2014</a>
         </div>
       </div>
     </div>
