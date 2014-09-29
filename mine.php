@@ -53,7 +53,7 @@
                   <thead>
                     <tr>
                       <th>Hosting Provider</th>
-                      <th>Triall Amount</th>
+                      <th>Trial Amount</th>
                       <th>Link to Provider</th>
                       <th>Link to Guide</th>
                     </tr>
