@@ -7,13 +7,15 @@ define('INFO_EXPIRY', 90); // Seconds before cached data is re-downloaded
 
 // Grab new data from CoinMarketCap if our data is expired
 function fetch_cmc_market_info() {
+    echo '<p>Fetch Primecoin data from http://www.coinmarketcap.com/...</p>';
+
     // Grab the CMC homepage
-    $html = file_get_html("http://www.coinmarketcap.com/");
+    $html = file_get_html('http://www.coinmarketcap.com/');
     // Get Primecoin's table
-    $ppc_data = $html->find('#xpm', 0);
+    $xpm_data = $html->find('#id-primecoin', 0);
 
     // Market cap is stored in the "data-usd" tag of a 'td'
-    $market_cap_td = $ppc_data->find('td[class=market-cap]', 0);
+    $market_cap_td = $xpm_data->find('td[class=market-cap]', 0);
     if (is_object($market_cap_td)) {
         $market_cap = $market_cap_td->getAttribute('data-usd');
         // Market cap is returned with commas that break floatval()
@@ -23,18 +25,22 @@ function fetch_cmc_market_info() {
         $market_cap = null;
     }
 
+    echo '<p>$market_cap = ', $market_cap, '</p>';
+
     // Individual price is stored in the "data-usd" tag of an 'a'
-    $ppc_usd_a = $ppc_data->find('a[class=price]', 0);
-    if (is_object($ppc_usd_a)) {
-        $ppc_usd = $ppc_usd_a->getAttribute('data-usd');
+    $xpm_usd_a = $xpm_data->find('a[class=price]', 0);
+    if (is_object($xpm_usd_a)) {
+        $xpm_usd = $xpm_usd_a->getAttribute('data-usd');
     }
     else {
-        $ppc_usd = null;
+        $xpm_usd = null;
     }
-    
+
+    echo '<p>$xpm_usd = ', $xpm_usd, '</p>';
+
     // Total supply does not have a marking class,
     // but at the time of writing is the 5th <td>
-    $total_supply_td = $ppc_data->find('td', 4);
+    $total_supply_td = $xpm_data->find('td', 4);
     if (is_object($total_supply_td)) {
         $total_supply = $total_supply_td->plaintext;
         // Ugly hack because CMC doesn't provide a data tag
@@ -46,13 +52,17 @@ function fetch_cmc_market_info() {
         $total_supply = null;
     }
 
+    echo '<p>$total_supply = ', $total_supply, '</p>';
+
     // Prepare an array for the data,
     // returned as floats
     $info = array(
-        'price' => floatval($ppc_usd),
+        'price' => round(floatval($xpm_usd), 2),
         'market_cap' => floatval($market_cap),
         'total_supply' => intval($total_supply),
     );
+
+    echo '<p>$info = ', print_r($info), '</p>';
     
     return $info;
 }
@@ -62,12 +72,13 @@ function fetch_vircurex_market_price() {
     $btc_usd_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=BTC&alt=USD');
     $btc_usd = json_decode($btc_usd_json)->value;
 
-    $ppc_btc_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=XPM&alt=BTC');
-    $ppc_btc = json_decode($ppc_btc_json)->value;
+    $xpm_btc_json = file_get_contents('https://api.vircurex.com/api/get_highest_bid.json?base=XPM&alt=BTC');
+    $xpm_btc = json_decode($xpm_btc_json)->value;
 
-    $ppc_usd = $btc_usd * $ppc_btc;
-    return round($ppc_usd, 2);
+    $xpm_usd = $btc_usd * $xpm_btc;
+    return round($xpm_usd, 2);
 }
+
 // Update the market info file
 function update_market_info() {
     $info = fetch_cmc_market_info(); // CMC sourced
