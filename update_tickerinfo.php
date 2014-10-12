@@ -58,7 +58,7 @@ function fetch_cmc_market_info() {
     // returned as floats
     $info = array(
         'price' => round(floatval($xpm_usd), 2),
-        'market_cap' => floatval($market_cap),
+        'market_cap' => round(floatval($market_cap), 2),
         'total_supply' => intval($total_supply),
     );
 
@@ -92,7 +92,7 @@ function update_market_info() {
         $market_cap = $price * $old_info['total_supply']; // Calculate a market cap based on Vircurex price and last known supply
         
         $info['price'] = $price;
-        $info['market_cap'] = $market_cap;
+        $info['market_cap'] = round($market_cap, 2);
         $info['total_supply'] = $old_info['total_supply'];
     }
 
