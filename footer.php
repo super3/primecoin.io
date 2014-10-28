@@ -7,6 +7,7 @@
             <ul class="unstyled center list-circle-icons list-circle-icons-small">
               <li><a href="https://www.facebook.com/pages/Primecoin-XPM-Cryptocurrency/199526993546179" title="Like us on Facebook" data-rel="tooltip" data-toggle="tooltip"><span class="fa fa-facebook"></span></a></li>
               <li><a href="https://twitter.com/primecoin" title="Follow us on Twitter" data-rel="tooltip" data-toggle="tooltip"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="https://reddit.com/r/primecoin" title="Join us on Reddit" data-rel="tooltip" data-toggle="tooltip"><span class="fa fa-reddit"></span></a></li>
             </ul>
             <ul class="list-inline">
               <li><a href="about.php">About</a></li>
