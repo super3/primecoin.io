@@ -9,7 +9,7 @@
         <div class="col-md-9">
           <h2>Congratulations!</h2>
           <p>Another world record broken on 5/16! We found our first 
-          <a href="http://primecoin.21stcenturymoneytalk.org/index.php?block_height=547276">14 length Cunningham chain of the second kind</a>! 
+          <a href="">14 length Cunningham chain of the second kind</a>! 
           Which has on origin with 100 digits. (<a href="records.php">view all records</a>)<p/>
         </div>
         <div class="col-md-2">
