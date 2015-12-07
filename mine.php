@@ -72,7 +72,7 @@
                                     "callback_url" => "http://primecoin.io/coinbase-callback.php",
                                     "include_email" => true
                           ));
-                          echo $response->embedHtml;
+                          = $response->embedHtml;
                         ?>
                       </td>
                     </tr>
@@ -90,7 +90,7 @@
                                     "callback_url" => "http://primecoin.io/coinbase-callback.php",
                                     "include_email" => true
                           ));
-                          echo $response->embedHtml;
+                          = $response->embedHtml;
                         ?>
                       </td>
                     </tr>
