@@ -47,13 +47,13 @@
                   </tbody>     
                 </table>
 
-                <h3>Free Trail Guides</h3>
-                <p>Who says you have to spend a bunch of money on mining? We have listed a few cloud providers that offer free trails for their services, and guides to set it up. See how much profit you can make for free!</p>
+                <h3>Free Trial Guides</h3>
+                <p>Who says you have to spend a bunch of money on mining? We have listed a few cloud providers that offer free trials for their services, and guides to set it up. See how much profit you can make for free!</p>
                 <table class="table table-hover table-responsive table-mine">
                   <thead>
                     <tr>
                       <th>Hosting Provider</th>
-                      <th>Trail Amount</th>
+                      <th>Trial Amount</th>
                       <th>Link to Provider</th>
                       <th>Link to Guide</th>
                     </tr>
