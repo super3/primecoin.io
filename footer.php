@@ -15,7 +15,7 @@
               <li><a href="http://www.peercointalk.org/" target="_blank">Forum</a></li>
               <li><a href="downloads.php">Downloads</a></li>
             </ul>
-            <p>&copy; Copyright 2014. Primecoin.</p>
+            <p>&copy; Copyright 2018. Primecoin.</p>
           </div><!-- end col -->
         </div><!-- end row fluid -->
       </div><!-- end container -->
