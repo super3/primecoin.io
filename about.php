@@ -52,7 +52,7 @@
             <li>TWN -&gt; bi-twin chain</li>
             </ul>
             <p>The length part (displayed in hexadecimal) consists of an integral length and a fractional length. The integral length is what we understand normally about chain length, the fractional part is a score system assigned to the prime chain in order to make difficulty adjustment continuous.</p>
-            <p>You can also refers to <a href="http://primeblock.kicks-ass.net/">Petr1fied's crawler site</a> to see the list of primes on block with primality testing.</p>
+            <p>You can also refer to <a href="https://primes.zone/">Primes.Zone</a> to see more info.</p>
           </div>
         </div>
 

@@ -8,13 +8,13 @@
         </div>
         <div class="col-md-9">
           <h2>Congratulations!</h2>
-          <p>Another world record broken on 5/16! We found our first 
-          <a href="">14 length Cunningham chain of the second kind</a>! 
-          Which has on origin with 100 digits. (<a href="records.php">view all records</a>)<p/>
+          <p>Another world record broken on 30th March 2018! We found our first 
+          <a href="">15 length Cunningham Chain of the First Kind</a>! 
+          Which has on origin with 96 digits. (<a href="https://primes.zone/">view all records</a>)<p/>
         </div>
         <div class="col-md-2">
           <h5>Last Record</h5>
-          <a href="http://users.cybercity.dk/~dsl522332/math/Cunningham_Chain_records.htm">16 May 2014</a>
+          <a href="https://bchain.info/XPM/block/de07ddf776c3e5bbee0f4e67ba2802934a9152f79421273a0b682ab2d4162c05">30 March 2018</a>
         </div>
       </div>
     </div>
@@ -93,11 +93,11 @@
           </div>
           <div class="col-md-9">
             <h2>Did you know?</h2>
-            <p>Primecoin miners broke more than <span>11 world records</span> for The Cunningham and BiTwin Chains?<p/>
+            <p>Primecoin miners broke more than <span>17 world records</span> for The Cunningham and BiTwin Chains?<p/>
           </div>
           <div class="col-md-2">
-            <h5>Interested?</h5>
-            <a href="https://bitcointalk.org/index.php?topic=253409.0" target="_blank">Learn More</a>
+<!--             <h5>Interested?</h5>
+            <a href="https://bitcointalk.org/index.php?topic=253409.0" target="_blank">Learn More</a> -->
           </div>
         </div>
       </div>
@@ -126,11 +126,11 @@
                 <h3>Wiki</h3>
                 <p>If you have any other questions which still are unanswered, you can read the <a href="https://github.com/primecoin/primecoin/wiki" target="_blank">Primecoin Wiki</a>.</p>
               </li>
-              <li>
+<!--               <li>
                 <span class="fa fa-comment"></span>
                 <h3>Forums</h3>
                 <p>Join the <a href="http://www.peercointalk.org/" target="_blank">forums</a> and learn what is happening around Primecoin and discuss with other community members.</p>
-              </li>
+              </li> -->
             </ul>
           </div><!-- end col -->
           <div class="col-md-5 col-md-offset-2 center">
