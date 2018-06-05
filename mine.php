@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-md-8">
                 
-              Coming Soon... In the meantime check out <a href='coinsforall.io'>CoinsForAll.io</a>
+              Coming Soon... In the meantime check out <a href='http://xpmforall.org/'>XpmForAll.org</a>
 
             </div>
 
