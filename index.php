@@ -10,7 +10,7 @@
           <h2>Congratulations!</h2>
           <p>Another world record broken on 30th March 2018! We found our first 
           <a href="">15 length Cunningham Chain of the First Kind</a>! 
-          Which has on origin with 96 digits. (<a href="https://primes.zone/">view all records</a>)<p/>
+          Which has an origin with 96 digits. (<a href="https://primes.zone/">view all records</a>)<p/>
         </div>
         <div class="col-md-2">
           <h5>Last Record</h5>
