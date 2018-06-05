@@ -96,8 +96,8 @@
             <p>Primecoin miners broke more than <span>17 world records</span> for The Cunningham and BiTwin Chains?<p/>
           </div>
           <div class="col-md-2">
-<!--             <h5>Interested?</h5>
-            <a href="https://bitcointalk.org/index.php?topic=253409.0" target="_blank">Learn More</a> -->
+             <h5>Interested?</h5>
+            <a href="https://bitcointalk.org/index.php?topic=253409.0" target="_blank">Learn More</a> 
           </div>
         </div>
       </div>
