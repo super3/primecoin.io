@@ -17,8 +17,8 @@
 
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
     <!--[if IE 7]>
       <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
     <![endif]-->
@@ -41,13 +41,13 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
 
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-40768937-6', 'primecoin.io');
-    ga('send', 'pageview');
+     ga('create', 'UA-40768937-6', 'primecoin.io');
+     ga('send', 'pageview');
 
     </script>
   </head>
@@ -75,7 +75,7 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="mine.php">How to Mine</a></li>
                     <li><a href="resources.php">Resources</a></li>
-                    <li><a href="http://www.peercointalk.org/">Forum</a></li>
+                    <li><a href="https://wiki.primecommunity.org/">Community Wiki</a></li>
                   </ul>
                 </div><!-- end nav-menu -->
               </div><!-- end navbar-collapse -->

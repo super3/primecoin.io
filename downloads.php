@@ -148,15 +148,7 @@
           <p>If you want to move Primecoin, install the Primecoin wallet software on the target computer and drop wallet.dat into the install folder. To backup your wallet, make a copy of the file wallet.dat.</p>
           </div>
 
-          <div class="item">
-          <h3>
-          <a name="noteworthy-links" class="anchor" href="#noteworthy-links"><span class="octicon octicon-link"></span></a>Noteworthy Links</h3>
-          <p>A GPU miner is being worked on <a href="https://bitcointalk.org/index.php?topic=273637">here</a>.</p>
-          <p>Get the High Performance Miner <a href="https://sourceforge.net/projects/primecoin-hp/files/">here</a>.</p>
-          <p>Weekly updates on Primecoin development are <a href="https://bitcointalk.org/index.php?topic=114994.40">here</a>.</p>
-          <p>You can exchange Primecoin for prepaid debit cards <a href="http://www.visa4crypto.com/">here</a>.</p>
-          <p>Participate on the official forum <a href="http://www.ppcointalk.org/">here</a>.</p>
-          </div>
+         
         </div>
 
         <div class="col-md-4 sidebar">
@@ -171,7 +163,6 @@
             <li><a href="#windows">4. Running on Windows</a></li>
             <li><a href="#linux">4. Running on Linux</a></li>
             <li><a href="#backing-up-and-moving-primecoin">5. Backing up and Moving Primecoin</a></li>
-            <li><a href="#noteworthy-links">6. Noteworthy Links</a></li>
           </ul>
         </div>
 
