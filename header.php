@@ -75,7 +75,7 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="mine.php">How to Mine</a></li>
                     <li><a href="resources.php">Resources</a></li>
-                    <li><a href="https://wiki.primecommunity.org/">Community Wiki</a></li>
+                    <li><a href="https://github.com/primecoin/primecoin/wiki/">Wiki</a></li>
                   </ul>
                 </div><!-- end nav-menu -->
               </div><!-- end navbar-collapse -->
