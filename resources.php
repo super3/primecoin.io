@@ -38,7 +38,7 @@
 
           <ul>
           <li>
-          <a href="https://walletgenerator.net/?currency=Primecoin">Offline Paper Wallet</a></li>
+          <a href="http://primecoin.io/downloads.php">Download Wallet</a></li>
           </ul>
                 
           <h3>
