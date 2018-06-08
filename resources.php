@@ -22,9 +22,8 @@
           <a name="exchanges" class="anchor" href="#exchanges"><span class="octicon octicon-link"></span></a>Exchanges</h3>
 
           <ul>
-          <li><a href="https://www.cryptopia.co.nz/Exchange">Cryptopia</a></li>
           <li><a href="https://poloniex.com/">Poloniex</a></li>
-          
+          <li><a href="https://www.cryptopia.co.nz/Exchange">Cryptopia</a></li>
           </ul>
           <h3>
           <a name="mining-pools-and-software" class="anchor" href="#mining-pools-and-software"><span class="octicon octicon-link"></span></a>Mining Pools and Software</h3>
@@ -38,7 +37,7 @@
 
           <ul>
           <li>
-          <a href="https://walletgenerator.net/?currency=Primecoin">Offline Paper Wallet</a></li>
+          <a href="http://primecoin.io/downloads.php">Download Wallet</a></li>
           </ul>
                 
           <h3>
