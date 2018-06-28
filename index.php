@@ -6,16 +6,14 @@
         <div class="col-md-1">
           <img class="congratulations-icon" src="assets/images/general/congratulations-icon.png">
         </div>
-        <div class="col-md-9">
+        <div class="col-md-11">
           <h2>Congratulations!</h2>
-          <p>Another world record broken on 30th March 2018! We found our first 
-          <a href="">15 length Cunningham Chain of the First Kind</a>! 
-          Which has an origin with 96 digits. (<a href="https://primes.zone/">view all records</a>)<p/>
+          <?php include_once("recordinfo.php"); ?>
         </div>
-        <div class="col-md-2">
+<!--         <div class="col-md-2">
           <h5>Last Record</h5>
           <a href="https://bchain.info/XPM/block/de07ddf776c3e5bbee0f4e67ba2802934a9152f79421273a0b682ab2d4162c05">30 March 2018</a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div> 
