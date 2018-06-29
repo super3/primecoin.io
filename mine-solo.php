@@ -47,7 +47,7 @@
                     <p>Type this command to use all CPU cores:</p>
 
                     <div class="highlight">
-                        <pre><span class="n">setgenerate</span><span class="nb">true</span><span class="o">-</span><span class="mi">1</span></pre>
+                        <pre><span class="n">setgenerate</span> <span class="nb">true</span> <span class="o">-</span><span class="mi">1</span></pre>
                     </div>
 
                     <p>If you want to use a specific number of cores, instead
