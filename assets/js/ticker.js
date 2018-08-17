@@ -7,7 +7,7 @@ $(document).ready(function() {
     var secondsSinceUpdate = 0;
     var intervalId = null;
 
-    function updateMarketInfo() {
+    function initMarketInfo() {
         $.getJSON(tickerPath, null, function(data) {
             if (intervalId == null) {
                 intervalId = setInterval(function() {
@@ -15,12 +15,14 @@ $(document).ready(function() {
                     $('#seconds-since-update').text(secondsSinceUpdate + " seconds ago");
                 }, 1000);
             }
-            $('#current-price').text("$" + data['price'] + " USD/XPM");
-            $('#market-cap').text("$" + commaSeparateNumber(data['market_cap']));
-            $('#total-supply').text(commaSeparateNumber(data['total_supply']) + " XPM");
+            $('#current-price').text("$" + data.data.quotes.USD.price + " USD/XPM");
+            $('#market-cap').text("$" + commaSeparateNumber(data.data.quotes.USD.market_cap));
+            $('#total-supply').text(commaSeparateNumber(data.data.total_supply) + " XPM");
             secondsSinceUpdate = 0;
         });
     }
+    initMarketInfo();
+
 
     // Helper to comma-sepaate the market cap and supply
     // Credit to: http://bit.ly/1alo9Ye
@@ -30,7 +32,5 @@ $(document).ready(function() {
         }
         return val;
     }
-
-    updateMarketInfo();
-    setInterval(updateMarketInfo, 30000);
+    setInterval(initMarketInfo, 30000);
 });
