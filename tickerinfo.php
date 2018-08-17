@@ -1,9 +1,5 @@
 <?php
 
-// Configuration values
-//define('DATA_PATH', 'xpmmarket.txt');
-
-//parameter：api url，post/get(default GET)，dataList,Whether to return
 function curl_request($url,$post='',$cookie='', $returnCookie=0){
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $url);
