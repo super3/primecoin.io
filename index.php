@@ -112,7 +112,7 @@
                         <h2>CONGRATULATIONS!</h2>
                         <p>
                             <span>Another world record broken on 30th March 2018! We found our first</span>
-                            <i class="txt2">15 length Cunningham </i><i class="txt2">Chain of the First Kind</i>!
+                            <i class="txt2">15 length </i><i class="txt2">Bi-twin Chain</i>!
                             <span class="txt2">Which has an origin with 96 digits.(</span>
                             <a class="txt2" href="https://primes.zone/">view all records</a>
                             <span class="txt2">)</span>
