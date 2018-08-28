@@ -31,6 +31,8 @@
 */
 
 /* 1.1 Body */
+
+
 .item {
   margin-bottom: 40px;
 }
@@ -42,9 +44,9 @@ h2.tagline {
 }
 
 h2.maintitle {
-  font-size: 38px;
+  font-size: 25px;
   font-weight: bold;
-  padding-top: 60px;
+  /*padding-top: 60px;*/
   clear: both;
 }
 
@@ -111,10 +113,13 @@ h2.maintitle a:hover {
 }
 
 header {
-  background-color: #45515e;
+  /*background-color: #45515e;*/
   padding: 0px 0 60px 0;
   color: #fff;
+  display: flex;
+  align-items: center;
 }
+
 
 header .container {
   position: relative;
@@ -144,10 +149,11 @@ header .btn {
 
 header .header-icon {
   background: url(../images/general/header-icon.png) no-repeat 0 0 transparent;
-  width: 500px;
-  height: 500px;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
   position: absolute;
-  bottom: -200px;
+  bottom: -120px;
   right: 0;
 }
 
@@ -214,9 +220,16 @@ body .container-wrapper-prime h1 {
 }
 
 /* 2.2 Numbers */
+
+
+/*.numbers{*/
+  /*display: flex;*/
+  /*align-items: center;*/
+/*}*/
 .numbers .row-feature {
   border-bottom: none;
   padding-bottom: 0;
+  width: 100%;
 }
 
 .numbers span.title {
@@ -359,7 +372,7 @@ body .container-wrapper-prime h1 {
 .sidebar .block.info h2,
 .sidebar .block.info p,
 .sidebar .block.info a {
-  color: #645e31;
+  color: #645e31 ;
 }
 
 .sidebar .block.info a {
@@ -409,7 +422,7 @@ body .sidebar ul li {
   font-size:20px;
 }
 
-.world-records span {
+.world-records i {
   color:#ffe02e;
   font-weight: bold;
 }
@@ -420,7 +433,9 @@ body .sidebar ul li {
   color: #ffe02e;
   font-weight: bold;
   line-height: 34px;
+
 }
+
 
 .world-records a:hover {
   text-decoration: none;
@@ -489,7 +504,7 @@ td iframe {
   }
 
   header .header-icon {
-    bottom: -480px;
+    bottom: -40px;
     right: 140px;
   }
 
@@ -1840,7 +1855,7 @@ ul.dropdown-menu:after {
   vertical-align: top;
   width: 168px;
   height: 39px;
-  background: url(../images/general/logo.png) 0 0 no-repeat;
+  background: url(../images/general/logo1.png) 0 0 no-repeat;
   background-size: 168px 39px;
   text-indent: -9999px;
 }
@@ -2596,7 +2611,7 @@ ul.feature-horizontal-list-3 li.first {
   margin-left: -3px;
 }
 ul.feature-horizontal-list-3 li {
-  width: 33.33%;
+  width: 33%;
 }
 ul.feature-horizontal-list-3 li [class^="fa-"],
 ul.feature-horizontal-list-3 li [class*=" fa-"] {
