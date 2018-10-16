@@ -14,7 +14,7 @@
 
 
                 <ul class="list-inline">
-                    <li><a href="http://t.me/primecoinproject">Telegram</a></li>
+                    <li><a href="https://t.me/PrimecoinFoundation">Telegram</a></li>
                     <li><a href="https://discord.gg/UTQz4Zq">Discord</a></li>
                     <li><a href="http://forum.primecoin.org" target="_blank">Forum</a></li>
                     <li><a href="https://www.youtube.com/channel/UCQZpBc1864PakvidBOHFqPw">Youtube</a></li>

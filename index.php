@@ -11,14 +11,14 @@
         <header class=" header">
             <div class="container">
                 <h1>Primecoin</h1>
-                <h2>A new type cryptocurrency which is proof-of-work based on searching for prime numbers.</h2>
+                <h2>A new type cryptocurrency which is Proof-of-Work based on searching for prime numbers.</h2>
                 <a class="btn wallet" href="downloads.php">
                     <span>Go</span>
                     <span>Download Wallet!<span>
                 </a>
                 <a class="btn wallet" href="about.php">
                     <span>Go</span>
-                    <span>Lean More</span></a>
+                    <span>Learn More</span></a>
                 <div class="header-icon"></div>
             </div>
         </header>
@@ -37,12 +37,12 @@
                             issued through a decentralized mining market. Derived from Satoshi Nakamoto's
                             Bitcoin,
                             Primecoin
-                            introduces an unique form of proof-of-work based on prime numbers.</p>
+                            introduces an unique form of Proof-of-Work based on prime numbers.</p>
                         <a href="about.php#what-xpm" class="btn btn-lg btn-inverse">Learn More</a>
                     </div><!-- end col -->
                     <div class="col-md-4 center">
                         <h3 class="margin-top-10">Advantages of Primecoin.</h3>
-                        <p>The innovative prime proof-of-work in Primecoin not only provides security and
+                        <p>The innovative prime Proof-of-Work in Primecoin not only provides security and
                             minting to
                             the
                             network, but also generates a special form of prime number chains of interest to
@@ -152,7 +152,7 @@
             <div class="container container-top">
                 <div class="row">
                     <div class="col-md-12 center">
-                        <h2 class="tagline">Primecoin resources</h2>
+                        <h2 class="tagline">Primecoin Resources</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -207,14 +207,14 @@
                     </div>
                 </div><!-- end row -->
             </div><!-- end container -->
-        </div>
+                </div>
 
 
         <div id="how-to-mine" class="h-mine">
             <div class="container container-top">
                 <div class="row">
                     <div class="col-md-12 center">
-                        <h2 class="tagline">How to Mine Primecion</h2>
+                        <h2 class="tagline">How to Mine Primecoin</h2>
                     </div>
                 </div>
                 <div class="row">
