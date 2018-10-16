@@ -152,7 +152,7 @@
             <div class="container container-top">
                 <div class="row">
                     <div class="col-md-12 center">
-                        <h2 class="tagline">Primecoin resources</h2>
+                        <h2 class="tagline">Primecoin Resources</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -207,14 +207,14 @@
                     </div>
                 </div><!-- end row -->
             </div><!-- end container -->
-        </div>
+                </div>
 
 
         <div id="how-to-mine" class="h-mine">
             <div class="container container-top">
                 <div class="row">
                     <div class="col-md-12 center">
-                        <h2 class="tagline">How to Mine Primecion</h2>
+                        <h2 class="tagline">How to Mine Primecoin</h2>
                     </div>
                 </div>
                 <div class="row">
