@@ -1,0 +1,96 @@
+
+.top {
+    width: 100%;
+    height: 120px;
+    background-image: url("../images/head.jpg");
+    background-size: 100%;
+    overflow-y: hidden;
+
+
+}
+.top .head{
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom:260px;
+
+}
+.main .text{
+    margin-top:90px;
+    font-size: 25px;
+}
+.main .text span:nth-child(2){
+ margin-left:60%;
+}
+.main textarea {
+    margin-top: 15px;
+    margin-bottom:30px;
+    width: 100%;
+    height:120px;
+    border-radius: 5px;
+    border: 1px solid #0fd6f3;
+    text-indent: 2rem;
+
+}
+.main .login{
+    width: 50%;
+    height: 52px;
+    margin-bottom: 20px;
+    border: 1px solid #f5f5f5;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+.main .login li{
+    width: 33%;
+    float: left;
+    line-height:26px;
+    text-align: center;
+}
+.main .login li:nth-child(1){
+    color:#0dc8e2;
+}
+.main .login li:nth-child(2){
+    border-right: 1px solid #0fd6f3;
+    border-left: 1px solid #0fd6f3;
+}
+.main input{
+    width: 100%;
+    height: 50px;
+    margin-top:20px;
+    margin-bottom:35px;
+    border-radius: 5px;
+    border: 1px solid #0fd6f3;
+    text-indent: 2rem;
+}
+.main .generate{
+    width: 160px;
+    height:72px;
+    border-radius: 3px;
+    background: #0fd6f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    width:80%;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    text-align: center;
+    color: #888888;
+}
+.foot span{
+    margin-left: 30px;
+}
+.foot img{
+    width: 16px;
+    height: 16px;
+}

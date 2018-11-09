@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>Primecoin</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+   <style>
+
+
+       body {
+           font-size: 14px;
+           color:#000;
+           margin: 0;
+           padding: 0;
+       }
+
+       .center .swiper{
+           display: none;
+       }
+       #news .main {
+           display: block;
+           width:100%;
+           background: #000000;
+           padding:90px 0px;
+
+
+
+       }
+       .swiper-container {
+           width: 100%;
+
+       }
+       .swiper-slide {
+
+           font-size: 18px;
+           /* Center slide text vertically */
+           display: -webkit-box;
+           display: -ms-flexbox;
+           display: -webkit-flex;
+           display: flex;
+           -webkit-box-pack: center;
+           -ms-flex-pack: center;
+           -webkit-justify-content: center;
+           justify-content: center;
+           -webkit-box-align: center;
+           -ms-flex-align: center;
+           -webkit-align-items: center;
+           align-items: center;
+       }
+       .swiper-button-prev{
+           background-image: url("images/news/prev.png");
+           background-size: 100% ;
+       }
+       .swiper-button-next{
+           background-image: url("images/news/next.png");
+           background-size: 100% ;
+       }
+       .swiper-pagination-bullet{
+           width:20px;
+           height:20px;
+
+       }
+       .swiper-pagination-bullet-active{
+           background: #dee2e6;
+       }
+       .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+           border-radius: 50%;
+           color: #ffffff;
+           background:transparent;
+       }
+       .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active{
+
+           background:#0ec1e5 ;
+
+       }
+       .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+           bottom:0px
+       }
+       .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide{
+           height:70vh;
+       }
+
+       .news-container{
+           padding: 40px 100px;
+           width: 100%;
+           overflow: hidden;
+           box-sizing: border-box;
+       }
+       .news-top,.news-bottom{
+           width: 100%;
+       }
+       .news-top-title,.news-bottom-title{
+           width: 100%;
+           text-align: center;
+           font-size:48px;
+           font-weight: 600;
+           color: #ffffff;
+
+       }
+       .news-top-container,.news-bottom-container{
+           width: 100%;
+
+       }
+       .news-top-container a,.news-bottom-container a{
+           display: block;
+           padding-left: 0;
+           padding-right: 0;
+       }
+       .news-top-container a img{
+           display: block;
+           width:80%;
+           position: relative;
+           margin: 0 auto;
+       }
+       .news-bottom-container a img{
+           display: block;
+           width:75%;
+           position: relative;
+           margin: 0 auto;
+
+       }
+       .news-top-container .title , .news-bottom-container .title{
+           width:80%;
+           height:30%;
+           margin-left: 10%;
+           background:rgba(125,125,125,0.5);
+           position: absolute;
+           top:70%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           font-size: 16px;
+           color: #ffffff;
+       }
+
+       .news-bottom-container .title{
+           width:75%;
+           font-size: 12px;
+           margin-left: 12.5%;
+       }
+       .page-two{
+           padding: 20px 100px;
+           width: 100%;
+           overflow: hidden;
+           box-sizing: border-box;
+
+
+       }
+
+      .news-bottom-container{
+           margin-left: 0;
+           margin-right: 0;
+       }
+
+
+       #button-prev{
+           width: 22px;
+           height: 20px;
+           position: absolute;
+           top:auto;
+           bottom: 0;
+           background:url('images/news/prev.png') no-repeat center center;
+           opacity: 1.35;
+           background-size: 100%;
+       }
+
+       #button-next{
+           width: 22px;
+           height: 20px;
+           position:absolute;
+           top: auto;
+           bottom: 0;
+           background:url('images/news/next.png') no-repeat center center;
+           opacity: 1.35;
+           background-size: 100%;
+       }
+       #button-prev{
+           left: 50%;
+           margin-left: -100px;
+       }
+
+       #button-next{
+           right: 50%;
+           margin-right: -100px;
+       }
+
+       #button-first {
+           height: 20px;
+           line-height: 20px;
+           position: absolute;
+           top:auto;
+           bottom:0px;
+           left: 50%;
+           margin-left: -135px;
+           color: #fff;
+           font-size: 18px;
+           z-index: 99999;
+           cursor: pointer;
+       }
+
+       #button-last{
+           height: 20px;
+           line-height: 20px;
+           position:absolute;
+           top:auto;
+           bottom: 0px;
+           right: 50%;
+           margin-right: -130px;
+           color: #fff;
+           font-size: 18px;
+           z-index: 99999;
+           cursor: pointer;
+       }
+
+
+       .triangle_border_down{
+           width:0;
+           height:0;
+           border-width:60px 100px 0px;
+           border-style:solid;
+           border-color:#fff transparent transparent;
+           position: absolute;
+           top:0;
+           /*left: 280px;*/
+           font-size:10px;
+           display: none;
+
+
+       }
+       .triangle_border_down .price{
+           color: #c6c8ca;
+           display: block;
+           width: 100px;
+           position: absolute;
+           top:-56px;
+           left: -50px;
+           text-align: center;
+       }
+       .triangle_border_down .rise{
+           color: #1c7430;
+           display: block;
+           width: 100px;
+           position: absolute;
+           top:-35px;
+           left:-50px;
+           text-align: center;
+       }
+       #button-last ,#button-first ,.prev ,.next ,.swiper-pagination{
+           display:block;
+       }
+       .swiper-pagination-bullet{
+           opacity: 1;
+       }
+
+       @media (max-width: 768px) {
+           body{
+               font-size: 12px;
+           }
+            #news .main{
+               padding: 65px 0px;
+           }
+
+
+           .swiper-container {
+               width: 100%;
+
+           }
+           .swiper-slide {
+               text-align: center;
+               font-size: 18px;
+               /* Center slide text vertically */
+               display: -webkit-box;
+               display: -ms-flexbox;
+               display: -webkit-flex;
+               display: flex;
+               -webkit-box-pack: center;
+               -ms-flex-pack: center;
+               -webkit-justify-content: center;
+               justify-content: center;
+               -webkit-box-align: center;
+               -ms-flex-align: center;
+               -webkit-align-items: center;
+               align-items: center;
+           }
+           .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide{
+               height:auto;
+           }
+           .news-container{
+               padding: 0;
+           }
+           .news-bottom-container a{
+               margin-bottom: 20px;
+           }
+           .news-top-container a img{
+               margin-top: 20px;
+           }
+           .news-bottom-container{
+               box-sizing: border-box;
+               margin: 0 auto;
+           }
+
+           .news-bottom-title{
+               font-size: 20px;
+               margin-top: 20px;
+           }
+           .news-top-container .title{
+               font-size: 12px;
+           } .news-bottom-container .title{
+           font-size: 10px;
+                        }
+           .swiper-button-next, .swiper-button-prev{
+               position: fixed;
+               margin-top: 94px;
+           }
+           .page-two{
+               padding: 0;
+           }
+           #button-last ,#button-first ,.prev ,.next ,.swiper-pagination{
+               display: none;
+           }
+
+       }
+
+
+
+
+
+
+       @media screen and (min-width: 1920px){
+           .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide{
+               height: 50vh;
+           }
+
+           .swiper-button-next, .swiper-button-prev{
+               width: 54px;
+               height:30px;
+           }
+           .swiper-pagination-bullet{
+               width: 36px;
+               height: 36px;
+               line-height: 40px;
+               text-align: center;
+               font-size: 20px;
+           }
+           #button-prev{
+               width: 38px;
+               height:20px;
+               left: 50%;
+               margin-left: -160px;
+               top:auto;
+               bottom: 0;
+               /*background-size: 36px;*/
+           }
+
+           #button-next{
+               width: 38px;
+               height:20px;
+               right: 50%;
+               margin-right: -160px;
+               top:auto;
+               bottom: 0;
+               /*background-size: 36px;*/
+           }
+           #button-first {
+               height: 36px;
+               line-height:46px;
+               left: 50%;
+               margin-left: -210px;
+               font-size:20px;
+           }
+
+           #button-last{
+               height: 36px;
+               line-height:46px;
+               right: 50%;
+               margin-right: -200px;
+               font-size:20px;
+           }
+
+       }
+
+   </style>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" id="nav">
+        <img src="images/logo.png" alt="">
+        <span>Primecoin</span>
+    </a>
+    <!--<span class="posi-wallet">-->
+    <!--<img src="images/tubiao_qianbao.png" alt="">-->
+    <!--Current Price-->
+    <!--</span>-->
+
+    <div class="triangle_border_down" id="div_ov_y">
+        <p class="price">XPM/USD:$0.745925</p>
+        <P class="rise" id="Rise" ></P>
+    </div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--web -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#about" id="toAbout1">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#guide" id="toGuide1">Guide</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#contribution" >Contribution</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#news" style="border:2px solid #ef6b00;border-image:linear-gradient(#ef6b00,#efca00) 20 20" >News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#connect" id="toConnect1">Connect</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link td hover" href=" http://www.primecoin.today/"target="_blank" >中文<br><p class="cn" >(Translated and hosted by community member)</p></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<script>
+    changeDivWidth();
+    function changeDivWidth(){
+        var lw=$('#nav').offset().left;
+        var w = document.getElementById('nav').clientWidth;//获取宽度
+        document.getElementById("div_ov_y").style.left=w+lw+20+"px";
+
+    }
+</script>
+<div class="navBar" id="navBar">
+    <ul class="navBar-nav row justify-content-center" id="navBar-nav">
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#about" id="toAbout">About</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#guide" id="toGuide">Guide</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#contribution" >Contribution</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#news" >News</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#connect" id="toConnect">Connect</a>
+        </li>
+        <li class="nav-item col-4 col-md-2">
+        <a class="nav-link td" href=" http://www.primecoin.today/" target="_blank">中文</a>
+        </li>
+    </ul>
+</div>
+<div id="pull">
+    <img src="images/takeIn.png" alt="">
+</div>
+
+
+
+    <div id="news" class="view">
+
+        <div class="main">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="news-container">
+                            <div class="news-content-main">
+                                <div class="news-top">
+                                    <p class="news-bottom-title">Announcement</p>
+                                    <div class="row news-top-container justify-content-around">
+                                        <a href="FoundNews.html" class="col-8 col-md-4">
+                                            <img src="images/news/1.jpg" alt="">
+                                            <div class="title">Establishment of Primecoin Foundation </div>
+                                        </a>
+                                        <a href="newsOthers.html" class="col-8 col-md-4">
+                                        <img src="images/news/2.jpg" alt="">
+                                        <div class="title">Primecoin Foundation and ANBI Exchange Reached Strategic Cooperation</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="news-bottom">
+                                    <p class="news-bottom-title">Latest News</p>
+                                    <div class="row news-bottom-container justify-content-around">
+
+                                        <a href="https://bitcoinmagazine.com/articles/primecoin-the-cryptocurrency-whose-mining-is-actually-useful-1373298534/" target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/01.png" alt="">
+                                            <div class="title"  >Vitalik Buterin:Primecoin: The Cryptocurrency Whose Mining Is Actually Useful</div>
+                                        </a>
+                                        <a href="https://bitcoinmagazine.com/articles/primecoin-has-exchange-casino-already-breaking-world-records-1373574788/ " target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/01.png" alt="">
+                                            <div class="title" >Vitalik Buterin:Primecoin Has Exchange, Casino, Already Breaking World Records</div>
+                                        </a>
+                                        <a href="https://bitcoinmagazine.com/articles/july-in-review-1375922022/" target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/03.png" alt="">
+                                            <div class="title"  >Vitalik Buterin:July In Review</div>
+                                        </a>
+                                        <a href="https://bitcoinmagazine.com/articles/what-proof-of-stake-is-and-why-it-matters-1377531463/" target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/04.png" alt="">
+                                            <div class="title" >Vitalik Buterin:What Proof Of Stake Is And Why It Matters</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="news-bottom page-two">
+                        <div class="row news-bottom-container justify-content-between" style="margin-bottom: 100px">
+                            <div class="news-bottom">
+                                <p class="news-bottom-title">Latest News</p>
+                                <div class="row news-bottom-container justify-content-around">
+
+                                    <a href="FoundNews.html"  class="col-8 col-md-3">
+                                        <img src="images/news/1.jpg" alt="">
+                                        <div class="title"  >Establishment of Primecoin Foundation</div>
+                                    </a>
+                                    <a href="newsOthers.html" class="col-8 col-md-3">
+                                        <img src="images/news/2.jpg" alt="">
+                                        <div class="title" >Vitalik Buterin:Primecoin Has Exchange, Casino, Already Breaking World Records</div>
+                                    </a>
+                                    <a href="https://bitcoinmagazine.com/articles/defense-alternative-cryptocurrencies/" target="_blank" class="col-8 col-md-3">
+                                        <img src="images/news/05.jpg" alt="">
+                                        <div class="title"  >Vitalik Buterin:In Defense Of Alternative Cryptocurrencies</div>
+                                    </a>
+                                    <a href="https://bitcoinmagazine.com/articles/bitcoin-in-israel-part-3-interview-on-alternative-currencies-1382840361/" target="_blank" class="col-8 col-md-3">
+                                        <img src="images/news/06.jpg" alt="">
+                                        <div class="title" >Vitalik Buterin:Bitcoin In Israel, Part 3: Interview On Alternative Currencies</div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row news-bottom-container justify-content-around">
+                            <a href="https://bitcoinmagazine.com/articles/quarkcoin-noble-intentions-wrong-approach-1387343686/" target="_blank" class="col-8 col-md-3">
+                                <img src="images/news/07.png" alt="">
+                                <div class="title" >Vitalik Buterin:Quarkcoin: Noble Intentions, Wrong Approach</div>
+                            </a>
+                            <a href="https://bitcoinmagazine.com/articles/markets-institutions-currencies-new-method-social-incentivization-1389412608/" target="_blank" class="col-8 col-md-3">
+                                <img src="images/news/08.png" alt="">
+                                <div class="title" >Vitalik Buterin:Markets, Institutions And Currencies – A New Method Of Social Incentivization</div>
+                            </a>
+                            <a href="https://www.coindesk.com/the-creator-of-proof-of-stake-thinks-he-finally-figured-it-out/" target="_blank" class="col-8 col-md-3">
+                                <img src="images/news/09.png" alt="">
+                                <div class="title"  >The Creator Of Proof-Of-Stake Thinks He Finally Figured It Out</div>
+                            </a>
+                            <a href="https://bitcoinnews.com/most-original-altcoin-dev-creating-supernode-proof-of-stake-spos/ " target="_blank" class="col-8 col-md-3">
+                                <img src="images/news/10.png" alt="">
+                                <div class="title" >“Most Original Altcoin Dev” Creating Supernode Proof-Of-Stake (Spos)</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                    <div class="swiper-slide">
+                        <div class="news-bottom page-two">
+
+                            <div class="row news-bottom-container justify-content-between" style="margin-bottom: 100px">
+                                <div class="news-bottom">
+                                    <p class="news-bottom-title">Latest News</p>
+                                    <div class="row news-bottom-container justify-content-around">
+                                        <a href="https://99bitcoins.com/primecoin-the-cryptocurrency-that-can-make-mining-useful/ " target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/19jpg.jpg" alt="">
+                                            <div class="title"  >Primecoin: The Cryptocurrency That Can Make Mining Useful</div>
+                                        </a>
+                                        <a href="https://cryptocoinsmarket.com/primecoin/" target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/20.png" alt="">
+                                            <div class="title" >Primecoin – General Info, Best Exchanges And Wallets</div>
+                                        </a>
+                                        <a href="https://nulltx.com/top-6-recent-cryptocurrency-pumps/ " target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/21.jpg" alt="">
+                                            <div class="title"  >Top 6 Recent Cryptocurrency Pumps</div>
+                                        </a>
+                                        <a href="http://ftreporter.com/all-you-need-to-know-about-primecoin/" target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/22.jpg" alt="">
+                                            <div class="title" >All You Need To Know About Primecoin</div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row news-bottom-container justify-content-around">
+                                <a href="https://cointelegraph.com/news/the-proof-of-work-evolution" target="_blank" class="col-8 col-md-3">
+                                    <img src="images/news/23.png" alt="">
+                                    <div class="title"  >The Proof-Of-Work Evolution</div>
+                                </a>
+                                <a href="https://bitcoinist.com/bitcoin-market-wrap-btc-reverses-trend-vtc-down-xpm-prime/ " target="_blank" class="col-8 col-md-3">
+                                    <img src="images/news/24.png" alt="">
+                                    <div class="title" >Bitcoin Market Wrap Up 6/7 – 6/14: Btc Reverses Trend, Vtc Goes Down, Xpm In Its Prime</div>
+                                </a>
+                                <a href="https://cointelegraph.com/news/history-of-cryptocurrency-from-bitcoins-inception-to-the-crypto-boom  " target="_blank" class="col-8 col-md-3">
+                                    <img src="images/news/26.png" alt="">
+                                    <div class="title" >History Of Cryptocurrency, Part I: From Bitcoin’S Inception To The Crypto-Boom</div>
+                                </a>
+                                <a href="https://bitcoinist.com/real-scientific-breakthroughs-made-prime-number-based-cryptocurrency-gapcoin-runner-popular-primecoin/ " target="_blank" class="col-8 col-md-3">
+                                    <img src="images/news/27.jpg" alt="">
+                                    <div class="title"  >Real Scientific Breakthroughs Made By Prime Number Based Cryptocurrency Gapcoin Runner-Up To Popular Primecoin</div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news-bottom page-two">
+
+                            <div class="row news-bottom-container justify-content-between" style="margin-bottom: 100px">
+                                <div class="news-bottom">
+                                    <p class="news-bottom-title">Latest News</p>
+                                    <div class="row news-bottom-container justify-content-around">
+
+                                        <a href="https://bitcoinist.com/market-summary-rollercoaster/" target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/28.png" alt="">
+                                            <div class="title" >Market Summary: Rollercoaster</div>
+                                        </a>
+                                        <a href="https://bitcoinist.com/primecoin-world-records-and-rising-value/" target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/29.png" alt="">
+                                            <div class="title"  >Primecoin : World Records And Rising Value</div>
+                                        </a>
+                                        <a href="https://www.coindesk.com/5-global-problems-bitcoins-proof-work-can-help-solve/ " target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/30.jpg" alt="">
+                                            <div class="title" >5 Global Problems Bitcoin'S Proof Of Work Can Help Solve</div>
+                                        </a>
+                                        <a href="https://www.ccn.com/primecoin-cloud-mining-using-digital-ocean-complete-guide/  " target="_blank" class="col-8 col-md-3">
+                                            <img src="images/news/35.jpg" alt="">
+                                            <div class="title"  >Primecoin Cloud Mining Using Digital Ocean – The Complete Guide</div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row news-bottom-container justify-content-around">
+
+                                <a href=" https://www.coindesk.com/discount-code-and-primecoin-mining-enthusiasm-cause-cloud-server-overload/" target="_blank" class="col-8 col-md-3">
+                                    <img src="images/news/36.png" alt="">
+                                    <div class="title" >Discount Code And Primecoin Mining Enthusiasm Cause Cloud Server Overload</div>
+                                </a>
+                                <a href="https://www.coindesk.com/new-currency-primecoin-searches-for-prime-numbers-as-proof-of-work/" target="_blank" class="col-8 col-md-3">
+                                    <img src="images/news/37.png" alt="">
+                                    <div class="title"  >New Currency Primecoin Searches For Prime Numbers As Proof Of Work</div>
+                                </a>
+                                <a href="https://www.cloudsigma.com/is-primecoin-the-next-big-thing-after-bitcoin/ " target="_blank" class="col-8 col-md-3">
+                                    <img src="" alt="">
+                                    <div></div>
+                                </a>
+                                <a href="https://www.cloudsigma.com/is-primecoin-the-next-big-thing-after-bitcoin/ " target="_blank" class="col-8 col-md-3">
+                                    <img src="" alt="">
+                                    <div></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev  prev" id="button-prev" ></div>
+                <div class="swiper-button-next next " id="button-next"  ></div>
+                <div class=" prev" id="button-first" >first</div>
+                <div class=" next " id="button-last"  >last</div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <!--<p>-->
+            <!--Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous-->
+            <!--and everyone can take part. Through many of its unique properties-->
+            <!--</p>-->
+            <div id="subscribe-input-wraper">
+                <span class="new-news">Subscribe to receive the latest updates</span>
+                <!--<div class="createsend-button "  data-listid="j/03/77D/341/D67FD91990F19504">Subscribe</div>-->
+            </div>
+
+            <div class="row" id="list-wraper">
+                <ul class="col-6 col-md-3">
+                    <li>
+                        Resource
+                    </li>
+                    <li>
+                        <a name="connect" target="_blank" href="http://primecoin.io/bin/primecoin-paper.pdf">Whitepaper</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://forum.primecoin.org/c/technical-support">Technical Support</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="download.html">Software</a>
+                    </li>
+                </ul>
+                <ul class="col-6 col-md-3">
+                    <li>
+                        Related Links
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.vee.tech/">VEE</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://peercoin.net/">Peercoin</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.Primecoin.org">Foundation</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/primecoin/primecoin/wiki">Wiki</a>
+                    </li>
+                </ul>
+                <ul class="col-6 col-md-3">
+                    <li>
+                        Developer
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/primecoin/primecoin">Github</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://forum.primecoin.org/c/developer-discussion">Technical Discussion</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.Primecoin.org">Get Sponsorship</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.Primes.zone">Latest Status</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://t.me/PrimecoinFoundation">Telegram Discussion</a>
+                    </li>
+                </ul>
+                <ul class="col-6 col-md-3">
+                    <li>
+                        Connect Us
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://forum.primecoin.org/t/how-to-contact-us/56">Forum</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="news.html">Press</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://forum.primecoin.org/t/how-to-contact-us/56">Message Us</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.primecoin.org/donate.html" >Donate</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="row justify-content-md-center" id="footer-link">
+                <div><a class="footer-link-one" target="_blank" href="https://t.me/PrimecoinFoundation "></a><span>Telegram</span><div class="arrow-down"></div></div>
+                <!--<div><a class="footer-link-two" target="_blank" href="https://discord.gg/UTQz4Zq"></a><span>Discord</span><div class="arrow-down"></div></div>-->
+                <div><a class="footer-link-three" target="_blank" href="http://forum.primecoin.org"></a><span>Forum</span><div class="arrow-down"></div></div>
+                <div><a class="footer-link-four" target="_blank" href="https://www.youtube.com/channel/UCQZpBc1864PakvidBOHFqPw?"></a><span>Youtube</span><div class="arrow-down"></div></div>
+                <div><a class="footer-link-five" target="_blank" href=" https://twitter.com/Primecoin_org"></a><span>Twitter</span><div class="arrow-down"></div></div>
+                <div><a class="footer-link-seven" target="_blank" href=" https://medium.com/primecoin"></a><span>Medium</span><div class="arrow-down"></div></div>
+                <div><a class="footer-link-six" target="_blank" href="https://www.reddit.com/r/primecoin/"></a><span>Reddit</span><div class="arrow-down"></div></div>
+            </div>
+            <p class="footer-bottom">
+                © Copyright 2018. Primecoin.<a href="Privacy.html" style="color: #007bff">&nbsp; &nbsp;Privacy Policy</a>
+            </p>
+        </div>
+
+
+
+        <!---->
+    </div>
+
+
+    <!--modal-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <p>Your help means a lot for the Primecoin Project. If you wish to help the foundation, please pay to the below address.  </p>
+                <p style="text-align: center;">Primecoin wallet address:</p>
+                <p style="word-wrap: break-word;">APMb1yoFSL8wN4FGSKCJp4EB5BzhfEjwx2</p>
+                <img src="images/qrcode.png" alt="" class="qrcode" style="width: 60px;margin-left: calc(50% - 30px);">
+                <form id="sub_Form" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="A61C50BEC994754B1D79C5819EC1255C189E7A242C023A36B4EA163EDFD48EEED086B8A1C9AA115FC8987185682F747D77F1B068296A34E192C1EE337F463A56">
+                    <p>
+                        <label for="field_Email" >Email:</label>
+                        <input id="field_Email" name="cm-wdukiy-wdukiy" type="email" class="js-cm-email-input" required />
+                    </p>
+                    <div>
+                        <input id="cm_privacy_consent" name="cm-privacy-consent" required type="checkbox"/>
+                        <label for="cm_privacy_consent">I agree to be emailed</label>
+                        <input id="cm_privacy_consent_hidden" name="cm-privacy-consent-hidden" type="hidden" value="true" />
+                    </div>
+                    <p style="margin-bottom: 0">
+                        <button class="js-cm-submit-button btn" type="submit">Submit</button>
+                    </p>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+
+    </div>
+
+
+</body>
+
+
+
+
+
+
+<script type="text/javascript" src="js/canvas-particle.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/public.js"></script>
+<script>
+
+
+
+    function getData(){
+        $.ajax({
+            type: "GET",
+            url: "https://api.coinmarketcap.com/v2/ticker/42/",
+            success: function(res){
+                var rate = res.data.quotes.USD.price.toFixed(6);
+                var increase = res.data.quotes.USD.percent_change_24h.toFixed(2);
+                if (increase >= 0){
+                    $('#Rise').html('(+'+increase+'%)');
+                    $('#Rise').css({'color':'red'});
+                }else{
+                    $('#Rise').html('('+increase+'%)');
+                    $('#Rise').css({'color':'#1c7430'});
+                }
+                $('.triangle_border_down .price').html('XPM/USD:$'+rate);
+            }
+        });
+    }
+    getData();
+    // setInterval(getData,5000);
+
+    function handlePrice(){
+        var bodyHeight = $('body').height();
+        var navHeight = $('.navbar').height();
+        var documentHeight = $(document).height();
+        if ($(document).scrollTop() >= 100){
+            $('.triangle_border_down').fadeOut(100);
+        }else{
+            $('.triangle_border_down').fadeIn(100);
+        }
+    }
+
+    handlePrice();
+    $(document).scroll(function () {
+        handlePrice();
+    })
+</script>
+
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (index + 1) + '</span>';
+            },
+        },
+        on:{
+            transitionEnd:function () {
+                var index =this.activeIndex;
+                if(index!=0){
+                    // $("#p").show();
+                    $("#message").html("Latest News")
+                }
+                else {
+                    // $("#p").hide();
+                    $("#message").show();
+                    $("#message").html("Announcement")
+                }
+            }
+        }
+
+    });
+    $("#button-first").click(function(){
+        $(".swiper-pagination span").eq(0).trigger('click')
+    })
+    $("#button-last").click(function(){
+        $(".swiper-pagination span").eq(3).trigger('click')
+    })
+
+
+</script>
+<script type="text/javascript">
+    $(".hover").mouseover(function(){
+
+        $(".cn").css("display","block")
+    })
+    $(".hover").mouseout(function(){
+        $(this).css({"font-size":"16px","text-decoration":"none","font-weight":"normal"})
+        $(".cn").css("display","none")
+    })
+</script>
+
+
+
+</html>

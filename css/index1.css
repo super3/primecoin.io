@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+.clear {
+    clear: both
+}
+
+.menus {
+    width:100%;
+    padding-top: 40px;
+    background: rgba(33, 41, 43, 1);
+}
+
+.menus ul {
+    width:100%;
+    margin-bottom: 0;
+    position: relative;
+    float: left
+}
+
+.menus li {
+    float: left;
+    width:20%;
+    height:90px;
+    line-height:90px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    background: white;
+
+}
+.menus li img{
+    width:40px;
+   height:40px;
+}
+
+
+
+
+.tab {
+    width:100%;
+    font-size:36px;
+    height: 500px;
+    line-height: 500px;
+    text-align: center;
+    color: #888;
+    background: rgba(33, 41, 43, 1);
+    font-weight: 700;
+    display: none
+}
+.lin{
+    line-height:100px;
+}
+.tab a{
+    font-size: 36px;
+    color: #000000;
+    text-decoration: none;
+}
+.tab .win{
+    width: 500px;
+    height: 230px;
+    margin: 30px auto;
+    background:rgba(215, 215, 215, 1) !important;
+    background:url("../images/W.png") no-repeat center !important;
+    background-size:50%;
+
+
+}
+.tab .linux{
+    width: 500px;
+    height: 230px;
+    margin: 30px auto;
+    background:rgba(215, 215, 215, 1) !important;
+    background:url("../images/l.png") no-repeat center !important;
+    background-size:50%;
+}
+.tab .mac{
+    width: 500px;
+    height: 230px;
+    margin: 30px auto;
+    background:rgba(215, 215, 215, 1) !important;
+    background:url("../images/pg.png") no-repeat center !important;
+    background-size:50%;
+}
+.show {
+    display: block;
+
+
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    background: #ccc
+}
+@media(max-width: 768px) {
+    .lin{
+        line-height:60px;
+    }
+    .tab .win,  .tab .mac ,.tab .linux{
+        width: 400px;
+        font-size: 24px;
+    }
+}

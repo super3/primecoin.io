@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>Primecoin</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style type="text/css">
+        #none ,#iphone ,#swiper-iphone{
+            display: none;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height:90vh;
+            background:url("images/index3.jpg") no-repeat;
+            background-size: 100% auto;
+        }
+
+        .swiper-slide {
+            color: #ffffff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .swiper-container  .swiper-slide{
+            justify-content: left;
+            padding: 60px 100px;
+            box-sizing: border-box;
+        }
+        .swiper-container .swiper-slide  .col-md-9{
+            max-height: 500px;
+            overflow-y: scroll;
+        }
+        .swiper-container .swiper-slide  .col-md-9::-webkit-scrollbar {
+            display: none;
+        }
+        .swiper-slide iframe{
+            height:500px;
+
+        }
+        .swiper-slide .text{
+            position: fixed;
+            left:83%;
+        }
+        .swiper-container-vertical>.swiper-pagination-bullets{
+
+            right:45px;
+        }
+        .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+            margin: 20px 0;
+
+        }
+        .swiper-pagination-bullet-active{
+            background: #ffffff;
+        }
+        .swiper-pagination-bullet{
+            background:#eeeeee;
+        }
+        .swiper-container1 {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .swiper-container1  .swiper-slide {
+            background-position: center;
+            background-size: cover;
+             width:270px;
+            background:#000;
+
+        }
+        .swiper-button-next, .swiper-button-prev{
+            top:93%;
+        }
+        .swiper-button-next{
+            left:55%;
+        }
+        .swiper-button-prev{
+            left:10%;
+        }
+         #prev,  #next{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top:40%;
+            left: calc(100% - 60px);
+            background-size: 24px 24px;
+            background-image: url("images/Arrow up.png");
+
+        }
+        .swiper-container1 {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .swiper-container1 .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            display: block;
+            margin: 0 auto;
+
+        }
+         #next {
+            position: absolute;
+            top: 63%;
+             background-image: url("images/Arrow Down.png");
+        }
+         .list{
+             position: fixed;
+             margin-left:70%;
+             line-height: 28px;
+             font-size: 14px;
+             color: #999999;
+         }
+         .f{
+             color: #fff;
+         }
+        .button{
+             width:150px;
+             height: 50px;
+             margin-top: 400px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             border: 1px solid #fff;
+             border-radius:5px;
+         }
+        .Button:hover{
+              background-color: #169BD5;
+          }
+        .Button1:hover{
+            background-color: #169BD5;
+        }
+        h2{
+            color: #FF9900;
+        }
+        table td{
+            padding:1px 15px;
+        }
+        table tr td:nth-child(3){
+            color:#34ce57;
+        }
+        .triangle_border_down{
+            width:0;
+            height:0;
+            border-width:60px 100px 0px;
+            border-style:solid;
+            border-color:#fff transparent transparent;
+            position: absolute;
+            top:0;
+            /*left: 280px;*/
+            font-size:10px;
+            display: none;
+
+
+        }
+        .triangle_border_down .price{
+            color: #c6c8ca;
+            display: block;
+            width: 100px;
+            position: absolute;
+            top:-56px;
+            left: -50px;
+            text-align: center;
+        }
+        .triangle_border_down .rise{
+            color: #1c7430;
+            display: block;
+            width: 100px;
+            position: absolute;
+            top:-35px;
+            left:-50px;
+            text-align: center;
+        }
+        .news-bottom{
+         padding: 50px;
+         box-sizing: border-box;
+         background-color: rgba(36, 43, 51, 1);
+     }
+        .news-bottom-container{
+            margin-top: 100px;
+     }
+        .news-bottom-container a{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .news-bottom-container .title{
+            width:91%;
+            font-size: 12px;
+            color: #ffffff;
+        }
+
+        .swiper-pagination-custom {
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+        }
+        .col-md-9{
+            max-width: 65%;
+        }
+        .col-md-3{
+            max-width: 24%;
+        }
+
+        @media screen and (max-width:768px){
+           #none ,#iphone ,#swiper-iphone{
+               display: block;
+           }
+            #block , #web ,#swiper-web{
+                display: none;
+            }
+            .swiper-container  .swiper-slide{
+                justify-content: left;
+                padding:20px;
+            }
+            .swiper-slide iframe{
+                height: 200px;
+            }
+            .swiper-container   .swiper-slide p{
+                max-height:200px;
+                overflow-y: scroll;
+                font-size: 12px;
+                margin-bottom: 0px;
+            }
+            .swiper-container   .swiper-slide p::-webkit-scrollbar{
+                display: none;
+            }
+
+            .list{
+                position: relative;
+                margin-left:45px;
+                font-size: 12px;
+            }
+
+            #prev1,  #next1{
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                top:78%;
+                left: calc(100% - 60px);
+                background-size: 24px 24px;
+                background-image: url("images/Arrow up.png");
+                outline: none;
+
+            }
+            #next1 {
+                position: absolute;
+                top:97%;
+                background-image: url("images/Arrow Down.png");
+            }
+            .swiper-container-vertical>.swiper-pagination-bullets{
+                top:86%;
+            }
+            .news-bottom {
+                padding: 0px;
+                padding-top: 20px;
+            }
+            .news-bottom-container{
+                margin-top: 50px;
+            }
+            .news-bottom-container a{
+                padding-left:0px;
+                padding-right:0px;
+                margin-bottom: 20px;
+            }
+            .news-bottom-container .title{
+                width:100%;
+                font-size: 10px;
+            }
+            .primes-button{
+                margin-top: 100px;
+            }
+            .index-contribution h1 , .news-bottom-title{
+                font-size: 30px;
+            }
+            .index-contribution .text h2 {
+                font-size: 26px;
+            }
+            .index-contribution .text span{
+                font-size: 20px;
+            }
+            .primes-button {
+                width: 242px;
+                height:60px;
+                font-size: 22px;
+            }
+            .col-md-3{
+               max-width: 80%;
+            }
+            .triangle_border_down{
+                border-width:40px 70px 0px;
+                font-size:10px;
+            }
+            .triangle_border_down .price{
+                color: #c6c8ca;
+                position: absolute;
+                top:-40px;
+                left: -50px;
+
+
+            }
+            .triangle_border_down .rise{
+                color: #1c7430;
+                position: absolute;
+                top:-25px;
+            }
+
+        }
+        @media screen and (min-width:1920px){
+            .news-bottom-container .title {
+                width: 93%;
+            }
+            .col-md-3{
+                max-width: 24%;
+            }
+        }
+        .getAbout{
+            position: absolute;
+            top: 65vh;
+            z-index: -10;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" id="nav">
+        <img src="images/logo.png" alt="">
+        <span>Primecoin</span>
+    </a>
+    <div class="triangle_border_down" id="div_ov_y">
+        <p class="price">XPM/USD:$0.745925</p>
+        <P class="rise" id="Rise" ></P>
+    </div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+   <!--web-->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link td" href="#about" id="toAbout1">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="#guide" id="toGuide1">Guide</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link td" href="#contribution" id="toContribution1">Contribution</a>
+        </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="#news" id="toNews1" >News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="#connect" id="toConnect1">Connect</a>
+            </li>
+            <li class="nav-item ">
+            <a class="nav-link td hover" href=" http://www.primecoin.today/"target="_blank" >中文<br><p class="cn" >(Translated and hosted by community member)</p></a>
+        </li>
+        </ul>
+    </div>
+</nav>
+<script>
+  changeDivWidth();
+  function changeDivWidth(){
+    var lw=$('#nav').offset().left;
+    var w = document.getElementById('nav').clientWidth;//获取宽度
+    document.getElementById("div_ov_y").style.left=w+lw+20+"px";
+
+  }
+</script>
+<!--iphone-->
+<div class="navBar" id="navBar">
+    <ul class="navBar-nav row justify-content-center" id="navBar-nav">
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="#about" id="toAbout">About</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#guide" id="toGuide">Guide</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="#contribution" id="toContribution">Contribution</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="#news" id="toNews" >News</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="#connect" id="toConnect">Connect</a>
+        </li>
+        <li class="nav-item  col-2 col-md-2">
+            <a class="nav-link td" href=" http://www.primecoin.today/" target="_blank">中文</a>
+        </li>
+    </ul>
+</div>
+<div id="pull">
+    <img src="images/takeIn.png" alt="">
+</div>
+<div id="warp">
+    <div class="mydiv row">
+        <div class="right col-12 col-md-4" id="iphone">
+            <img src="images/logo.png">
+        </div>
+
+        <div class="left  col-12 col-md-8 row">
+            <h1 class="f">Primecoin</h1>
+            <h2 class="b">A  new type of cryptocurrency which Proof-of-Work is based on searching for prime numbers.</h2>
+            <a href="https://coincodex.com/crypto/primecoin/exchanges/" class="col-12 col-md-6 col-lg-5" target="_blank"> <span class="f ">Buy Primecoin</span></a>
+            <a href="download.html" class=" col-12 col-md-6 col-lg-5"><span class="f ">Download Wallet</span></a>
+        </div>
+        <div class="right col-12 col-md-4" id="web">
+            <img src="images/logo.png">
+        </div>
+        <!--canvas-->
+    <div id="mydiv"></div>
+        <a  name="about" class="getAbout"></a>
+    </div>
+    <div class="index-Two">
+    <div class=" index-content f row" id="block">
+        <ul class=" col-md-4 col-12 found">
+            <a href="about.html#foundation">
+                <img src="images/tubiao_Foundation.png" class="img-f">
+                <li>
+                    <p class="p">Primecion Foundation</p>
+                    <p>Established under the advice of Sunny King
+                        <br>Dedicated to promote the evolving Primecoin and community
+                        <br>Preserves the legacy of uPoS</p>
+                </li> </a>
+        </ul>
+        <ul class=" col-md-4 col-12 sk">
+            <a href="about.html#sk" >
+                <img src="images/tubiao_sk.png" class="img-s">
+                <li>
+                    <p class="p"> Sunny King</p>
+                    <p>Creator of Peercoin and Primecoin, founder of VEE
+                        <br>Inventor of Proof of Stake(PoS) and useful Proof of Work(uPoW)
+                        <br>Blockchain veteran and revolutionist since 2012</p>
+                </li></a>
+
+        </ul>
+        <ul class="col-md-4 col-12 found">
+
+            <a href="about.html#primecoin">
+                <img src="images/tubiao_Primecoin.png" class="img-p">
+                <li>
+                    <p class="p">Primecion</p>
+                    <p>An unique type of crypto-currency that searches for prime numbers
+                       <br> The most established and the first to employ uPoW
+                        <br>A solution to blockchain energy problem through scientific computing</p>
+                </li></a>
+        </ul>
+    </div>
+    </div>
+    <div class=" index-content f row" id="none">
+        <ul class=" col-md-4 col-12 sk">
+            <a href="about.html#sk" >
+                <img src="images/tubiao_sk.png">
+                <li>
+                    <p class="p"> Sunny King</p>
+                    <p>Creator of Peercoin and Primecoin, founder of VEE
+                        Inventor of Proof of Stake(PoS) and useful Proof of Work(uPoW)
+                        Blockchain veteran and revolutionist since 2012</p>
+                </li></a>
+
+        </ul>
+        <ul class=" col-md-4 col-12 found">
+            <a href="about.html#foundation">
+                <img src="images/tubiao_Foundation.png">
+                <li>
+                    <p class="p">Primecion Foundation</p>
+                    <p>Established under the advice of Sunny King
+                        Dedicated to promotethe evolving Primecoin and community
+                        Preserves the legacy of uPoS</p>
+                </li> </a>
+        </ul>
+        <ul class="col-md-4 col-12 found">
+            <a href="about.html#primecoin">
+                <img src="images/tubiao_Primecoin.png">
+                <li>
+                    <p class="p">Primecion</p>
+                    <p>An unique type of crypto-currency that searches for prime numbers
+                        <br>The most established and the first to employ uPoW
+                        A solution to blockchain energy problem through scientific computing</p>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="index-center">
+        <!-- Swiper -->
+        <a href="###" name="guide" style="text-decoration: none;outline: none;">
+        <div class="swiper-container"  id="swiper-web">
+
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide row  swiper-no-swiping">
+
+                    <iframe class="col-md-9 show" src="https://www.youtube.com/embed/gSufQz_h9xI?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <div class="list">
+                       <li class="f " >Desktop Wallet Installation and Initiation</li>
+                       <li>Desktop transaction video address</li>
+                       <li >Mobile Wallet Installation and tutorial</li >
+                       <li>Making Transaction With a Cold Wallet</li>
+                       <!--<li>Wallet tutorial three</li>-->
+                       <!--<li>Wallet tutorial four</li>-->
+                       <!--<li>Wallet tutorial five</li>-->
+                   </div>
+                    <div class=" col-md-1 text show">
+                        <div class="button Button" >
+                        </div>
+                    </div>
+                    <div class=" col-md-9 hide">
+                        <h2>Desktop Wallet Installation and Initiation</h2>
+                        <p>After downloading the destop wallet, open the installation file. If you are using Windows or Linux, you need to choose an installation path. For mac, simply drag and drop the file into your applications folder.
+                            After the installation is complete, open the wallet app. Depending on your CPU capacity and internet connectivity, it may take from hours to days to download and verify the Primecoin blockchain if you have chosen the full node wallet.
+                            After the latest block is downloaded and verified, it will automatically keep synchronized with the rest of the network.
+                        </p>
+                      <p>
+                          To create a wallet, click “request payment”. All the necessary information will appear on the pop-up screen. Please make a backup of these information for your own security. Then, your wallet will appear in the “request payment history” box.
+                        </p>
+
+                    </div>
+                    <div class=" col-md-1 text hide">
+                        <div class="button Button1" >
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide row  swiper-no-swiping">
+
+                    <iframe class="col-md-9 show" src="https://www.youtube.com/embed/skT2jKvmWpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="list">
+                        <li >Desktop Wallet Installation and Initiation</li>
+                        <li  class="f ">Desktop transaction video address</li>
+                        <li>Mobile Wallet Installation and tutorial</li >
+                        <li>Making Transaction With a Cold Wallet</li>
+
+                    </div>
+                    <div class=" col-md-1 text show">
+                        <div class="button Button" >
+                        </div>
+                    </div>
+                    <div class=" col-md-9 hide">
+                        <h2>Desktop transaction video address</h2>
+                        <p>
+                            This video will show you how to make a Primecoin transaction. First, you must make sure you have sufficient balance in the overview page. Then, click the send window. You can either choose a previously stored receiver from your address book, or manually enter or past the receiving address in the “Pay To” box. You can add a label under which name the address will be stored. In this case, I will be paying to a wallet of my own. Then, enter the amount of primecoins you want to send below. You can also choose the unit. mXPM represents one thousandth of a primecoin, and uXPM represents one millionth of a primecoin. If you check the “Subtract fee from amount” box, then the receiver is responsible for the transaction fee. Otherwise, you will pay for the transaction fee, and the amount deducted from your address is the total of amount sent and the transaction fee. Below, you may also choose the transaction fee you want to include. The default is 0.01 primecoins per transaction, which will most likely make sure your transaction will be included in the next generated block. Then, choose a target confirmation. The higher the target, the more secure the transaction is considered to be. Choose the amount of blocks that suits your personal security target. Remember that funds may not be available before the chosen blocks of confirmations is reached. Otherwise, you can customize the transaction fee you wish to include. During high transaction demand, it may be reasonable to set a higher transaction fee so that your transaction will be accepted by a block more quickly. Once you have finished, you can click send. A summary of the transaction will be shown. As we can see here, since I have chosen that the receiver is responsible for the transaction fee, he will actually receive less than the amount I sent. Immediately, you can see a decrease in balance. Since I am sending to myself, the balance only decreased by a hundredth of primecoins. However, 9 hundreds of Primecoin will not be available for spending before confirmations are reached. In the “Transactions” window, you will be able to view all your previous transactions.
+                        </p>
+                       <p>
+                           Unconfirmed transactions will display a question mark label. After at lease one block has confirmed your transaction, a clock icon will appear instead. Double click on the transaction and you will see the amount of confirmations. Since I have chosen a target of 6 blocks, a confirmation of 4 blocks shown here will be considered unconfirmed. After the target is reached, a checkmark will appear, drawing a conclusion to this transaction.
+                       </p>
+
+                    </div>
+                    <div class=" col-md-1 text hide">
+                        <div class="button Button1" >
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide row col-12 swiper-no-swiping">
+
+                    <iframe  class="col-md-9 show"src="https://www.youtube.com/embed/LN9oLEewGtU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="list">
+                        <li>Desktop Wallet Installation and Initiation</li>
+                        <li>Desktop transaction video address</li>
+                        <li class="f">Mobile Wallet Installation and tutorial</li>
+                        <li>Making Transaction With a Cold Wallet</li>
+                        <!--<li>Wallet tutorial three</li>-->
+                        <!--<li>Wallet tutorial four</li>-->
+                        <!--<li>Wallet tutorial five</li>-->
+                    </div>
+                    <div class=" col-md-1 text show">
+                        <div class="button Button" >
+                        </div>
+                    </div>
+                    <div class="col-md-9 hide">
+                        <h2>Mobile Wallet Installation and tutorial</h2>
+                      <p>After installation, you have to choose between the default hot wallet, or a cold wallet.
+                          To have a cold wallet, you can go to settings, and click on “Switch to Primecoin Cold”.
+                          Once you choose cold wallet, you will not be able to reverse the action. After you do so, you should permanently disable all internet connection on your mobile device in order to protect the safety of your private keys.
+                          To create a wallet address, click the plus sign button on the bottom left of the main page. You may choose to create a Hierarchical Deterministic wallet address or a normal address in the “others” option. Hierarchical Deterministic To generate HD wallet,
+                          click Generate, grant permissions, set a password that only you will remember, and scan a random area with your camera to generate a random key. We highly recommend a backup of this address either by screenshot or by hand. Now you have created a unique address.
+                          Provide your address or QR code to your sending party to receive funds. Then, you can make transactions by clicking the send button. To set transaction fee, go to settings, and choose a desired amount in “Default Transaction Fee” section. After sending a transaction,
+                          you will be able to view it in your wallet. The transaction is considered complete when the confirmation count reaches your desired non-zero amount. To view how to conduct transactions with a cold wallet, please click the link on the right for another video.</p>
+                    </div>
+                    <div class="col-md-1 text hide">
+                        <div class="button Button1" >
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide row col-12 swiper-no-swiping">
+
+                    <iframe  class="col-md-9 show" src="https://www.youtube.com/embed/js0PxDnF00E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="list">
+                        <li>Desktop Wallet Installation and Initiation</li>
+                        <li>Desktop transaction video address</li>
+                        <li >Mobile Wallet Installation and tutorial</li>
+                        <li class="f">Making Transaction With a Cold Wallet</li>
+
+                    </div>
+                    <div class=" col-md-1 text show">
+                        <div class="button Button" >
+                        </div>
+                    </div>
+                    <div class="col-md-9 hide">
+                        <h2>Making Transaction With a Cold Wallet</h2>
+                      <p>Cold wallets are considered one of the most secure ways to store crypto-coins and to make transactions. To use code wallet, you must have two devices, with one of them completely dedicated to the cold wallet.
+                          Remember from the previous video that a device with cold wallet installed should avoid internet or any type of wireless connection including Bluetooth at all times. To conduct transactions on a cold wallet, you must first create or import a wallet address on the cold wallet. The process is similar to a hot wallet in the previous video. Create an HD or a regular address. Create a password that only you will remember, and make sure to back-up your seed or private key. Because cold wallets are security centered, you should try to avoid screenshots at all times and remember the seed or write them down by hand. You can check the security of your private keys using our convenient tool on the first page. You will not be able to view transactions on the cold wallet because it is offline. Create a wallet address here. Click on the QR button, then, enter your password to access the monitoring QR code. Now, on the hot wallet, select “Monitor Primecoin Cold” or “Monitor Cold HD Account” based on what you have generated on the cold wallet. Confirm your monitored address, and this process will import the public key to your hot wallet. However, the private key is only stored in your cold wallet. Here, I sent some Primecoins into the cold wallet.
+                          When sending a transaction, first you simply send a transaction using the hot wallet. The hot wallet will generate a QR code that contains all the information of this transaction. Do not close this window. Select “Sign Transaction” in the settings page of the cold wallet. Scan this QR code, and you will be able to view the transaction details. Click “Sign Transaction” and there will be a signed QR code generated on the cold wallet. Now, inverse the action and scan the cold wallet with the hot wallet. The hot wallet will then automatically send this transaction. The process is now complete.
+                      </p>
+                    </div>
+                    <div class="col-md-1 text hide">
+                        <div class="button Button1" >
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Add Pagination -->
+
+            <div class="swiper-pagination"></div>
+
+            <div class="navigation">
+                <div  class="swiper-button-prev" id="prev"></div>
+                <div  class="swiper-button-next" id="next"></div>
+            </div>
+            <!--//to page-->
+            <!--<div class="navigation">-->
+                <!--<div  class="swiper-button-prev" ></div>-->
+                <!--<div  class="swiper-button-next"></div>-->
+            <!--</div>-->
+
+        </div>
+            <!--iphone-->
+            <div class="swiper-container" id="swiper-iphone">
+
+                <div class="swiper-wrapper" >
+                    <div class="swiper-slide row  swiper-no-swiping">
+
+                        <iframe class="col-12" src="https://www.youtube.com/embed/gSufQz_h9xI?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class=" col-12">
+                            <p>
+                                After downloading the destop wallet, open the installation file. If you are using Windows or Linux, you need to choose an installation path. For mac, simply drag and drop the file into your applications folder. After the installation is complete, open the wallet app. Depending on your CPU capacity and internet connectivity, it may take from hours to days to download and verify the Primecoin blockchain if you have chosen the full node wallet. After the latest block is downloaded and verified, it will automatically keep synchronized with the rest of the network.
+
+                                To create a wallet, click “request payment”. All the necessary information will appear on the pop-up screen. Please make a backup of these information for your own security. Then, your wallet will appear in the “request payment history” box.
+                            </p>
+
+                        </div>
+                        <div class="list">
+                            <li class="f">Desktop Wallet Installation and Initiation</li>
+                            <li>Desktop transaction video address</li>
+                            <li>Mobile Wallet Installation and tutorial</li>
+                            <li>Making Transaction With a Cold Wallet</li>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="swiper-slide row  swiper-no-swiping">
+
+                        <iframe class="col-12" src="https://www.youtube.com/embed/skT2jKvmWpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class=" col-12">
+                          <p>This video will show you how to make a Primecoin transaction. First, you must make sure you have sufficient balance in the overview page. Then, click the send window. You can either choose a previously stored receiver from your address book, or manually enter or past the receiving address in the “Pay To” box. You can add a label under which name the address will be stored. In this case, I will be paying to a wallet of my own. Then, enter the amount of primecoins you want to send below. You can also choose the unit. mXPM represents one thousandth of a primecoin, and uXPM represents one millionth of a primecoin. If you check the “Subtract fee from amount” box, then the receiver is responsible for the transaction fee. Otherwise, you will pay for the transaction fee, and the amount deducted from your address is the total of amount sent and the transaction fee. Below, you may also choose the transaction fee you want to include. The default is 0.01 primecoins per transaction, which will most likely make sure your transaction will be included in the next generated block. Then, choose a target confirmation. The higher the target, the more secure the transaction is considered to be. Choose the amount of blocks that suits your personal security target. Remember that funds may not be available before the chosen blocks of confirmations is reached. Otherwise, you can customize the transaction fee you wish to include. During high transaction demand, it may be reasonable to set a higher transaction fee so that your transaction will be accepted by a block more quickly. Once you have finished, you can click send. A summary of the transaction will be shown. As we can see here, since I have chosen that the receiver is responsible for the transaction fee, he will actually receive less than the amount I sent. Immediately, you can see a decrease in balance. Since I am sending to myself, the balance only decreased by a hundredth of primecoins. However, 9 hundreds of Primecoin will not be available for spending before confirmations are reached. In the “Transactions” window, you will be able to view all your previous transactions.
+                              Unconfirmed transactions will display a question mark label. After at lease one block has confirmed your transaction, a clock icon will appear instead. Double click on the transaction and you will see the amount of confirmations. Since I have chosen a target of 6 blocks, a confirmation of 4 blocks shown here will be considered unconfirmed. After the target is reached, a checkmark will appear, drawing a conclusion to this transaction.
+                          </p>
+
+                        </div>
+                        <div class="list">
+                            <li>Desktop Wallet Installation and Initiation</li>
+                            <li class="f">Desktop transaction video address</li>
+                            <li>Mobile Wallet Installation and tutorial</li>
+                            <li>Making Transaction With a Cold Wallet</li>
+                        </div>
+
+
+
+                    </div>
+                    <div class="swiper-slide row  swiper-no-swiping">
+                        <iframe  class="col-12" src="https://www.youtube.com/embed/LN9oLEewGtU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class=" col-12">
+                            <p>
+                                After installation, you have to choose between the default hot wallet, or a cold wallet. To have a cold wallet,
+                                you can go to settings, and click on “Switch to Primecoin Cold”. Once you choose cold wallet, you will not be able to reverse the action.
+                                After you do so, you should permanently disable all internet connection on your mobile device in order to protect the safety of your private keys.
+                                To create a wallet address, click the plus sign button on the bottom left of the main page. You may choose to create a Hierarchical Deterministic wallet address or a normal address in the “others” option.
+                                Hierarchical Deterministic To generate HD wallet, click Generate, grant permissions, set a password that only you will remember, and scan a random area with your camera to generate a random key. We highly recommend a backup of this address either by screenshot or by hand. Now you have created a unique address. Provide your address or QR code to your sending party to receive funds. Then, you can make transactions by clicking the send button. To set transaction fee, go to settings, and choose a desired amount in “Default Transaction Fee” section. After sending a transaction, you will be able to view it in your wallet. The transaction is considered complete when the confirmation count reaches your desired non-zero amount.
+                                To view how to conduct transactions with a cold wallet, please click the link on the right for another video.
+                            </p>
+                        </div>
+                        <div class="list">
+                            <li>Desktop Wallet Installation and Initiation</li>
+                            <li>Desktop transaction video address</li>
+                            <li class="f">Mobile Wallet Installation and tutorial</li>
+                              <li>Making Transaction With a Cold Wallet</li>
+                        </div>
+                    </div>
+                    <div class="swiper-slide row  swiper-no-swiping">
+                        <iframe  class="col-12" src="https://www.youtube.com/embed/js0PxDnF00E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class=" col-12">
+                          <p>
+                              Cold wallets are considered one of the most secure ways to store crypto-coins and to make transactions. To use code wallet, you must have two devices, with one of them completely dedicated to the cold wallet.
+                              Remember from the previous video that a device with cold wallet installed should avoid internet or any type of wireless connection including Bluetooth at all times. To conduct transactions on a cold wallet, you must first create or import a wallet address on the cold wallet. The process is similar to a hot wallet in the previous video. Create an HD or a regular address. Create a password that only you will remember, and make sure to back-up your seed or private key. Because cold wallets are security centered, you should try to avoid screenshots at all times and remember the seed or write them down by hand. You can check the security of your private keys using our convenient tool on the first page. You will not be able to view transactions on the cold wallet because it is offline. Create a wallet address here. Click on the QR button, then, enter your password to access the monitoring QR code. Now, on the hot wallet, select “Monitor Primecoin Cold” or “Monitor Cold HD Account” based on what you have generated on the cold wallet. Confirm your monitored address, and this process will import the public key to your hot wallet. However, the private key is only stored in your cold wallet. Here, I sent some Primecoins into the cold wallet.
+                              When sending a transaction, first you simply send a transaction using the hot wallet. The hot wallet will generate a QR code that contains all the information of this transaction. Do not close this window. Select “Sign Transaction” in the settings page of the cold wallet. Scan this QR code, and you will be able to view the transaction details. Click “Sign Transaction” and there will be a signed QR code generated on the cold wallet. Now, inverse the action and scan the cold wallet with the hot wallet. The hot wallet will then automatically send this transaction. The process is now complete.
+                          </p>
+                        </div>
+                        <div class="list">
+                            <li>Desktop Wallet Installation and Initiation</li>
+                            <li>Desktop transaction video address</li>
+                            <li>Mobile Wallet Installation and tutorial</li>
+                            <li  class="f">Making Transaction With a Cold Wallet</li>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="navigation">
+                    <div  class="swiper-button-prev" id="prev1"></div>
+                    <div  class="swiper-button-next" id="next1"></div>
+                </div>
+            </div>
+        </a>
+        <a href="###" name="contribution"style="text-decoration: none;outline: none;" >
+        <div class="index-contribution" id="Contribution">
+           <h1>Value Behind Primecoin</h1>
+            <div class="text">
+                <img src="images/jb.png">
+                <div>
+                    <h2>CONGRATULATIONS!</h2>
+                    <p>Another world record broken on 30th May .We found ourr first 15
+                        <span>15 length Bi-twin Chain</span>which has an origin of 96 digit. We found another 15 length Bi-twin Chain,
+                        which has an origin of 98 digits on 3rd November 2018</p>
+                </div>
+           </div>
+            <div class="swiper-container1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" >
+                        <h5>Cunningham chains of the 1st kind</h5>
+                       <table border="1";>
+                            <tr>
+                                <td>Length</td>
+                                <td>Digits</td>
+                                <td style="color: #fff">Block(link)</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>244</td>
+                                <td>4346</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>167</td>
+                                <td>9021</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>151</td>
+                                <td>57284</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>146</td>
+                                <td>182690</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>140</td>
+                                <td>95569</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>113</td>
+                                <td>558800</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>107</td>
+                                <td>368051</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>97</td>
+                                <td>2718842</td>
+                            </tr>
+                        </table>
+
+                </div>
+                    <div class="swiper-slide" >
+                        <h5>Bi-twin prime chains</h5>
+                        <table border="1";>
+
+                        <tr>
+                            <td>Length</td>
+                            <td>Digits</td>
+                            <td style="color: #fff">Block(link)</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>97</td>
+                            <td>46</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>268</td>
+                            <td>7101</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>172</td>
+                            <td>11900</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>163</td>
+                            <td>75899</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>138</td>
+                            <td>479357</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>124</td>
+                            <td>487155</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>118</td>
+                            <td>476538</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>105</td>
+                            <td>340499</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>99</td>
+                            <td>942208</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>98</td>
+                            <td>2908166</td>
+                        </tr>
+                    </table></div>
+                    <div class="swiper-slide">
+                        <h5>Cunningham chains of the 2nd kind</h5>
+                        <table border="1";>
+
+                        <tr>
+                            <td>Length</td>
+                            <td>Digits</td>
+                            <td style="color: #fff">Block(link)</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>134</td>
+                            <td>54</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>208</td>
+                            <td>17715</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>183</td>
+                            <td>26660</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>167</td>
+                            <td>79349</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>145</td>
+                            <td>519253</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>127</td>
+                            <td>365304</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>109</td>
+                            <td>323183</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>101</td>
+                            <td>539977</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>97</td>
+                            <td>547276</td>
+                        </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="primes-button" style="margin-top: 0px"><a href="https://primes.zone/"  target="_blank">View all records</a></div>
+        </div>
+        </a>
+        <a href="###" name="news" style="text-decoration: none;outline: none;">
+        <div class="news-bottom" id="News">
+            <p class="news-bottom-title">Latest News</p>
+            <div class="row news-bottom-container justify-content-center">
+                <a href="FoundNews.html" class="col-8 col-md-3">
+                    <img src="images/news/1.jpg" alt="">
+                    <div class="title" >Establishment of Primecoin Foundation</div>
+                </a>
+                <a href="newsOthers.html" class="col-8 col-md-3">
+                    <img src="images/news/2.jpg" alt="">
+                    <div class="title">Primecoin Foundation and ANBI Exchange Reached Strategic Cooperation</div>
+                </a>
+                <a target="_blank" href="FoundNews.htmlhttps://bitcoinmagazine.com/articles/primecoin-the-cryptocurrency-whose-mining-is-actually-useful-1373298534/" class="col-8 col-md-3">
+                    <img src="images/news/01.png" alt="">
+                    <div class="title" >Vitalik Buterin:Primecoin: The Cryptocurrency Whose Mining Is Actually Useful</div>
+                </a>
+                <a target="_blank " href="https://bitcoinmagazine.com/articles/primecoin-has-exchange-casino-already-breaking-world-records-1373574788/ " class="col-8 col-md-3">
+                    <img src="images/news/01.png" alt="">
+                    <div class="title">Vitalik Buterin:Primecoin Has Exchange, Casino, Already Breaking World Records</div>
+                </a>
+
+
+            </div>
+            <div class="primes-button"><a href="new.html">View all news</a> </div>
+        </div>
+        </a>
+        <div class="footer">
+            <!--<p>-->
+                <!--Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous-->
+                <!--and everyone can take part. Through many of its unique properties-->
+            <!--</p>-->
+            <div id="subscribe-input-wraper">
+                <span class="new-news">Subscribe to receive the latest updates</span>
+                <!--<div class="createsend-button "  data-listid="j/03/77D/341/D67FD91990F19504">Subscribe</div>-->
+            </div>
+
+            <div class="row" id="list-wraper">
+                <ul class="col-6 col-md-3">
+                    <li>
+                        Resource
+                    </li>
+                    <li>
+                        <a name="connect" target="_blank" href="http://primecoin.io/bin/primecoin-paper.pdf">Whitepaper</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://forum.primecoin.org/c/technical-support">Technical Support</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="download.html">Software</a>
+                    </li>
+                </ul>
+                <ul class="col-6 col-md-3">
+                    <li>
+                        Related Links
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.vee.tech/">VEE</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://peercoin.net/">Peercoin</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.Primecoin.org">Foundation</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/primecoin/primecoin/wiki">Wiki</a>
+                    </li>
+                </ul>
+                <ul class="col-6 col-md-3">
+                    <li>
+                        Developer
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/primecoin/primecoin">Github</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://forum.primecoin.org/c/developer-discussion">Technical Discussion</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.Primecoin.org">Get Sponsorship</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.Primes.zone">Latest Status</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://t.me/PrimecoinFoundation">Telegram Discussion</a>
+                    </li>
+                </ul>
+                <ul class="col-6 col-md-3">
+                    <li>
+                        Connect Us
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://forum.primecoin.org/t/how-to-contact-us/56">Forum</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="news.html">Press</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://forum.primecoin.org/t/how-to-contact-us/56">Message Us</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.primecoin.org/donate.html">Donate</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="row justify-content-md-center" id="footer-link">
+                <div><a class="footer-link-one" target="_blank" href="https://t.me/PrimecoinFoundation "></a><span>Telegram</span><div class="arrow-down"></div></div>
+                <!--<div><a class="footer-link-two" target="_blank" href="https://discord.gg/UTQz4Zq"></a><span>Discord</span><div class="arrow-down"></div></div>-->
+                <div><a class="footer-link-three" target="_blank" href="http://forum.primecoin.org"></a><span>Forum</span><div class="arrow-down"></div></div>
+                <div><a class="footer-link-four" target="_blank" href="https://www.youtube.com/channel/UCQZpBc1864PakvidBOHFqPw?"></a><span>Youtube</span><div class="arrow-down"></div></div>
+                <div><a class="footer-link-five" target="_blank" href=" https://twitter.com/Primecoin_org"></a><span>Twitter</span><div class="arrow-down"></div></div>
+                <div><a class="footer-link-seven" target="_blank" href=" https://medium.com/primecoin"></a><span>Medium</span><div class="arrow-down"></div></div>
+                <div><a class="footer-link-six" target="_blank" href="https://www.reddit.com/r/primecoin/"></a><span>Reddit</span><div class="arrow-down"></div></div>
+            </div>
+            <p class="footer-bottom">
+                © Copyright 2018. Primecoin.<a href="Privacy.html" style="color: #007bff">&nbsp; &nbsp;Privacy Policy</a>
+            </p>
+        </div>
+
+    </div>
+    <!--modal-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <p>Your help means a lot for the Primecoin Project. If you wish to help the foundation, please pay to the below address.  </p>
+                <p style="text-align: center;">Primecoin wallet address:</p>
+                <p style="word-wrap: break-word;">APMb1yoFSL8wN4FGSKCJp4EB5BzhfEjwx2</p>
+                <img src="images/qrcode.png" alt="" class="qrcode" style="width: 60px;margin-left: calc(50% - 30px);">
+                <form id="sub_Form" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="A61C50BEC994754B1D79C5819EC1255C189E7A242C023A36B4EA163EDFD48EEED086B8A1C9AA115FC8987185682F747D77F1B068296A34E192C1EE337F463A56">
+                    <p>
+                        <label for="field_Email" >Email:</label>
+                        <input id="field_Email" name="cm-wdukiy-wdukiy" type="email" class="js-cm-email-input" required />
+                    </p>
+                    <div>
+                        <input id="cm_privacy_consent" name="cm-privacy-consent" required type="checkbox"/>
+                        <label for="cm_privacy_consent">I agree to be emailed</label>
+                        <input id="cm_privacy_consent_hidden" name="cm-privacy-consent-hidden" type="hidden" value="true" />
+                    </div>
+                    <p style="margin-bottom: 0">
+                        <button class="js-cm-submit-button btn" type="submit">Submit</button>
+                    </p>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+
+    </div>
+
+</div>
+</body>
+
+<script>
+  window.onload = function(){
+    var wd = parseInt($('body').css('width'));
+    var config = {};
+  if (wd > 768){
+    
+    config = {
+      vx:4,
+      vy:4,
+      height: 3,
+      width: 3,
+      count:150,
+      color: "121, 162, 185",
+      stroke: "130,255,255",
+      dist: 6000,
+      e_dist: 20000,
+      max_conn: 10
+    }
+  }else{
+    
+    config = {
+      vx: 2,
+      vy:  2,
+      height: 3,
+      width: 3,
+      count:50,
+      color: "121, 162, 185",
+      stroke: "130,255,255",
+      dist: 1000,
+      e_dist: 2000,
+      max_conn: 10
+    }
+  }
+  
+      CanvasParticle(config);
+
+  }
+</script>
+<script type="text/javascript" src="js/canvas-particle.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/public.js"></script>
+<script>
+    function getData(){
+    $.ajax({
+      type: "GET",
+      url: "https://api.coinmarketcap.com/v2/ticker/42/",
+      success: function(res){
+        var rate = res.data.quotes.USD.price.toFixed(6);
+        var increase = res.data.quotes.USD.percent_change_24h.toFixed(2);
+        if (increase >= 0){
+          $('#Rise').html('(+'+increase+'%)');
+          $('#Rise').css({'color':'red'});
+        }else{
+          $('#Rise').html('('+increase+'%)');
+          $('#Rise').css({'color':'#1c7430'});
+        }
+        $('.triangle_border_down .price').html('XPM/USD:$'+rate);
+      }
+    });
+  }
+  getData();
+  // setInterval(getData,5000);
+  
+
+</script>
+
+
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    direction: 'vertical',
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+
+
+
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+
+  });
+
+
+
+
+
+
+function handleScrollAbout(){
+      var bodyHeight = $('body').height();
+      var footerHeight = $('.index-content').height();
+      var documentHeight = $(document).height();
+
+      if ($(document).scrollTop() - bodyHeight + 300 >= 0){
+          $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none"});
+          if ($('body').width() >= 768){
+              $('#toAbout,#toAbout1').css({"border-radius":"10px","border":"2px solid #ef6b00","border-image": "linear-gradient(#ef6b00,#efca00) 20 20"});
+              $('#toConnect,#toContribution,#toNews,#toGuide,#toConnect1,#toContribution1,#toNews1,#toGuide1').css({"font-size":"16px","text-decoration":"none","borner":"none"});
+
+          }else{
+              $('#toAbout,#toAbout1').css({"font-size":"12px","text-decoration":"underline","border":"none"});
+              $('#toConnect,#toContribution,#toNews,#toGuide,#toConnect1,#toContribution1,#toNews1,#toGuide1').css({"font-size":"10px","text-decoration":"none"});
+
+          }
+
+      }else{
+          if ($('body').width() >= 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+              $('#toAbout,#toAbout1').css({"font-size":"16px","text-decoration":"none","font-weight":"normal","border":"none"});
+
+          }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+              $('#toAbout,#toAbout1').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+
+          }
+      }
+  }
+  function handleScrollGuide(){
+      var bodyHeight = $('body').height();
+      var changeHeight = $('.index-center').height();
+      var documentHeight = $(document).height();
+
+      if ($(document).scrollTop() >= (documentHeight-changeHeight-200)){
+          if ($('body').width() >= 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none"});
+              $('#toGuide,#toGuide1').css({"border-radius":"10px","border":"2px solid #ef6b00","border-image": "linear-gradient(#ef6b00,#efca00) 20 20"});
+              $('#toAbout,#toAbout1,#toContribution,#toContribution1,#toNews,#toNews1,#toConnect,#toConnect1').css({"font-size":"16px","text-decoration":"none","border":"none"});
+
+
+          }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"10px","text-decoration":"none"});
+              $('#toGuide,#toGuide1').css({"font-size":"12px","text-decoration":"underline","border":"none"});
+              $('#toAbout,#toAbout1,#toContribution,#toContribution1,#toNews,#toNews1,#toConnect,#toConnect1').css({"font-size":"10px","text-decoration":"none"});
+
+          }
+
+      }else{
+          if ($('body').width() >= 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+              $('#toGuide,#toGuide1').css({"font-size":"16px","text-decoration":"none","font-weight":"normal","border":"none"});
+
+          }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+              $('#toGuide,#toGuide1').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+
+          }
+
+      }
+  }
+  function handleScrollContribution(){
+      var bodyHeight = $('body').height();
+      var changeHeight = $('.index-center').height();
+      var documentHeight = $(document).height();
+
+      if ($(document).scrollTop()  >= (changeHeight-bodyHeight-10)){
+          if ($('body').width() > 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"underline"});
+              $('#toContribution,#toContribution1').css({"border-radius":"10px","border":"2px solid #ef6b00","border-image": "linear-gradient(#ef6b00,#efca00) 20 20"});
+              $('#toAbout,#toAbout1,#toGuide,#toGuide1,#toNews,#toNews1,#toConnect,#toConnect1').css({"font-size":"16px","text-decoration":"none","border":"none"});
+
+          }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none"});
+              $('#toContribution,#toContribution1').css({"font-size":"12px","text-decoration":"underline","border":"none"});
+              $('#toAbout,#toAbout1,#toGuide,#toGuide1,#toNews,#toNews1,#toConnect,#toConnect1').css({"font-size":"10px","text-decoration":"none","border":"none"});
+
+          }
+
+      }else{
+          if ($('body').width() > 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+              $('#toContribution,#toContribution1').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+
+          }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+              $('#toContribution,#toContribution1').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+
+          }
+
+      }
+  }
+  function handleScrollNews(){
+      var bodyHeight = $('body').height();
+      var footerHeight = $('.footer').height();
+      var documentHeight = $(document).height();
+      var sliderHeight=$(".swiper-container").height()
+
+      if ($(document).scrollTop()  >= (documentHeight-bodyHeight-sliderHeight)){
+          if ($('body').width() > 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"underline"});
+              $('#toNews,#toNews1').css({"border-radius":"10px","border":"2px solid #ef6b00","border-image": "linear-gradient(#ef6b00,#efca00) 20 20"});
+              $('#toAbout,#toAbout1,#toGuide,#toGuide1,#toContribution,#toContribution1,#toConnect,#toConnect1').css({"font-size":"16px","text-decoration":"none","border":"none"});
+
+          } else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none"});
+              $('#toNews,#toNews1').css({"font-size":"12px","text-decoration":"underline","border":"none"});
+              $('#toAbout,#toAbout1,#toGuide,#toGuide1,#toContribution,#toContribution1,#toConnect,#toConnect1').css({"font-size":"10px","text-decoration":"none"});
+          }
+
+      }else{
+          if ($('body').width() > 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+              $('#toNews,#toNews1').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+          }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+              $('#toNews,#toNews1').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+          }
+
+      }
+  }
+  function handleScrollConnect(){
+      var bodyHeight = $('body').height();
+      var footerHeight = $('.footer').height();
+      var documentHeight = $(document).height();
+
+      if ($(document).scrollTop()  >= (documentHeight-footerHeight-bodyHeight+300)){
+          if ($('body').width() > 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"underline"});
+              $('#toConnect,#toConnect1').css({"border-radius":"10px","border":"2px solid #ef6b00","border-image": "linear-gradient(#ef6b00,#efca00) 20 20"});
+              $('#toAbout,#toAbout1,#toGuide,#toGuide1,#toContribution,#toContribution1,#toNews,#toNews1').css({"font-size":"16px","text-decoration":"none","border":"none"});
+
+          }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none"});
+              $('#toConnect,#toConnect1').css({"font-size":"12px","text-decoration":"underline","border":"none"});
+              $('#toAbout,#toAbout1,#toGuide,#toGuide1,#toContribution,#toContribution1,#toNews,#toNews1').css({"font-size":"10px","text-decoration":"none"});
+
+          }
+
+      }else{
+          if ($('body').width() > 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+              $('#toConnect,#toConnect1').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+
+          }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+              $('#toConnect,#toConnect1').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+
+          }
+
+      }
+  }
+  function handlePrice(){
+    var bodyHeight = $('body').height();
+    var navHeight = $('.navbar').height();
+    var documentHeight = $(document).height();
+    if ($(document).scrollTop() >= 100){
+        $('.triangle_border_down').fadeOut(100);
+    }else{
+      $('.triangle_border_down').fadeIn(100);
+    }
+  }
+
+  handlePrice();
+  handleScrollAbout();
+  handleScrollGuide();
+  handleScrollContribution();
+  handleScrollNews();
+  handleScrollConnect();
+  $(document).scroll(function () {
+    handlePrice();
+    handleScrollAbout();
+    handleScrollGuide();
+    handleScrollContribution();
+    handleScrollNews();
+    handleScrollConnect();
+  });
+
+</script>
+<script>
+    var myswiper = new Swiper('.swiper-container1', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        initialSlide:1,
+        coverflowEffect: {
+            rotate:0,
+            stretch:0,
+            depth: 100,
+            modifier:3,
+            slideShadows :true,
+        }
+
+    });
+</script>
+<script>
+  $(".Button").html("See text tutorial")
+  $(".hide").hide()
+  $(".Button").click(function() {
+          this.innerHTML == "See video tutorial"
+          $(".show").hide();
+          $(".hide").show()
+      }
+
+  )
+  $(".Button1").html("See video tutorial")
+  $(".Button1").click(
+      function() {
+          this.innerHTML == "See text tutorial"
+          $(".show").show();
+          $(".hide").hide()
+
+      }
+  )
+
+
+
+
+
+</script>
+<script>
+    $(function(){
+        $("#toAbout1").click(function(){
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                if ($target.length) {
+                    var targetOffset = $target.offset().top;
+                    $('html,body').animate({scrollTop: targetOffset+310},1000);
+                    return false;
+                }
+            }
+        });
+        $("#toGuide1").click(function(){
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                if ($target.length) {
+                    var targetOffset = $target.offset().top;
+                    $('html,body').animate({scrollTop: targetOffset-100},1000);
+                    return false;
+                }
+            }
+        });
+        $("#toContribution1").click(function(){
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                if ($target.length) {
+                    var targetOffset = $target.offset().top;
+                    $('html,body').animate({scrollTop: targetOffset-30},1000);
+                    return false;
+                }
+            }
+        });
+        $("#toNews1").click(function(){
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                if ($target.length) {
+                    var targetOffset = $target.offset().top;
+                    $('html,body').animate({scrollTop: targetOffset-100},1000);
+                    return false;
+                }
+            }
+        });
+        $("#toConnect1").click(function(){
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+                if ($target.length) {
+                    var targetOffset = $target.offset().top;
+                    $('html,body').animate({scrollTop: targetOffset},1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+  $(".hover").mouseover(function(){
+
+      $(".cn").css("display","block")
+  })
+  $(".hover").mouseout(function(){
+      $(this).css({"font-size":"16px","text-decoration":"none","font-weight":"normal"})
+      $(".cn").css("display","none")
+  })
+</script>
+
+
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta content=" width=device-width,initial-scale=1.0",name="viewport"id=" viewport"/>-->
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+    <link rel="icon" href="images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <title>primecion</title>
+    <style>
+        ul ,li{
+            list-style: none;
+        }
+        .about-container{
+            width: 100%;
+            padding: 0 120px;
+            padding-top: 104px;
+            box-sizing: border-box;
+        }
+        .about-container .content-container{
+            margin: 100px auto;
+            margin-bottom: 0px;
+            position: relative;
+        }
+        .about-container .content-container div{
+            overflow: hidden;
+        }
+        .about-container .content-container div img{
+            width: 25%;
+            float: right;
+            margin: 50px 80px;
+        }
+
+        .about-container .content-container div p{
+            font-size: 14px;
+            line-height: 2;
+            color: #555;
+            margin-top: 30px;
+        }
+        .navBar .navBar-nav{
+            background-color: rgba(0,0,0,0.5);
+        }
+        .text-d{
+            font-size: 24px;
+            text-decoration: underline;
+        }
+        @media screen and (max-width: 768px) {
+
+            .about-container{
+                padding: 0px 20px;
+            }
+
+            .about-container{
+                padding-top: 0px;
+            }
+            .about-container .content-container div img{
+                width: 100%;
+                padding: 0 10%;
+                box-sizing: border-box;
+                margin: 0;
+                float: none;
+            }
+            .about-container .content-container div img{
+                padding-top: 20px;
+            }
+            h1{
+                font-size: 32px;
+            }
+            h3{
+                font-size: 22px;
+            }
+        }
+        .getSk{
+            position: absolute;
+            top: 0;
+            z-index: -10;
+        }
+        .getFoundation,.getPrimecoin{
+            position: absolute;
+            top: -200px;
+            z-index: -10;
+        }
+    </style>
+</head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" id="nav">
+            <img src="images/logo.png" alt="">
+            <span>Primecoin</span>
+        </a>
+        <!--<span class="posi-wallet">-->
+        <!--<img src="images/tubiao_qianbao.png" alt="">-->
+        <!--Current Price-->
+        <!--</span>-->
+
+        <div class="triangle_border_down" id="div_ov_y">
+            <p class="price">XPM/USD:$0.745925</p>
+            <P class="rise" id="Rise" ></P>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--web-->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link td" href="index.html#about" id="toAbout1">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link td" href="index.html#guide" id="toGuide1">Guide</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link td" href="index.html#contribution" >Contribution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link td" href="index.html#news" >News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link td" href="#connect" id="toConnect1">Connect</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link td hover" href=" http://www.primecoin.today/"target="_blank" >中文<br><p class="cn" >(Translated and hosted by community member)</p></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <script>
+        changeDivWidth();
+        function changeDivWidth(){
+            var lw=$('#nav').offset().left;
+            var w = document.getElementById('nav').clientWidth;//获取宽度
+            document.getElementById("div_ov_y").style.left=w+lw+20+"px";
+
+        }
+    </script>
+    <!--iphone-->
+    <div class="navBar" id="navBar">
+        <ul class="navBar-nav row justify-content-center" id="navBar-nav">
+            <li class="nav-item col-2 col-md-2">
+                <a class="nav-link td" href="index.html#about" id="toAbout">About</a>
+            </li>
+            <li class="nav-item col-2 col-md-2">
+                <a class="nav-link td" href="index.html#guide" id="toGuide">Guide</a>
+            </li>
+            <li class="nav-item col-2 col-md-2">
+                <a class="nav-link td" href="index.html#contribution" id="toContribution" >Contribution</a>
+            </li>
+            <li class="nav-item col-2 col-md-2">
+                <a class="nav-link td" href="index.html#news" id="toNews" >News</a>
+            </li>
+            <li class="nav-item col-2 col-md-2">
+                <a class="nav-link td" href="index.html#connect" id="toConnect">Connect</a>
+            </li>
+            <li class="nav-item  col-4 col-md-2">
+            <a class="td " href=" http://www.primecoin.today/" target="_blank">中文</a>
+            </li>
+        </ul>
+    </div>
+    <div id="pull">
+        <img src="images/takeIn.png" alt="">
+    </div>
+        <a name="sk" class="getSk"></a>
+        <div class="about-container">
+            <div class="content-container">
+                
+                <h1>Sunny King</h1>
+                <div>
+                    <img src="images/about1.jpg" alt="" />
+                   <p>
+                       Sunny King, dedicated to Satoshi Nakamoto and all who have fought for the freedom of mankind, invented Peercoin(PPC) and Primecoin(XPM) that have made significant contributions to the blockchain technology. Besides, he created Proof-of-Stake(PoS) to make the blockchain vastly more energy efficient. Proof-of Stake is widely adopted nowadays and some blockchains even use a combination of both PoW and PoS. And in 2018, the Sunny King team released VEE blockchain database cloud with high performance and high scalability.
+                   </p>
+                    <p>
+                        Peercoin is the first currency to protect the blockchain with Proof-of-Stake (PoS), as opposed to Proof-of-Work (PoW) adopted by Bitcoin. PoS mechanism consumes less energy for mining. Nowadays, PoS mechanism is adopted at an even greater scale, such as by EOS and Ethereum.
+                    </p>
+                   <p>
+                       Since PoW provides a consensus mechanism with the highest level of robustness and is still the current mainstream consensus mechanism, Primecoin is another attempt by Sunny King to avoid the energy waste of PoW. With Primecoin, he created the concept of UPoS(Useful Proof-of-Work). It is a compromise between the necessary energy consumption and using that to conduct useful work. Sunny King found a solution: looking for prime numbers. The network computation power is used to do scientific computations. So far, Primecoin is the first and only active cryptocurrency to conduct useful mining.
+                   </p>
+                  <p>
+                      While the designs are based on a new concept of energy sustainability, these coins are also designed with unprecedented sophistication in their economic models, with flexible minting and instantaneous autocratic adjustments to ensure a robust mining and financial stability.
+                  </p>
+                  <p>
+                      Besides engaging in the invention of architecture and blockchain base technology, Sunny King is also committed to maintaining a stable, fair and free virtual money market. Sunny King said that he embraces the free market principle. He expressed in interviews that he is libertarian but does not advocate direct opposition to governments. In addition, he thinks that the virtual currency also needs some moral considerations. People are entitled to free choices to what technology they want to use. The biggest challenge would be to find the smoothest way for the traditional world to transition into the new virtual currency and community. Sunny King emphasized “Conscience:” This is a free market but in order to win this free war, we should also look at ourselves in the mirror.
+                  </p>
+
+                </div>
+            </div>
+
+            <div class="content-container">
+                <a name="foundation" class="getFoundation"></a>
+                <h1>Foundation</h1>
+                <div>
+                    <img src="images/c.png" alt="" />
+                   <p>
+                       The Primecoin Foundation is established under the advice of the creator of Primecoin, Sunny King. It supports and promotes the evolving Primecoin protocol and its community, engages in cutting-edge base layer research to preserve the legacy of Useful Proof-of-Work Consensus that Primecoin introduced, and establishes an easily accessible ecosystem that realizes the future of decentralization.
+                   </p>
+                   <p>
+                       The lack of a core development team and official support has prevented Primecoin from becoming one of the most active and used crypto-currency, although many believe it to be one of the most practical blockchain technology, including the founder of Ethereum, Vitalik Buterin. Primecoin is a top performing base level chain based on which to build more functionalities, with the fastest Proof-of-Work consensus-based transaction capacity and well-built minting and burning system. However, many supporters and the original team believes that Primecoin is far from realizing its full potential, therefore established the Primecoin foundation in 2018. The mission of the foundation is to "support and promote the evolving Primecoin protocol and its community, engage in cutting-edge base layer research to preserve the legacy of Useful Proof-of Work Consensus that Primecoin introduced, and establishes an easily accessible ecosystem that realizes the future of decentralization."
+                   </p>
+                   <p>
+                       This platform provides Primecoin users and developers with a dedicated space to communicate their ideas, ask questions and post updates. Here, you will find the latest Primecoin development updates, meet other people that share your enthusiasm, problems, and solutions that other people have encountered, or discussion about the market and policies. Industry news, user instructions, and fun events will be updated regularly. Sign up and join the community today, introduce yourself under "General", and enjoy the brand new Primecoin experience!
+                   </p>
+                </div>
+            </div>
+
+            <div class="content-container">
+                <a name="primecoin" class="getPrimecoin"></a>
+                <h1>Primecoin</h1>
+                <div>
+                    <img src="images/a.png" alt="" />
+                    <p>
+                        Primecoin was first conceived by Sunny King in 2012 and was released in 2013.
+                        <br>In 2012, the energy consumption and waste problem of crypto-currency have not become a major environmental concern and subject to as much debate as it is today. However, Sunny King foresaw the problem in 2012. Out of technical efficiency and environmental considerations, he decided to create a completely new base level consensus. It must match the security level of SHA256 based hash-cash proof of work mechanism, while leveraging the network’s computing power to conduct useful scientific computing. With these goals in mind, Primecoin was created.
+                        <br><br>Primecoin has the following unique and powerful features:
+                    <h3>1. Speed</h3>
+                    <p>
+                        Proof of Work is still considered as the most robust consensus available. However, such a mechanism is usually slow due to the large amount of computation required.
+                        <br>Primecoin offers the fastest transaction speed among proof of work based crypto-currencies, clocking as high as 70 TPS since its release and a 30 second expected confirmation time, 10 times that of Bitcoin, 8 times that of Ethereum and 4 times that of Litecoin. Possessing a fast native transaction speed support coupled with future development, Primecoin could be truly useful and be integrated with our daily life.
+                    </p>
+                    <h3>2. Legacy and Scientific Value</h3>
+                    <p>
+                        Primecoin is the first crypto-currency to adopt an Useful-Proof-of-Work (UPoW) consensus mechanism, leveraging all the network’s computing power to conduct scientific computing.
+                        <br>The proof of work of Primecoin is based on a mathematical concept of prime chains. Problems such as the Riemann Hypothesis remains unsolved for almost 150100 years.
+                        <br>Primecoin proof of work searches for large prime chains, fueling research that aims to tackle these problems.
+                        <br>As Sunny King expressed in one of his interviews with LetsTalkBitcoin, he wanted his invention to inspire people to design more efficient algorithms to discover prime numbers and to prove that proof of work hashing power can be used for scientific computing. Indeed, his wishes came true. Volunteers designed and continue to optimize GPU mining algorithms for Primecoin that are hundreds of times more efficient than traditional prime number search, and Primecoin inspired other scientific computing crypto-currencies such as Gridcoin.
+                        Not only does Primecoin offer what other blockchain technologies have to offer and more, it also propels human technology forward with a greener footprint, leaving a precious legacy for the future generations.
+                    </p>
+                    <h3>3. Economy</h3>
+                    <p>
+                        Primecoin features an original economic system that provides a more stable and reliable equilibrium with a natural tendency to accumulate value over long-term usage.
+                        <br>i.	Flexible Minting:
+                        <br>The minting rate is flexible, in contrast with the conventional predetermined, mostly linear design. Minting of new Primecoin is inversely proportional to the square of the total hashing power. Coupled with instantaneous difficulty adjustments, this means a slight change in network hashing power will result in a major difference and therefore great resistance to stabilize mining equilibrium.
+                        <br>ii.	Transaction Fee Burning:
+                        <br>In the Primecoin framework, transaction fees are designed to be burned and become unspendable once used. Approximately 40% of maximum transaction capacity will saturate the production and lead Primecoin into a deflationary state, further increasing its scarcity. This mechanism will not affect the sender or the receiver of the transaction, thus has no effect on the usage of Primecoin. In one sentence, the more you use Primecoin, the more valuable it becomes.
+                        <br>iii.	Natural scarcity:
+                        <br>Unlike conventional crypto-currencies, where both the difficulty and mining are artificially designed, where coins are awarded to solve artificial puzzles such as finding a SHA256 hash. Primecoin is derived from nature. By finding naturally rare prime chains, Primecoin resembles traditional value vehicles such as gold and silver.
+                        <br><br>Compared to conventional economics system of crypto-currencies, Primecoin incorporates two unique features that contribute to its intricate economy. The burning of transaction fees will increase the value of Primecoin the more transactions are processed, which in
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <!--<p>-->
+        <!--Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous-->
+        <!--and everyone can take part. Through many of its unique properties-->
+        <!--</p>-->
+        <div id="subscribe-input-wraper">
+            <span class="new-news">Subscribe to receive the latest updates</span>
+            <!--<div class="createsend-button "  data-listid="j/03/77D/341/D67FD91990F19504">Subscribe</div>-->
+        </div>
+
+        <div class="row" id="list-wraper">
+            <ul class="col-6 col-md-3">
+                <li>
+                    Resource
+                </li>
+                <li>
+                    <a name="connect" target="_blank" href="http://primecoin.io/bin/primecoin-paper.pdf">Whitepaper</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://forum.primecoin.org/c/technical-support">Technical Support</a>
+                </li>
+                <li>
+                    <a target="_blank" href="download.html">Software</a>
+                </li>
+            </ul>
+            <ul class="col-6 col-md-3">
+                <li>
+                    Related Links
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.vee.tech/">VEE</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://peercoin.net/">Peercoin</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.Primecoin.org">Foundation</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/primecoin/primecoin/wiki">Wiki</a>
+                </li>
+            </ul>
+            <ul class="col-6 col-md-3">
+                <li>
+                    Developer
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/primecoin/primecoin">Github</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://forum.primecoin.org/c/developer-discussion">Technical Discussion</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.Primecoin.org">Get Sponsorship</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.Primes.zone">Latest Status</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://t.me/PrimecoinFoundation">Telegram Discussion</a>
+                </li>
+            </ul>
+            <ul class="col-6 col-md-3">
+                <li>
+                    Contact  Us
+                </li>
+                <li>
+                    <a target="_blank" href="http://forum.primecoin.org/t/how-to-contact-us/56">Forum</a>
+                </li>
+                <li>
+                    <a target="_blank" href="news.html">Press</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://forum.primecoin.org/t/how-to-contact-us/56">Message Us</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.primecoin.org/donate.html" >Donate</a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="row justify-content-md-center" id="footer-link">
+            <div><a class="footer-link-one" target="_blank" href="https://t.me/PrimecoinFoundation "></a><span>Telegram</span><div class="arrow-down"></div></div>
+            <!--<div><a class="footer-link-two" target="_blank" href="https://discord.gg/UTQz4Zq"></a><span>Discord</span><div class="arrow-down"></div></div>-->
+            <div><a class="footer-link-three" target="_blank" href="http://forum.primecoin.org"></a><span>Forum</span><div class="arrow-down"></div></div>
+            <div><a class="footer-link-four" target="_blank" href="https://www.youtube.com/channel/UCQZpBc1864PakvidBOHFqPw?"></a><span>Youtube</span><div class="arrow-down"></div></div>
+            <div><a class="footer-link-five" target="_blank" href=" https://twitter.com/Primecoin_org"></a><span>Twitter</span><div class="arrow-down"></div></div>
+            <div><a class="footer-link-seven" target="_blank" href=" https://medium.com/primecoin"></a><span>Medium</span><div class="arrow-down"></div></div>
+            <div><a class="footer-link-six" target="_blank" href="https://www.reddit.com/r/primecoin/"></a><span>Reddit</span><div class="arrow-down"></div></div>
+        </div>
+        <p class="footer-bottom">
+            © Copyright 2018. Primecoin.<a href="Privacy.html" style="color: #007bff">&nbsp; &nbsp;Privacy Policy</a>
+        </p>
+    </div>
+
+    <!--modal-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <p>Your help means a lot for the Primecoin Project. If you wish to help the foundation, please pay to the below address.  </p>
+                    <p style="text-align: center;">Primecoin wallet address:</p>
+                    <p>APMb1yoFSL8wN4FGSKCJp4EB5BzhfEjwx2 </p>
+                    <img src="images/qrcode.png" alt="" class="qrcode" style="width: 60px;margin-left: calc(50% - 30px);">
+                    <form id="sub_Form" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="A61C50BEC994754B1D79C5819EC1255C189E7A242C023A36B4EA163EDFD48EEED086B8A1C9AA115FC8987185682F747D77F1B068296A34E192C1EE337F463A56">
+                        <p>
+                            <label for="field_Email" >Email:</label>
+                            <input id="field_Email" name="cm-wdukiy-wdukiy" type="email" class="js-cm-email-input" required />
+                        </p>
+                        <div>
+                            <input id="cm_privacy_consent" name="cm-privacy-consent" required type="checkbox"/>
+                            <label for="cm_privacy_consent">I agree to be emailed</label>
+                            <input id="cm_privacy_consent_hidden" name="cm-privacy-consent-hidden" type="hidden" value="true" />
+                        </div>
+                        <p style="margin-bottom: 0">
+                            <button class="js-cm-submit-button btn" type="submit">Submit</button>
+                        </p>
+                    </form>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+
+        </div>
+    </body>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/public.js"></script>
+    <script>
+        var hideHeight = $('.navbar').height() + 60;
+        function handleScrollConnect(){
+          var bodyHeight = $('body').height();
+          var footerHeight = $('.footer').height();
+          var documentHeight = $(document).height();
+
+          if ($(document).scrollTop() >= (documentHeight-footerHeight-bodyHeight)){
+            if ($('body').width() > 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none"});
+              $('#toConnect,#toConnect1').css({"font-size":"24px","text-decoration":"none"});
+              $('#toAbout,#toAbout1,#toGuide,#toGuide1').css({"font-size":"16px","text-decoration":"none"});
+            }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none"});
+              $('#toConnect,#toConnect1').css({"font-size":"12px","text-decoration":"underline"});
+
+              $('#toAbout,#toAbout1,#toGuide,#toGuide1').css({"font-size":"10px","text-decoration":"none"});
+
+            }
+
+          }else{
+            if ($('body').width() > 768){
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+              $('#toConnect,#toConnect1').css({"font-size":"16px","text-decoration":"none","font-weight":"normal"});
+
+            }else{
+              $('.navbar-light .navbar-nav .active>.nav-link').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+              $('#toConnect,#toConnect1').css({"font-size":"10px","text-decoration":"none","font-weight":"normal"});
+
+            }
+
+          }
+        }
+        handleScrollConnect();
+        $(document).scroll(function () {
+            handleScrollConnect();
+        });
+    </script>
+<script type="text/javascript">
+    $(".hover").mouseover(function(){
+
+        $(".cn").css("display","block")
+    })
+    $(".hover").mouseout(function(){
+        $(this).css({"font-size":"16px","text-decoration":"none","font-weight":"normal"})
+        $(".cn").css("display","none")
+    })
+</script>
+</html>

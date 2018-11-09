@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Announcement for strategic Partnership between Primecoin Foundation and ANBI Exchange" />
+    <meta property="og:description" content="There has been an ongoing conversation between the Primecoin Foundation and ANBI Exchange www.anbi.com)Although ANBI is a recently launched platform, their vision towards improving the market fairness, transparency,
+    self-regulation upon existing trading platform through continuous bold innovation and research resonate deeply with the mission of Primecoin Foundation,which carries on Sunny King’s goal of improving the wellbeing of mankind through blockchain technology." />
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>Primecoin</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <style>
+        ul,li{
+            list-style: none;
+        }
+        body {
+            font-size: 14px;
+            color:#000;
+            margin: 0;
+            padding: 0;
+        }
+        .triangle_border_down{
+            width:0;
+            height:0;
+            border-width:60px 100px 0px;
+            border-style:solid;
+            border-color:#fff transparent transparent;
+            position: absolute;
+            top:0;
+            /*left: 280px;*/
+            font-size:10px;
+            display: none;
+
+
+        }
+        .triangle_border_down .price{
+            color: #c6c8ca;
+            display: block;
+            width: 100px;
+            position: absolute;
+            top:-56px;
+            left: -50px;
+            text-align: center;
+        }
+        .triangle_border_down .rise{
+            color: #1c7430;
+            display: block;
+            width: 100px;
+            position: absolute;
+            top:-35px;
+            left:-50px;
+            text-align: center;
+        }
+        .center{
+            display: none;
+        }
+        .main{
+            width: 100%;
+            padding:20px;
+            padding-top:150px;
+            color: #ffffff;
+            background: #000000;
+            text-align: center;
+            font-size: 24px;
+        }
+        .main p{
+            font-size:36px;
+        }
+        .main .content{
+            max-width:1920px;
+            margin: 0 auto;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -o-flex;
+            display: -ms-flex;
+            display: flex;
+            text-align: left;
+            justify-content:center;
+
+
+        }
+        #d ,#other-news{
+            width:15%;
+            position: relative;
+        }
+        #d1 ,#d3{
+
+            padding-top:80px;
+            box-sizing: border-box;
+            position: fixed;
+
+
+
+
+        }
+
+        #d1 .timer , #d3 .timer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            color: #ff9900;
+            font-size: 16px;
+        }
+        #d1 .timer img {
+            width:40px;
+            margin: 0 10px;
+        }
+        #d3 .timer img{
+            width:30px;
+            margin: 0 5px;
+        }
+        #d1 .timer .circular{
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        #d1 .timer  .share{
+            border: none;
+        }
+        ul li{
+            font-size: 16px;
+        }
+        .button{
+            width: 150px;
+            height:40px;
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: left;
+            color: #ffffff;
+            border-radius:5px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+
+
+        }
+        .button a{
+            text-align: left;
+        }
+        .btn-tw{
+            background:rgb(21,155,214);
+            border: rgb(21,155,214);
+
+        }
+        .btn-face{
+            background: rgb(254,153,0);
+            border: rgb(254,153,0);
+
+        }
+        .button img{
+            float: left;
+            width: 30px;
+            margin-left:15px;
+        }
+        .button span{
+            margin-left:10px;
+            display:inline-block;
+            margin-top: 4px;
+        }
+        #d1 .eye{
+            width: 120px;
+            margin: 0 auto;
+            font-size: 16px;
+        }
+        #d1 .eye img{
+            width: 40px;
+            margin-right: 20px;
+        }
+        #d2{
+            flex:1;
+            font-size: 20px;
+
+
+        }
+        #d2 span{
+            font-size: 28px;
+            font-weight:bold;
+        }
+
+
+        .news-bottom-container img{
+            width: 170px;
+            height: 80px;
+        }
+        .news-bottom-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .news-bottom-container a{
+            width: 170px;
+            height: 80px;
+            margin-top: 10px;
+            margin-bottom:40px;
+            position: relative;
+        }
+        .news-bottom-container .title{
+            width: 170px;
+            height:60%;
+            font-size: 12px;
+            line-height: 14px;
+            color: #fff;
+            text-align: center;
+            background:rgba(125,125,125,0.5);
+            position: absolute;
+            top:85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #img .img{
+            width:1000px;
+            margin-left: 40px;
+        }
+        .button a{
+            width: 100%;
+            line-height: 30px;
+        }
+        .button a:hover{
+            text-decoration: none;
+        }
+
+        .btn-tw:hover{
+            background-color: rgb(78,141,167);
+            border: rgb(78,141,167);
+        }
+        .btn-face:hover{
+            background-color: rgb(208,161,91);
+            border: rgb(208,161,91);
+        }
+
+
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 12px;
+            }
+            .main{
+                display: none;
+            }
+            .center{
+                display: block;
+                padding: 0 20px;
+                padding-top: 100px;
+                color: #fff;
+                background: #000000;
+                text-align: center;
+
+            }
+            .center p{
+                font-size: 20px;
+            }
+            .center .content{
+                padding: 0px 10px;
+            }
+            .center .content p {
+                font-size: 16px;
+                text-align: left;
+            }
+            .center .content p span{
+                font-weight: bold;
+                font-size: 24px;
+            }
+            #d4 .timer ,#d5 .timer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px 0px;
+            }
+            #d4 .timer img ,   #d5 .timer img{
+                width: 125px;
+            }
+
+            #d4 .timer .circular , #d5 .timer .circular {
+                width:80px;
+                color:#ff9900;
+            }
+
+            .btn-tw , .btn-face{
+                width: 140px;
+                height: 40px;
+            }
+
+            .eye img{
+                width: 30px;
+                margin-right: 20px;
+            }
+            .news-bottom-container a{
+                display: block;
+                width: 220px;
+                height: 120px;
+            }
+            .news-bottom-container img{
+                width: 220px;
+                height: 120px;
+            }
+            .news-bottom-container .title{
+                width: 220px;
+            }
+            #img .img{
+                width: 300px;
+
+            }
+
+
+        }
+        @media screen and (min-width: 1920px){
+            .main{
+                padding-top: 140px;
+            }
+            #d1 {
+                padding-top: 80px;
+                box-sizing: border-box;
+                margin-left: -100px;
+                margin-right: 20px;
+            }
+            #d2{
+                max-width: 1000px;
+            }
+            #d3{
+
+                padding-top: 80px;
+                box-sizing: border-box;
+                margin-right: -250px;
+            }
+            #d1 .timer img{
+                width: 80px;
+                margin: 0 20px;
+            }
+            #d3 .timer img{
+                width: 65px;
+            }
+            #d1 .timer .circular{
+                padding: 30px;
+            }
+            .button{
+                width: 180px;
+                height:60px;
+
+            }
+            .button img{
+                margin-left:25px;
+            }
+            .button span{
+                margin-left:14px;
+            }
+            .news-bottom-container{
+                left: 28%;
+
+            }
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" id="nav">
+        <img src="images/logo.png" alt="">
+        <span>Primecoin</span>
+    </a>
+    <!--<span class="posi-wallet">-->
+    <!--<img src="images/tubiao_qianbao.png" alt="">-->
+    <!--Current Price-->
+    <!--</span>-->
+
+    <div class="triangle_border_down" id="div_ov_y">
+        <p class="price">XPM/USD:$0.745925</p>
+        <P class="rise" id="Rise" ></P>
+    </div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--web -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#about" id="toAbout1">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#guide" id="toGuide1">Guide</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#contribution" >Contribution</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#news" >News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link td" href="index.html#connect" id="toConnect1">Connect</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link td hover" href=" http://www.primecoin.today/"target="_blank" >中文<br><p class="cn" >(Translated and hosted by community member)</p></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<script>
+    changeDivWidth();
+    function changeDivWidth(){
+        var lw=$('#nav').offset().left;
+        var w = document.getElementById('nav').clientWidth;//获取宽度
+        document.getElementById("div_ov_y").style.left=w+lw+20+"px";
+
+    }
+</script>
+<div class="navBar" id="navBar">
+    <ul class="navBar-nav row justify-content-center" id="navBar-nav">
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#about" id="toAbout">About</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#guide" id="toGuide">Guide</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#contribution" >Contribution</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#news" >News</a>
+        </li>
+        <li class="nav-item col-2 col-md-2">
+            <a class="nav-link td" href="index.html#connect" id="toConnect">Connect</a>
+        </li>
+        <li class="nav-item col-4 col-md-2">
+        <a class="nav-link td" href=" http://www.primecoin.today/" target="_blank">中文</a>
+        </li>
+    </ul>
+</div>
+<div id="pull">
+    <img src="images/takeIn.png" alt="">
+</div>
+
+
+
+<div id="news" class="view">
+
+    <div class="main"style="position: relative">
+        <div class="row content">
+
+            <div id="d">
+                <div id="d1">
+                    <div class="timer">
+                        <img src="images/news/line1.png">
+                        <div class="circular">Time</div>
+                        <img src="images/news/line.png">
+                    </div>
+                    <ul style="text-align: center;padding-left: 0px">
+                        <li id="year">2018</li>
+                        <li>|</li>
+                        <li id="mouth">10</li>
+                        <li>|</li>
+                        <li id="date">11</li>
+                        <li>|</li>
+                        <li id="time">11:11:11</li>
+                    </ul>
+                    <div class="timer">
+                        <img src="images/news/line1.png">
+                        <div class="circular share">Share</div>
+                        <img src="images/news/line.png">
+                    </div>
+                    <button type="button" class="button btn-tw">
+
+                        <a href="https://twitter.com/intent/tweet?url=http://site3.mcgventure.cn/news/newsOthers.html&via=https://twitter.com/Primecoin_org&text=Announcement for strategic Partnership between Primecoin Foundation and ANBI Exchange" target="_blank" data-url="${shareUrl}" data-text="" data-via="" data-lang="ja" style="font-size: 16px;color: #fff">
+                            <img src="images/news/message.png">
+                            &nbsp;&nbsp;&nbsp;&nbsp;Twitter
+                        </a>
+                    </button>
+                    <button type="button" class="button btn-face">
+
+                        <a href="https://www.facebook.com/sharer.php?u=http://site3.mcgventure.cn/news/newsOthers.html&t=1234567890" target="_blank" style="font-size: 16px;color: #fff">
+                            <img src="images/news/face.png">
+                            &nbsp;&nbsp;&nbsp;&nbsp;Facebook
+                        </a>
+                    </button>
+                    <!--<div class="timer">-->
+                    <!--<img src="images/news/line1.png">-->
+                    <!--<div class="circular share">Pageview</div>-->
+                    <!--<img src="images/news/line.png">-->
+                    <!--</div>-->
+                    <!--<div class="eye">-->
+                    <!--<img src="images/news/eye.png"><span>222</span>-->
+                    <!--</div>-->
+                </div>
+            </div>
+            <div id="d2">
+                <img src="images/news/2.jpg" style="width:800px; position:relative; left: 50%; transform: translateX(-50%)">
+                <p style="text-align: center">Announcement for strategic Partnership between Primecoin Foundation and ANBI Exchange</p>
+                <span>T</span>here has been an ongoing conversation between the Primecoin Foundation and ANBI Exchange <a href="http://www.anbi.com" style="text-decoration: none;color: #007bff">(www.anbi.com）</a>
+                Although ANBI is a recently launched platform, their vision towards improving the market fairness, transparency, self-regulation upon existing trading platform through continuous bold innovation and research resonate deeply with the mission of Primecoin Foundation,
+                which carries on Sunny King’s goal of improving the wellbeing of mankind through blockchain technology.
+               We are deeply impressed by their passion and capability, which they have clearly expressed in their technical whitepaper.
+                Now, the Foundation has established a strategic partnership with the exchange. ANBI has launched their XPM/BTC trading pair at 10AM, October 24th, 2018 (Singapore Standard Time), and is planning to launch other trading pairs.
+                The foundation will use ANBI as its official resource to convert its donation received into XPM in order to carry out our duty to fund Primecoin related ecosystem. We welcome and encourage everyone in the community to trade on ANBI.
+            </div>
+            <div id="other-news">
+                <div id="d3">
+                <div class="timer">
+                    <img src="images/news/line1.png">
+                    <div class="circular share">Related Links</div>
+                    <img src="images/news/line.png">
+                </div>
+                <div class="news-bottom-container">
+                    <a href="https://bitcoinmagazine.com/articles/primecoin-the-cryptocurrency-whose-mining-is-actually-useful-1373298534/" target="_blank" >
+                        <img src="images/news/01.png" alt="">
+                        <div class="title"  >Vitalik Buterin:Primecoin: The Cryptocurrency Whose Mining Is Actually Useful</div>
+                    </a>
+                    <a href="https://bitcoinmagazine.com/articles/primecoin-has-exchange-casino-already-breaking-world-records-1373574788/ " target="_blank">
+                        <img src="images/news/01.png" alt="">
+                        <div class="title" >Vitalik Buterin:Primecoin Has Exchange, Casino, Already Breaking World Records</div>
+                    </a>
+                    <a href="https://bitcoinmagazine.com/articles/july-in-review-1375922022/" target="_blank" >
+                        <img src="images/news/03.png" alt="">
+                        <div class="title"  >Vitalik Buterin:July In Review</div>
+                    </a>
+                    <a href="https://bitcoinmagazine.com/articles/defense-alternative-cryptocurrencies/" target="_blank">
+                        <img src="images/news/05.jpg" alt="">
+                        <div class="title"  >Vitalik Buterin:In Defense Of Alternative Cryptocurrencies</div>
+                    </a>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="center">
+        <img src="images/news/2.jpg" style="width: 300px;position:relative;">
+        <p>Announcement for strategic Partnership between Primecoin Foundation and ANBI Exchange</p>
+        <div class="content" style="text-align: left">
+            <span>T</span>here has been an ongoing conversation between the Primecoin Foundation and ANBI Exchange <a href="http://www.anbi.com" style="text-decoration: none;color: #007bff">(www.anbi.com）</a>
+            Although ANBI is a recently launched platform, their vision towards improving the market fairness, transparency, self-regulation upon existing trading platform through continuous bold innovation and research resonate deeply with the mission of Primecoin Foundation,
+            which carries on Sunny King’s goal of improving the wellbeing of mankind through blockchain technology.
+            We are deeply impressed by their passion and capability, which they have clearly expressed in their technical whitepaper.
+            Now, the Foundation has established a strategic partnership with the exchange. ANBI has launched their XPM/BTC trading pair at 10AM, October 24th, 2018 (Singapore Standard Time), and is planning to launch other trading pairs.
+            The foundation will use ANBI as its official resource to convert its donation received into XPM in order to carry out our duty to fund Primecoin related ecosystem. We welcome and encourage everyone in the community to trade on ANBI.
+        </div>
+        <div id="d4">
+            <div class="timer">
+                <img src="images/news/line1.png">
+                <div class="circular">Time</div>
+                <img src="images/news/line.png">
+            </div>
+            <p id="date1">2018-11-01-18:07:10</p>
+            <div class="timer">
+                <img src="images/news/line1.png">
+                <div class="circular share">Share</div>
+                <img src="images/news/line.png">
+            </div>
+            <button type="button" class="button btn-tw"><img src="images/news/message.png"><a href="https://twitter.com/share" target="_blank" data-url="${shareUrl}" data-text="" data-via="" data-lang="ja" style="margin-left: 10px;color: #fff">Twitter</a></button>
+            <button type="button" class="button btn-face"><img src="images/news/face.png"><a href="https://www.facebook.com/sharer.php?u=${shareUrl}" target="_blank" style="margin-left:10px;color: #fff">Facebook</a></button>
+
+            <!--<div class="timer">-->
+            <!--<img src="images/news/line1.png">-->
+            <!--<div class="circular share">Pageview</div>-->
+            <!--<img src="images/news/line.png">-->
+            <!--</div>-->
+            <!--<div class="eye">-->
+            <!--<img src="images/news/eye.png"><span>222</span>-->
+            <!--</div>-->
+        </div>
+        <!--<div id="d5">-->
+        <!--<div class="timer">-->
+        <!--<img src="images/news/line1.png">-->
+        <!--<div class="circular share">Related Links</div>-->
+        <!--<img src="images/news/line.png">-->
+        <!--</div>-->
+        <!--<div class="news-bottom-container">-->
+        <!--<a href="###">-->
+        <!--<img src="images/news/3.jpg" alt="">-->
+        <!--<div class="title"></div>-->
+        <!--</a>-->
+        <!--<a href="###">-->
+        <!--<img src="images/news/8.jpg" alt="">-->
+        <!--<div class="title"></div>-->
+        <!--</a>-->
+        <!--<a href="###">-->
+        <!--<img src="images/news/6.jpg" alt="">-->
+        <!--<div class="title"></div>-->
+        <!--</a>-->
+        <!--<a href="###">-->
+        <!--<img src="images/news/7.jpg" alt="">-->
+        <!--<div class="title"></div>-->
+        <!--</a>-->
+        <!--</div>-->
+
+        <!--</div>-->
+    </div>
+
+    <div class="footer">
+        <!--<p>-->
+        <!--Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous-->
+        <!--and everyone can take part. Through many of its unique properties-->
+        <!--</p>-->
+        <div id="subscribe-input-wraper">
+            <span class="new-news">Subscribe to receive the latest updates</span>
+            <!--<div class="createsend-button "  data-listid="j/03/77D/341/D67FD91990F19504">Subscribe</div>-->
+        </div>
+
+        <div class="row" id="list-wraper">
+            <ul class="col-6 col-md-3">
+                <li>
+                    Resource
+                </li>
+                <li>
+                    <a name="connect" target="_blank" href="http://primecoin.io/bin/primecoin-paper.pdf">Whitepaper</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://forum.primecoin.org/c/technical-support">Technical Support</a>
+                </li>
+                <li>
+                    <a target="_blank" href="download.html">Software</a>
+                </li>
+            </ul>
+            <ul class="col-6 col-md-3">
+                <li>
+                    Related Links
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.vee.tech/">VEE</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://peercoin.net/">Peercoin</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.Primecoin.org">Foundation</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/primecoin/primecoin/wiki">Wiki</a>
+                </li>
+            </ul>
+            <ul class="col-6 col-md-3">
+                <li>
+                    Developer
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/primecoin/primecoin">Github</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://forum.primecoin.org/c/developer-discussion">Technical Discussion</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.Primecoin.org">Get Sponsorship</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.Primes.zone">Latest Status</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://t.me/PrimecoinFoundation">Telegram Discussion</a>
+                </li>
+            </ul>
+            <ul class="col-6 col-md-3">
+                <li>
+                    Connect  Us
+                </li>
+                <li>
+                    <a target="_blank" href="http://forum.primecoin.org/t/how-to-contact-us/56">Forum</a>
+                </li>
+                <li>
+                    <a target="_blank" href="news.html">Press</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://forum.primecoin.org/t/how-to-contact-us/56">Message Us</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.primecoin.org/donate.html" >Donate</a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="row justify-content-md-center" id="footer-link">
+            <div><a class="footer-link-one" target="_blank" href="https://t.me/PrimecoinFoundation "></a><span>Telegram</span><div class="arrow-down"></div></div>
+            <!--<div><a class="footer-link-two" target="_blank" href="https://discord.gg/UTQz4Zq"></a><span>Discord</span><div class="arrow-down"></div></div>-->
+            <div><a class="footer-link-three" target="_blank" href="http://forum.primecoin.org"></a><span>Forum</span><div class="arrow-down"></div></div>
+            <div><a class="footer-link-four" target="_blank" href="https://www.youtube.com/channel/UCQZpBc1864PakvidBOHFqPw?"></a><span>Youtube</span><div class="arrow-down"></div></div>
+            <div><a class="footer-link-five" target="_blank" href=" https://twitter.com/Primecoin_org"></a><span>Twitter</span><div class="arrow-down"></div></div>
+            <div><a class="footer-link-seven" target="_blank" href=" https://medium.com/primecoin"></a><span>Medium</span><div class="arrow-down"></div></div>
+            <div><a class="footer-link-six" target="_blank" href="https://www.reddit.com/r/primecoin/"></a><span>Reddit</span><div class="arrow-down"></div></div>
+        </div>
+        <p class="footer-bottom">
+            © Copyright 2018. Primecoin.<a href="Privacy.html" style="color: #007bff">&nbsp; &nbsp;Privacy Policy</a>
+        </p>
+    </div>
+
+
+
+
+    <!---->
+</div>
+
+
+<!--modal-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <p>Your help means a lot for the Primecoin Project. If you wish to help the foundation, please pay to the below address.  </p>
+            <p style="text-align: center;">Primecoin wallet address:</p>
+            <p style="word-wrap: break-word;">APMb1yoFSL8wN4FGSKCJp4EB5BzhfEjwx2</p>
+            <img src="images/qrcode.png" alt="" class="qrcode" style="width: 60px;margin-left: calc(50% - 30px);">
+            <form id="sub_Form" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="A61C50BEC994754B1D79C5819EC1255C189E7A242C023A36B4EA163EDFD48EEED086B8A1C9AA115FC8987185682F747D77F1B068296A34E192C1EE337F463A56">
+                <p>
+                    <label for="field_Email" >Email:</label>
+                    <input id="field_Email" name="cm-wdukiy-wdukiy" type="email" class="js-cm-email-input" required />
+                </p>
+                <div>
+                    <input id="cm_privacy_consent" name="cm-privacy-consent" required type="checkbox"/>
+                    <label for="cm_privacy_consent">I agree to be emailed</label>
+                    <input id="cm_privacy_consent_hidden" name="cm-privacy-consent-hidden" type="hidden" value="true" />
+                </div>
+                <p style="margin-bottom: 0">
+                    <button class="js-cm-submit-button btn" type="submit">Submit</button>
+                </p>
+            </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+
+</div>
+
+
+
+</body>
+
+
+
+
+
+
+<script type="text/javascript" src="js/canvas-particle.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/public.js"></script>
+<script>
+
+
+
+    function getData(){
+        $.ajax({
+            type: "GET",
+            url: "https://api.coinmarketcap.com/v2/ticker/42/",
+            success: function(res){
+                var rate = res.data.quotes.USD.price.toFixed(6);
+                var increase = res.data.quotes.USD.percent_change_24h.toFixed(2);
+                if (increase >= 0){
+                    $('#Rise').html('(+'+increase+'%)');
+                    $('#Rise').css({'color':'red'});
+                }else{
+                    $('#Rise').html('('+increase+'%)');
+                    $('#Rise').css({'color':'#1c7430'});
+                }
+                $('.triangle_border_down .price').html('XPM/USD:$'+rate);
+            }
+        });
+    }
+    getData();
+    // setInterval(getData,5000);
+
+    function handlePrice(){
+        var bodyHeight = $('body').height();
+        var navHeight = $('.navbar').height();
+        var documentHeight = $(document).height();
+        if ($(document).scrollTop() >= 100){
+            $('.triangle_border_down').fadeOut(100);
+        }else{
+            $('.triangle_border_down').fadeIn(100);
+        }
+    }
+
+    handlePrice();
+    $(document).scroll(function () {
+        handlePrice();
+    })
+</script>
+
+<script>
+
+    function handleScroll(){
+        if ($(document).scrollTop()<=$(document).height()-$("#d").height()-$(".footer").height()){
+
+            $("#d1").css({"position":"fixed","top":"100px"})
+            $("#d3").css({"position":"fixed","top":"100px"})
+        }else{
+
+            $("#d1").css({"position":"absolute","top":"200px"})
+            $("#d3").css({"position":"absolute","top":"200px"})
+
+        }
+    }
+    handleScroll();
+    $(document).scroll(function (){
+        handleScroll();
+    });
+</script>
+
+<script type="text/javascript">
+    $(".hover").mouseover(function(){
+
+        $(".cn").css("display","block")
+    })
+    $(".hover").mouseout(function(){
+        $(this).css({"font-size":"16px","text-decoration":"none","font-weight":"normal"})
+        $(".cn").css("display","none")
+    })
+</script>
+
+</html>
