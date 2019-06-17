@@ -14,7 +14,7 @@
             <div class="inner windows">
               <span class="icon"></span>
               <h2 class="margin-top-10">Windows.</h2>
-              <a href="http://sourceforge.net/projects/primecoin/files/0.1.2/primecoin-0.1.2-win32-setup.exe/download" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
+              <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.3xpm/primecoin-0.1.3-win32-setup.exe" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
           <!--<div class="col-md-4">
@@ -28,7 +28,7 @@
             <div class="inner linux">
               <span class="icon"></span>
               <h2 class="margin-top-10">Linux.</h2>
-              <a href="http://sourceforge.net/projects/primecoin/files/0.1.2/primecoin-0.1.2-linux.tar.gz/download" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
+              <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.3xpm/primecoin-0.1.3-linux.tar.gz" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
         </div><!-- end row -->
