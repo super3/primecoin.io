@@ -22,8 +22,8 @@
           <a name="exchanges" class="anchor" href="#exchanges"><span class="octicon octicon-link"></span></a>Exchanges</h3>
 
           <ul>
-          <li><a href="https://poloniex.com/">Poloniex</a></li>
-          <li><a href="https://www.cryptopia.co.nz/Exchange">Cryptopia</a></li>
+          <li><a href="https://www.southxchange.com/Market/Book/XPM/BTC">Southxchange</a></li>
+          <li><a href="https://www.aex.com/page/trade.html#/?symbol=XPM_BTC">AEX</a></li>
           </ul>
           <h3>
           <a name="mining-pools-and-software" class="anchor" href="#mining-pools-and-software"><span class="octicon octicon-link"></span></a>Mining Pools and Software</h3>
