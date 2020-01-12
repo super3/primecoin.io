@@ -26,7 +26,7 @@
 
 
 
-                <p>&copy; Copyright 2018. Primecoin.</p>
+                <p>&copy; Copyright 2013-2020 Primecoin Project</p>
             </div><!-- end col -->
         </div><!-- end row fluid -->
     </div><!-- end container -->
