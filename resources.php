@@ -47,8 +47,11 @@
           <a name="explorers-charts-rankings-and-tickers" class="anchor" href="#explorers-charts-rankings-and-tickers"><span class="octicon octicon-link"></span></a>Explorers, Charts, Rankings and Tickers</h3>
 
           <ul>
-          <li><a href="https://bchain.info/XPM/">BChain.info Block Explorer</a></li>
-            <li><a href="bootstrap.7z">Primecoin Bootstrap</a></li>
+          <li><a href="https://explorer.primecoin.dev/">Primecoin.dev Explorer</a></li>
+          <li><a href="https://explorer.primecoin.net/">Primecoin.net Explorer</a></li>
+          <li><a href="https://www.primes.zone/">Primes.zone</a></li>
+          <li><a href="http://xpm.muuttuja.org/charts/">Primecoin network charts</a></li>
+          <li><a href="bootstrap.7z">Primecoin Bootstrap</a></li>
           
           </ul>
                 
