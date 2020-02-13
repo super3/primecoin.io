@@ -13,8 +13,7 @@
 <div class="block wrap info">
     <h2>Questions?</h2>
 
-    <p><a href="http://www.peercointalk.org/" target=
-    "_blank">Join the forums</a> and ask your question you
-    might have. The community of Primecoin will help you
-    out.</p>
+    <p><a href="https://discord.gg/g9mctgx" target=
+    "_blank">Join our discord server</a> for technical support, any question you
+    might have or just a chat. The Primecoin community enjoys your company.</p>
 </div>
