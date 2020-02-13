@@ -14,7 +14,7 @@
             <div class="inner windows">
               <span class="icon"></span>
               <h2 class="margin-top-10">Windows.</h2>
-              <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.3xpm/primecoin-0.1.3-win32-setup.exe" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
+              <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.4xpm/primecoin-0.1.4-win32-setup.exe" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
           <!--<div class="col-md-4">
@@ -28,7 +28,7 @@
             <div class="inner linux">
               <span class="icon"></span>
               <h2 class="margin-top-10">Linux.</h2>
-              <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.3xpm/primecoin-0.1.3-linux.tar.gz" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
+              <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.4xpm/primecoin-qt-0.1.4-linux" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
         </div><!-- end row -->
@@ -45,8 +45,9 @@
           <div class="item">
           <h3>Download</h3>
           <ol>
-          <li>If you are <strong>Windows</strong>, download the win32 setup executable.</li>
-          <li>If you are on a <strong>Linux</strong>-based distribution, download the .tar.gz. The Linux version <strong>does</strong> contain 32-bit and 64-bit binaries, as well as the source in the event you wish to compile.</li>
+          <li>If you are on <strong>Windows</strong>, download the win32 setup executable.</li>
+          <li>If you are on <strong>Linux</strong>, download the Linux Qt client. For advanced users primecoind daemon can be downloaded directly from our <a href="https://github.com/primecoin/primecoin/releases/latest">github release page</a>.</li>
+          <li><strong>Only 64-bit builds are maintained by Primecoin Core as of 0.1.4. Support for 32-bit clients has ended.</strong></li>
           </ol>
           </div>
 
