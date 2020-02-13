@@ -8,8 +8,8 @@
                                     class="fab fa-discord"></span></a></li>
                     <li><a href="https://twitter.com/PrimecoinXPM" title="Follow us on Twitter" data-rel="tooltip"
                            data-toggle="tooltip"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="https://www.reddit.com/r/primecoin/" title="Join us on Reddit" data-rel="tooltip"
-                           data-toggle="tooltip"><span class="fab fa-reddit"></span></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCKZ_Uumw-8XGrC9izi2F_dg" title="Subscribe us on Youtube" data-rel="tooltip"
+                           data-toggle="tooltip"><span class="fab fa-youtube"></span></a></li>
                 </ul>
 
 
