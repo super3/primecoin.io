@@ -3,9 +3,9 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="unstyled center list-circle-icons list-circle-icons-small">
-                    <li><a href="https://www.facebook.com/Primecoin-XPM-392848884685994/"
-                           title="Like us on Facebook" data-rel="tooltip" data-toggle="tooltip"><span
-                                    class="fab fa-facebook"></span></a></li>
+                    <li><a href="https://discord.gg/g9mctgx"
+                           title="Join us on Discord" data-rel="tooltip" data-toggle="tooltip"><span
+                                    class="fab fa-discord"></span></a></li>
                     <li><a href="https://twitter.com/PrimecoinXPM" title="Follow us on Twitter" data-rel="tooltip"
                            data-toggle="tooltip"><span class="fab fa-twitter"></span></a></li>
                     <li><a href="https://www.reddit.com/r/primecoin/" title="Join us on Reddit" data-rel="tooltip"
