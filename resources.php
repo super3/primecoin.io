@@ -27,6 +27,7 @@
           <li><a href="https://coinsbit.io/trade/XPM_BTC">Coinsbit</a></li>
           <li><a href="https://trade.coinegg.com/trade/xpm_btc">Coinegg</a></li>
           <li><a href="https://www.nlexch.com/markets/xpmbtc">NLExch</a></li>
+          <li><a href="https://www.bexcrypto.com/product/prime-software/">Bexcrypto mining contract</a></li>
           </ul>
           <h3>
           <a name="mining-pools-and-software" class="anchor" href="#mining-pools-and-software"><span class="octicon octicon-link"></span></a>Mining Pools and Software</h3>
@@ -34,6 +35,7 @@
           <ul>
           <li><a href="http://coinsforall.io">Coins For All</a></li>
           <li><a href="http://xpmforall.org/">XPM For All</a></li>
+          <li><a href="https://www.bexcrypto.com/product/prime-software/">Bexcrypto mining contract</a></li>
           </ul>
           <h3>
           <a name="wallet-tools-and-software" class="anchor" href="#wallet-tools-and-software"><span class="octicon octicon-link"></span></a>Wallet Tools and Software</h3>
