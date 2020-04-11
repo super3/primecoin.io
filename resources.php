@@ -58,6 +58,13 @@
           
           </ul>
                 
+          <h3>
+          <a name="games" class="anchor" href="#games"><span class="octicon octicon-link"></span></a>Games</h3>
+
+          <ul>
+          <li><a href="https://cryptocollider.com">Crypto Collider</a></li>
+
+          </ul>
                 
               </div>
             </div>
