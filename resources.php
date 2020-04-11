@@ -62,7 +62,7 @@
 
           <ul>
           <li><a href="https://coinmarketcap.com/currencies/primecoin/">Coin Marketcap</a></li>
-          <li><a href="https://www.coingecko.com/en/coins/primecoin"></a>Coin Gecko</li>
+          <li><a href="https://www.coingecko.com/en/coins/primecoin">Coin Gecko</a></li>
           <li><a href="https://coinpaprika.com/coin/xpm-primecoin/">Coinpaprika</a></li>
           <li><a href="https://cryptocollider.com/coinsight">Coin Sight</a></li>
 
