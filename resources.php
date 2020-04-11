@@ -41,12 +41,12 @@
           <a name="wallet-tools-and-software" class="anchor" href="#wallet-tools-and-software"><span class="octicon octicon-link"></span></a>Wallet Tools and Software</h3>
 
           <ul>
-          <li>
-          <a href="http://primecoin.io/downloads.php">Download Wallet</a></li>
+          <li><a href="http://primecoin.io/downloads.php">Download Wallet</a></li>
+          <li><a href="bootstrap.7z">Primecoin Bootstrap</a></li>
           </ul>
                 
           <h3>
-          <a name="explorers-charts-rankings-and-tickers" class="anchor" href="#explorers-charts-rankings-and-tickers"><span class="octicon octicon-link"></span></a>Explorers, Charts, Rankings and Tickers</h3>
+          <a name="explorers-charts" class="anchor" href="#explorers-charts"><span class="octicon octicon-link"></span></a>Explorers and Charts</h3>
 
           <ul>
           <li><a href="https://www.blockseek.io/xpm">Blockseek Primecoin Explorer</a></li>
@@ -54,10 +54,20 @@
           <li><a href="https://explorer.primecoin.net/">Primecoin.net Explorer</a></li>
           <li><a href="https://www.primes.zone/">Primes.zone</a></li>
           <li><a href="http://xpm.muuttuja.org/charts/">Primecoin network charts</a></li>
-          <li><a href="bootstrap.7z">Primecoin Bootstrap</a></li>
           
           </ul>
                 
+          <h3>
+          <a name="rankings-tickers" class="anchor" href="#rankings-tickers"><span class="octicon octicon-link"></span></a>Rankings and Tickers</h3>
+
+          <ul>
+          <li><a href="https://coinmarketcap.com/currencies/primecoin/">Coin Marketcap</a></li>
+          <li><a href="https://www.coingecko.com/en/coins/primecoin"></a>Coin Gecko</li>
+          <li><a href="https://coinpaprika.com/coin/xpm-primecoin/">Coinpaprika</a></li>
+          <li><a href="https://cryptocollider.com/coinsight">Coin Sight</a></li>
+
+          </ul>
+
           <h3>
           <a name="games" class="anchor" href="#games"><span class="octicon octicon-link"></span></a>Games</h3>
 
