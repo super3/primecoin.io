@@ -44,13 +44,13 @@
 
           <div class="item">
           <h3>Download</h3>
-          <p><strong>Only 64-bit builds are maintained by Primecoin Core as of 0.1.4. Support for 32-bit clients has ended as of September 2019.</strong></p>
+          <p>Only 64-bit builds are maintained and supported by Primecoin as of 0.1.4. Support for 32-bit Primecoin builds has ended as of September 2019.</p>
 
-          <p><strong>[WINDOWS]</strong> Download the win32 setup executable.</p>
-
-          <p><strong>[LINUX]</strong> Download the Linux Qt client. For advanced users primecoind daemon can be downloaded directly from <a href="https://github.com/primecoin/primecoin/releases/latest">Primecoin's latest release</a>.</p>
-
-          <p><strong>[ANDROID]</strong> <a href="https://github.com/primecoin/primer-android">Primer</a> is a light-weight Primecoin wallet with high security cold wallet support. Download installable apk from <a href="https://github.com/primecoin/primer-android/releases/latest">Primer's latest release</a>.</p>
+          <ul>
+          <li><strong>[WINDOWS]</strong> Download the win32 setup executable.</li>
+          <li><strong>[LINUX]</strong> Download the Linux Qt client. For advanced users primecoind daemon can be downloaded directly from <a href="https://github.com/primecoin/primecoin/releases/latest">Primecoin's latest release</a>.</li>
+          <li><strong>[ANDROID]</strong> <a href="https://github.com/primecoin/primer-android">Primer</a> is a light-weight Primecoin wallet with high security cold wallet support. Download installable apk from <a href="https://github.com/primecoin/primer-android/releases/latest">Primer's latest release</a>.</li>
+          </ul>
 
           </div>
 
