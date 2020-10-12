@@ -13,7 +13,7 @@
           <div class="col-md-4">
             <div class="inner windows">
               <span class="icon"></span>
-              <h2 class="margin-top-10">Windows.</h2>
+              <h2 class="margin-top-10">Windows</h2>
               <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.4xpm/primecoin-0.1.4-win32-setup.exe" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
@@ -28,14 +28,14 @@
           <div class="col-md-4">
             <div class="inner linux">
               <span class="icon"></span>
-              <h2 class="margin-top-10">Linux.</h2>
+              <h2 class="margin-top-10">Linux</h2>
               <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.4xpm/primecoin-qt-0.1.4-linux" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
           <div class="col-md-4">
             <div class="inner android">
               <span class="icon"></span>
-              <h2 class="margin-top-10">Android.</h2>
+              <h2 class="margin-top-10">Android</h2>
               <a href="https://github.com/primecoin/primer-android/releases/download/0.2.1alpha/primer-0.2.1alpha.apk" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
