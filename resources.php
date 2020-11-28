@@ -50,10 +50,11 @@
 
           <ul>
           <li><a href="https://www.blockseek.io/xpm">Blockseek Primecoin Explorer</a></li>
-          <li><a href="https://explorer.primecoin.dev/">Primecoin.dev Explorer</a></li>
+          <li><a href="https://chainz.cryptoid.info/xpm/">cryptoID Primecoin Explorer</a></li>
           <li><a href="https://explorer.primecoin.net/">Primecoin.net Explorer</a></li>
           <li><a href="https://www.primes.zone/">Primes.zone</a></li>
           <li><a href="http://xpm.muuttuja.org/charts/">Primecoin network charts</a></li>
+          <li><a href="https://explorer.primecoin.dev/">Primecoin.dev Explorer</a></li>
           
           </ul>
                 
