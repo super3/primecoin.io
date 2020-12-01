@@ -27,7 +27,7 @@
           <li><a href="https://www.aex.com/page/trade.html#/?symbol=XPM_BTC">AEX</a></li>
           <li><a href="https://trade.coinegg.com/trade/xpm_btc">Coinegg</a></li>
           <li><a href="https://www.nlexch.com/markets/xpmbtc">NLExch</a></li>
-          <li><a href="https://www.bexcrypto.com/product/prime-software/">Bexcrypto mining contract</a></li>
+          <li><a href="https://www.bexcrypto.com/product/prime-software/">Bexcrypto mining contract USD/Paypal/Retail</a></li>
           </ul>
           <h3>
           <a name="mining-pools-and-software" class="anchor" href="#mining-pools-and-software"><span class="octicon octicon-link"></span></a>Mining Pools and Software</h3>
