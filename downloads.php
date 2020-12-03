@@ -38,13 +38,13 @@
               <h2 class="margin-top-10">Primer</h2>
               <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.primer" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
+          </div><!-- end col -->
           <div class="col-md-3">
             <div class="inner android">
               <span class="icon"></span>
               <h2 class="margin-top-10">Gemmer</h2>
               <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
-          </div><!-- end col -->
           </div><!-- end col -->
         </div><!-- end row -->
 
