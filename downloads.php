@@ -64,7 +64,7 @@
           <ul>
           <li><strong>[WINDOWS]</strong> Download the win32 setup executable.</li>
           <li><strong>[LINUX]</strong> Download the Linux Qt client. For advanced users primecoind daemon can be downloaded directly from <a href="https://github.com/primecoin/primecoin/releases/latest">Primecoin's latest release</a>.</li>
-          <li><strong>[ANDROID]</strong> <a href="https://github.com/primecoin/gemmer">Primer</a> is full featured Primecoin mobile wallet with high security cold wallet mode. Install from <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.primer">Google Play</a> or <a href="https://github.com/primecoin/primer-android/releases">Github</a>.</li>
+          <li><strong>[ANDROID]</strong> <a href="https://github.com/primecoin/primer-android">Primer</a> is full featured Primecoin mobile wallet with high security cold wallet mode. Install from <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.primer">Google Play</a> or <a href="https://github.com/primecoin/primer-android/releases">Github</a>.</li>
           <li><strong>[ANDROID]</strong> <a href="https://github.com/primecoin/gemmer">Gemmer</a> is a minimalist easy-to-use Primecoin wallet and multi wallet. Install from <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer">Google Play</a> or <a href="https://github.com/primecoin/gemmer/releases">Github</a>.</li>
           </ul>
 
