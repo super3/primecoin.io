@@ -10,10 +10,10 @@
         </div><!-- end row -->
 
         <div class="row downloads">
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="inner windows">
               <span class="icon"></span>
-              <h2 class="margin-top-10">Windows</h2>
+              <h2 class="margin-top-10">Core Qt</h2>
               <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.4xpm/primecoin-0.1.4-win32-setup.exe" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
@@ -25,19 +25,26 @@
             </div>
           </div> -->
           <!-- end col -->
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="inner linux">
               <span class="icon"></span>
-              <h2 class="margin-top-10">Linux</h2>
+              <h2 class="margin-top-10">Core Qt</h2>
               <a href="https://github.com/primecoin/primecoin/releases/download/v0.1.4xpm/primecoin-qt-0.1.4-linux" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
           </div><!-- end col -->
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="inner android">
               <span class="icon"></span>
-              <h2 class="margin-top-10">Android</h2>
+              <h2 class="margin-top-10">Primer</h2>
+              <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.primer" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
+            </div>
+          <div class="col-md-3">
+            <div class="inner android">
+              <span class="icon"></span>
+              <h2 class="margin-top-10">Gemmer</h2>
               <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer" target="_blank" class="btn btn-lg btn-inverse">Download Wallet</a>
             </div>
+          </div><!-- end col -->
           </div><!-- end col -->
         </div><!-- end row -->
 
@@ -57,6 +64,7 @@
           <ul>
           <li><strong>[WINDOWS]</strong> Download the win32 setup executable.</li>
           <li><strong>[LINUX]</strong> Download the Linux Qt client. For advanced users primecoind daemon can be downloaded directly from <a href="https://github.com/primecoin/primecoin/releases/latest">Primecoin's latest release</a>.</li>
+          <li><strong>[ANDROID]</strong> <a href="https://github.com/primecoin/gemmer">Primer</a> is full featured Primecoin mobile wallet with high security cold wallet mode. Install from <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.primer">Google Play</a> or <a href="https://github.com/primecoin/primer-android/releases">Github</a>.</li>
           <li><strong>[ANDROID]</strong> <a href="https://github.com/primecoin/gemmer">Gemmer</a> is a minimalist easy-to-use Primecoin wallet and multi wallet. Install from <a href="https://play.google.com/store/apps/details?id=net.primecoin.app.gemmer">Google Play</a> or <a href="https://github.com/primecoin/gemmer/releases">Github</a>.</li>
           </ul>
 
