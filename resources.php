@@ -42,7 +42,8 @@
 
           <ul>
           <li><a href="http://primecoin.io/downloads.php">Download Wallet</a></li>
-          <li><a href="https://brainwallet.primecoin.net">Primecoin Brainwallet</a></li>
+          <li><a href="https://walletgenerator.net/?currency=Primecoin">Primecoin Paper Wallet</a></li>
+          <li><a href="https://brainwallet.primecoin.net">Primecoin Brain Wallet</a></li>
           <li><a href="bootstrap.7z">Primecoin Bootstrap</a></li>
           </ul>
                 
