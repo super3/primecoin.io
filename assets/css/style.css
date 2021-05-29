@@ -303,6 +303,8 @@ body .container-wrapper-prime h1 {
 
 .downloads .inner h2 {
   color: #111;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .downloads span.icon {
@@ -312,10 +314,6 @@ body .container-wrapper-prime h1 {
   background: url(../../img/downloads/windows.png) no-repeat 0 0 transparent;
   margin-left: auto;
   margin-right: auto;
-}
-
-.downloads .inner h2 {
-  margin-bottom: 30px;
 }
 
 .downloads a {
