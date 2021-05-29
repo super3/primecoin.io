@@ -307,10 +307,11 @@ body .container-wrapper-prime h1 {
 
 .downloads span.icon {
   display: block;
+  height: 64px;
+  width: 64px;
   background: url(../../img/downloads/windows.png) no-repeat 0 0 transparent;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
 }
 
 .downloads .inner h2 {
