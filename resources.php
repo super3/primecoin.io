@@ -24,9 +24,9 @@
           <ul>
           <li><a href="https://www.southxchange.com/Market/Book/XPM/BTC">Southxchange</a></li>
           <li><a href="https://www.unnamed.exchange/Exchange?market=XPM_BTC">Unnamed</a></li>
+          <li><a href="https://freiexchange.com/market/XPM/BTC">FreiExchange</a></li>
           <li><a href="https://www.aex.com/page/trade.html#/?symbol=XPM_BTC">AEX</a></li>
-          <li><a href="https://trade.coinegg.com/trade/xpm_btc">Coinegg</a></li>
-          <li><a href="https://www.nlexch.com/markets/xpmbtc">NLExch</a></li>
+          <li><a href="https://www.coinegg.fun/exchange/XPM1/USDT">Coinegg</a></li>
           <li><a href="https://www.bexcrypto.com/product/prime-software/">Bexcrypto mining contract USD/Paypal/Retail</a></li>
           </ul>
           <h3>
