@@ -227,7 +227,7 @@
                                 <li>
                                     <span>3. </span><span>In “Help” menu, choose “Debug Window”</span></li>
                                 <li><span>4. </span><span>Select “Console”</span></li>
-                                <li><span>5. </span><span>Type “setgenerate ture” + number of thread desired. Default is to
+                                <li><span>5. </span><span>Type “setgenerate true” + number of thread desired. Default is to
                                         use
                                         all available CPU power</span></li>
                                 <li>
