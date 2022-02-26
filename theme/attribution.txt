@@ -1,0 +1,109 @@
+******************************************************************************************
+
+  ZION REPONSIVE TEMPLATE
+  
+  (c) Copyright 2013 Pukeko Design Studio. All rights reserved.
+  
+  ATTRIBUTION & LICENSES
+
+******************************************************************************************
+
+
+Icons: Font Awesome
+Author: Dave Gandy
+License: Font Awesome licensed under SIL Open Font License 1.1
+http://fontawesome.io
+
+Fonts: Google Web Fonts
+Raleway - Author: Multiple Authors
+Merriweather - Author: Eben Sorkin
+License: Google Web Fonts are licensed under SIL Open Font License 1.1
+http://www.google.com/fonts/
+
+Isotope
+Isotope Commercial License Agreement - Download license
+http://isotope.metafizzy.co
+
+jQuery cycle 2
+Author: M. Alsup 
+License: the Cycle2 plugin is dual licensed under the MIT and GPL licenses
+http://jquery.malsup.com/cycle2/
+
+Photo: bg-Zion.jpg, portfolio-devices.png
+Author: Free4All
+License: morgueFile license
+Original source: 
+http://www.morguefile.com/archive/display/820152
+
+Photo: portfolio-1.jpg
+Author: Simon Bouchard
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Original source: 
+http://www.flickr.com/photos/simon-bouchard/4923484517/sizes/m/in/set-72157624798241210/
+
+Photo: portfolio-2.jpg, portfolio-macbook.png, bg-2.jpg
+Author: Simon Bouchard
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Original source: 
+http://www.flickr.com/photos/simon-bouchard/4924194652/sizes/m/in/set-72157624798241210/
+
+Photo: portfolio-3.jpg, bg-1.jpg
+Author: Simon Bouchard
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Original source: 
+http://www.flickr.com/photos/simon-bouchard/4923587377/sizes/l/in/set-72157624798241210/
+
+Photo: portfolio-4.jpg
+Author: Simon Bouchard
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Original source: 
+http://www.flickr.com/photos/simon-bouchard/4924088202/sizes/l/in/set-72157624798241210/
+
+Photo: portfolio-5.jpg
+Author: Simon Bouchard
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Original source: 
+http://www.flickr.com/photos/simon-bouchard/4896397719/sizes/l/in/set-72157624798241210/
+
+Photo: portfolio-6.jpg
+Author: Simon Bouchard
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Original source: 
+http://www.flickr.com/photos/simon-bouchard/4923486133/sizes/l/in/set-72157624798241210/
+
+Photo: testimonial-1.jpg
+Author: Simon Bouchard
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Original source: 
+http://www.morguefile.com/archive/display/137757
+
+Photo: featured-bg-1.jpg
+Author: Pukeko Design Studio
+
+Photo: featured-bg-2.jpg
+Author: Simon Bouchard
+License: Creative Commons Attribution-ShareAlike 2.0 Generic
+Original source: 
+http://www.flickr.com/photos/simon-bouchard/5649826470/sizes/o/in/set-72157624798241210/
+
+Photo: featured-bg-3.jpg
+morgueFile license
+Original source: 
+http://morguefile.com/archive/display/607002
+
+Photo: wave.png, avatar.jpg
+Author: Pukeko Design Studio
+
+Photo: bg-3.jpg
+Original source: 
+http://www.flickr.com/photos/simon-bouchard/4924083376/sizes/o/in/set-72157624798241210/
+
+Sub Footer Photo Gallery
+License: morgueFile license
+#1, #8 & #15:http://www.morguefile.com/archive/display/869647 - Author: bherlia
+#2 & #9: http://morguefile.com/archive/display/159842 - Author: hotblack
+#3 & #10: http://www.morguefile.com/archive/display/687592
+#4 & #11: http://www.morguefile.com/archive/display/681292 - Author: hotblack
+#5 & #12: http://morguefile.com/archive/display/222089 - Author: hotblack
+#6 & #13: http://www.morguefile.com/archive/display/751290 - Author: dorne
+#7 & #14: http://www.morguefile.com/archive/display/208127 - Author: hotblack
