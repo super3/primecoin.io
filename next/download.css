@@ -1,0 +1,1596 @@
+.footer-container-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.footer-container-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.footer-container-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.footer-container-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.footer-container-link {
+  display: contents;
+}
+.footer-container-icon2 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.footer-container-link1 {
+  display: contents;
+}
+.footer-container-icon4 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.footer-container-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.footer-container-icon6 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+
+
+.download-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-black);
+}
+.download-navbar-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.download-navbar {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-500);
+}
+.download-left-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.download-navlink {
+  display: contents;
+}
+.download-image {
+  width: 50px;
+  align-self: center;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.download-burger-menu {
+  display: none;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.download-icon {
+  width: 36px;
+  height: 36px;
+}
+.download-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.download-link {
+  color: var(--dl-color-gray-900);
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link01 {
+  color: var(--dl-color-gray-900);
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100VH;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+}
+.download-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.download-image1 {
+  width: 50px;
+  align-self: center;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.download-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.download-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.download-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.download-link02 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.download-link03 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.download-link04 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.download-link05 {
+  text-decoration: none;
+}
+.download-wallets {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-tenunits);
+  align-items: center;
+  padding-top: 100px;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/backgrounds/pexels-photo-2825343.adrian.lang.jpg');
+}
+.download-heading-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.download-text02 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.download-cards-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.download-features-card {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.download-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-icon-container {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/general/icon1.png');
+}
+.download-icon04 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-heading {
+  color: var(--dl-color-gray-900);
+  font-size: 36px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.download-icon-container01 {
+  width: 50;
+  height: 50;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-size: auto;
+  background-image: url('https://primecoin.io/img/downloads/windows.png');
+}
+.download-icon07 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-text-container {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text04 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container01 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link06 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container02 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text05 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container03 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link07 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link08 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link09 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-features-card1 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.download-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-icon-container02 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/general/icon1.png');
+}
+.download-icon10 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-heading1 {
+  color: var(--dl-color-gray-900);
+  font-size: 36px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.download-icon-container03 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: 8px;
+  padding-right: 8px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/img/downloads/linux.png');
+}
+.download-icon13 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-text-container04 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text06 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container05 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link10 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container06 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text07 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container07 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link11 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link12 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link13 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-features-card2 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.download-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-icon-container04 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/general/primer.png');
+}
+.download-icon16 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-heading2 {
+  color: var(--dl-color-gray-900);
+  font-size: 36px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.download-icon-container05 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: 8px;
+  padding-right: 8px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/img/downloads/android.png');
+}
+.download-icon19 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-text-container08 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text08 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container09 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link14 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link15 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container10 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text11 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container11 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link16 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link17 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link18 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-features-card3 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.download-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-icon-container06 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/general/gem.png');
+}
+.download-icon22 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-heading3 {
+  color: var(--dl-color-gray-900);
+  font-size: 36px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.download-icon-container07 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: 8px;
+  padding-right: 8px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/img/downloads/android.png');
+}
+.download-icon25 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-text-container12 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text12 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container13 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link19 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link20 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container14 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text13 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container15 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link21 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text14 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.download-link22 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-apps {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/backgrounds/pexels-photo-9620611.michael.mahnert.jpg');
+}
+.download-heading-container1 {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.download-text15 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.download-cards-container1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.download-features-card4 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.download-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-icon-container08 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/general/cryptomark2.png');
+}
+.download-icon28 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-heading4 {
+  color: var(--dl-color-gray-900);
+  font-size: 36px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.download-icon-container09 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: 8px;
+  padding-right: 8px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/img/downloads/android.png');
+}
+.download-icon31 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-text-container16 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text17 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container17 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link23 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link24 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container18 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text19 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container19 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link25 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text20 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.download-text21 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.download-features-card5 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.download-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-icon-container10 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/general/valory.png');
+}
+.download-icon34 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-heading5 {
+  color: var(--dl-color-gray-900);
+  font-size: 36px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.download-icon-container11 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: 8px;
+  padding-right: 8px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/img/downloads/android.png');
+}
+.download-icon37 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-text-container20 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text22 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container21 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link26 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link27 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container22 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text23 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container23 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link28 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link29 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link30 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-features-card6 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.download-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-icon-container12 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/general/cryptomark1.png');
+}
+.download-icon40 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-heading6 {
+  color: var(--dl-color-gray-900);
+  font-size: 36px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.download-icon-container13 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: 8px;
+  padding-right: 8px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/img/downloads/android.png');
+}
+.download-icon43 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-text-container24 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text24 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container25 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link31 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container26 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text25 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container27 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-text26 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.download-features-card7 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.download-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-icon-container14 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/assets/images/general/icon1.png');
+}
+.download-icon46 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-heading7 {
+  color: var(--dl-color-gray-900);
+  font-size: 36px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-tripleunit);
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.download-icon-container15 {
+  width: 50;
+  height: 50;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: 8px;
+  padding-right: 8px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://primecoin.io/img/downloads/android.png');
+}
+.download-icon49 {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  min-width: 36px;
+  min-height: 36px;
+}
+.download-text-container28 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text27 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container29 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link32 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container30 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text28 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container31 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-text29 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.download-text30 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.download-text31 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+@media(max-width: 767px) {
+  .download-burger-menu {
+    display: flex;
+    padding: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius4);
+    background-color: var(--dl-color-gray-black);
+  }
+  .download-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .download-links-container {
+    display: none;
+  }
+  .download-heading-container {
+    width: 100%;
+  }
+  .download-cards-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .download-features-card {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .download-features-card1 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .download-features-card2 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .download-features-card3 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .download-heading-container1 {
+    width: 100%;
+  }
+  .download-cards-container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .download-features-card4 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .download-features-card5 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .download-features-card6 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .download-features-card7 {
+    width: 70%;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 479px) {
+  .download-wallets {
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .download-features-card {
+    width: 100%;
+  }
+  .download-features-card1 {
+    width: 100%;
+  }
+  .download-features-card2 {
+    width: 100%;
+  }
+  .download-features-card3 {
+    width: 100%;
+  }
+  .download-apps {
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .download-features-card4 {
+    width: 100%;
+  }
+  .download-features-card5 {
+    width: 100%;
+  }
+  .download-features-card6 {
+    width: 100%;
+  }
+  .download-features-card7 {
+    width: 100%;
+  }
+}
