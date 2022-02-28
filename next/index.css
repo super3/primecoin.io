@@ -318,10 +318,9 @@
   padding: var(--dl-space-space-unit);
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/backgrounds/galaxy-m101.png');
+  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
 }
 .index-icon04 {
   width: 36px;
@@ -359,10 +358,9 @@
   padding: var(--dl-space-space-unit);
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/backgrounds/galaxy-m106.png');
+  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
 }
 .index-icon07 {
   width: 36px;
@@ -400,10 +398,9 @@
   padding: var(--dl-space-space-unit);
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/galaxy.png');
+  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
 }
 .index-icon10 {
   width: 36px;
@@ -440,10 +437,9 @@
   padding: var(--dl-space-space-unit);
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/galaxy.png');
+  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
 }
 .index-icon13 {
   width: 36px;
@@ -480,10 +476,9 @@
   padding: var(--dl-space-space-unit);
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/galaxy.png');
+  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
 }
 .index-icon16 {
   width: 36px;
@@ -520,10 +515,9 @@
   padding: var(--dl-space-space-unit);
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
-  border-radius: var(--dl-radius-radius-round);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/backgrounds/galaxy-m101.png');
+  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
 }
 .index-icon19 {
   width: 36px;
@@ -1024,6 +1018,7 @@
 }
 .index-link21 {
   color: var(--dl-color-gray-900);
+  text-decoration: none;
 }
 .index-service-card5 {
   width: 30%;
