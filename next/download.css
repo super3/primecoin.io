@@ -24,12 +24,16 @@
   align-items: flex-start;
   flex-direction: row;
 }
+.footer-container-link {
+  display: contents;
+}
 .footer-container-icon {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
 }
-.footer-container-link {
+.footer-container-link1 {
   display: contents;
 }
 .footer-container-icon2 {
@@ -38,7 +42,7 @@
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.footer-container-link1 {
+.footer-container-link2 {
   display: contents;
 }
 .footer-container-icon4 {
