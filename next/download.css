@@ -138,13 +138,15 @@
   flex: 0 0 auto;
   left: 0px;
   width: 100%;
-  height: 100VH;
+  height: auto;
   display: none;
   padding: var(--dl-space-space-doubleunit);
   position: absolute;
   align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--dl-color-gray-500);
 }
 .download-container01 {
   flex: 0 0 auto;
@@ -168,6 +170,7 @@
   flex-direction: column;
 }
 .download-icon02 {
+  fill: var(--dl-color-gray-900);
   width: 24px;
   height: 24px;
 }
@@ -177,18 +180,12 @@
   flex-direction: column;
 }
 .download-link02 {
+  color: var(--dl-color-gray-900);
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .download-link03 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.download-link04 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.download-link05 {
+  color: var(--dl-color-gray-900);
   text-decoration: none;
 }
 .download-wallets {
@@ -212,7 +209,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.download-text02 {
+.download-text03 {
   color: var(--dl-color-gray-900);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -246,9 +243,10 @@
 }
 .download-icon-container {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -264,22 +262,16 @@
 }
 .download-heading {
   color: var(--dl-color-gray-900);
-  font-size: 36px;
-  font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.55;
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .download-icon-container01 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-left: var(--dl-space-space-tripleunit);
   margin-right: 0px;
@@ -304,7 +296,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text04 {
+.download-text05 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -320,7 +312,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-link06 {
+.download-link04 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -338,7 +330,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text05 {
+.download-text06 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -354,23 +346,23 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
+.download-link05 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link06 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
 .download-link07 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
-.download-link08 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
-.download-link09 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -399,9 +391,10 @@
 }
 .download-icon-container02 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -417,22 +410,15 @@
 }
 .download-heading1 {
   color: var(--dl-color-gray-900);
-  font-size: 36px;
-  font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.55;
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .download-icon-container03 {
-  width: auto;
-  height: 100%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-left: var(--dl-space-space-tripleunit);
   padding-top: 8px;
@@ -442,6 +428,7 @@
   background-image: url('https://primecoin.io/img/downloads/linux.png');
 }
 .download-icon13 {
+  fill: #D9D9D9;
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -458,7 +445,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text06 {
+.download-text07 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -474,7 +461,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-link10 {
+.download-link08 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -492,7 +479,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text07 {
+.download-text08 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -508,23 +495,23 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
+.download-link09 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link10 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
 .download-link11 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
-.download-link12 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
-.download-link13 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -553,9 +540,10 @@
 }
 .download-icon-container04 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -571,22 +559,16 @@
 }
 .download-heading2 {
   color: var(--dl-color-gray-900);
-  font-size: 36px;
-  font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.55;
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .download-icon-container05 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-left: var(--dl-space-space-tripleunit);
   padding-top: 8px;
@@ -612,13 +594,55 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text08 {
+.download-text09 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 .download-text-container09 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link12 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link13 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container10 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text12 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container11 {
   width: 100%;
   display: flex;
   align-self: flex-start;
@@ -644,49 +668,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.download-text-container10 {
-  width: 100%;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
-}
-.download-text11 {
-  color: var(--dl-color-gray-900);
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.download-text-container11 {
-  width: 100%;
-  display: flex;
-  align-self: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: 0px;
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-unit);
-  justify-content: center;
-}
 .download-link16 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
-.download-link17 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
-.download-link18 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -715,9 +697,10 @@
 }
 .download-icon-container06 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -733,22 +716,16 @@
 }
 .download-heading3 {
   color: var(--dl-color-gray-900);
-  font-size: 36px;
-  font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.55;
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .download-icon-container07 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-left: var(--dl-space-space-tripleunit);
   padding-top: 8px;
@@ -774,7 +751,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text12 {
+.download-text13 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -790,7 +767,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-link19 {
+.download-link17 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -798,7 +775,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.download-link20 {
+.download-link18 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -816,7 +793,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text13 {
+.download-text14 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -832,7 +809,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-link21 {
+.download-link19 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -840,14 +817,14 @@
   padding-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.download-text14 {
+.download-text15 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
   padding-left: var(--dl-space-space-tripleunit);
   padding-right: var(--dl-space-space-tripleunit);
 }
-.download-link22 {
+.download-link20 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -875,7 +852,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.download-text15 {
+.download-text16 {
   color: var(--dl-color-gray-900);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -909,9 +886,10 @@
 }
 .download-icon-container08 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -927,22 +905,16 @@
 }
 .download-heading4 {
   color: var(--dl-color-gray-900);
-  font-size: 36px;
-  font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.55;
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .download-icon-container09 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-left: var(--dl-space-space-tripleunit);
   padding-top: 8px;
@@ -968,7 +940,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text17 {
+.download-text18 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -984,7 +956,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-link23 {
+.download-link21 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -992,7 +964,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.download-link24 {
+.download-link22 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -1010,7 +982,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text19 {
+.download-text20 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -1026,7 +998,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-link25 {
+.download-link23 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -1034,14 +1006,14 @@
   padding-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.download-text20 {
+.download-text21 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
   padding-left: var(--dl-space-space-tripleunit);
   padding-right: var(--dl-space-space-tripleunit);
 }
-.download-text21 {
+.download-text22 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -1069,9 +1041,10 @@
 }
 .download-icon-container10 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -1087,22 +1060,16 @@
 }
 .download-heading5 {
   color: var(--dl-color-gray-900);
-  font-size: 36px;
-  font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.55;
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .download-icon-container11 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-left: var(--dl-space-space-tripleunit);
   padding-top: 8px;
@@ -1128,13 +1095,55 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text22 {
+.download-text23 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 .download-text-container21 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.download-link24 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-link25 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.download-text-container22 {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.download-text24 {
+  color: var(--dl-color-gray-900);
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.download-text-container23 {
   width: 100%;
   display: flex;
   align-self: flex-start;
@@ -1160,49 +1169,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.download-text-container22 {
-  width: 100%;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
-}
-.download-text23 {
-  color: var(--dl-color-gray-900);
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.download-text-container23 {
-  width: 100%;
-  display: flex;
-  align-self: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: 0px;
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-unit);
-  justify-content: center;
-}
 .download-link28 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
-.download-link29 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
-.download-link30 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -1231,9 +1198,10 @@
 }
 .download-icon-container12 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -1249,22 +1217,16 @@
 }
 .download-heading6 {
   color: var(--dl-color-gray-900);
-  font-size: 36px;
-  font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.55;
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .download-icon-container13 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-left: var(--dl-space-space-tripleunit);
   padding-top: 8px;
@@ -1290,7 +1252,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text24 {
+.download-text25 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -1306,7 +1268,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-link31 {
+.download-link29 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -1324,7 +1286,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text25 {
+.download-text26 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -1340,7 +1302,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-text26 {
+.download-text27 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -1368,9 +1330,10 @@
 }
 .download-icon-container14 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -1386,22 +1349,16 @@
 }
 .download-heading7 {
   color: var(--dl-color-gray-900);
-  font-size: 36px;
-  font-style: normal;
   margin-top: var(--dl-space-space-tripleunit);
-  font-family: Montserrat;
-  font-weight: 700;
-  line-height: 1.55;
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .download-icon-container15 {
   width: auto;
-  height: 80%;
   display: flex;
   padding: var(--dl-space-space-unit);
+  max-width: 36px;
+  max-height: 36px;
   align-items: center;
   margin-left: var(--dl-space-space-tripleunit);
   padding-top: 8px;
@@ -1427,7 +1384,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text27 {
+.download-text28 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -1443,7 +1400,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-link32 {
+.download-link30 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -1461,7 +1418,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.download-text28 {
+.download-text29 {
   color: var(--dl-color-gray-900);
   text-align: center;
   padding-top: 0px;
@@ -1477,13 +1434,6 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.download-text29 {
-  color: var(--dl-color-gray-900);
-  align-self: center;
-  text-align: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-}
 .download-text30 {
   color: var(--dl-color-gray-900);
   align-self: center;
@@ -1492,6 +1442,13 @@
   padding-right: var(--dl-space-space-tripleunit);
 }
 .download-text31 {
+  color: var(--dl-color-gray-900);
+  align-self: center;
+  text-align: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.download-text32 {
   color: var(--dl-color-gray-900);
   align-self: center;
   text-align: center;
@@ -1559,6 +1516,21 @@
   }
 }
 @media(max-width: 479px) {
+  .download-mobile-menu {
+    display: flex;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    background-color: var(--dl-color-gray-500);
+  }
+  .download-icon02 {
+    fill: var(--dl-color-gray-900);
+  }
+  .download-link02 {
+    color: var(--dl-color-gray-900);
+  }
+  .download-link03 {
+    color: var(--dl-color-gray-900);
+  }
   .download-wallets {
     padding-top: var(--dl-space-space-fiveunits);
     padding-bottom: var(--dl-space-space-fiveunits);
