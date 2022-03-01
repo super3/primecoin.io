@@ -206,6 +206,7 @@
 }
 .index-link04 {
   color: var(--dl-color-gray-900);
+  padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .index-link05 {
@@ -1174,26 +1175,8 @@
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .index-mobile-menu {
-    flex: 1;
-    width: 100%;
-    display: flex;
-    border-color: var(--dl-color-gray-black);
-    border-width: 1px;
-    background-color: var(--dl-color-gray-500);
-  }
   .index-icon02 {
     fill: var(--dl-color-gray-900);
-  }
-  .index-link03 {
-    color: var(--dl-color-gray-900);
-  }
-  .index-link04 {
-    color: var(--dl-color-gray-900);
-    padding-bottom: var(--dl-space-space-unit);
-  }
-  .index-link05 {
-    color: var(--dl-color-gray-900);
   }
   .index-hero {
     padding-top: 0px;

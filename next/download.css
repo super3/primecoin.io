@@ -1516,20 +1516,8 @@
   }
 }
 @media(max-width: 479px) {
-  .download-mobile-menu {
-    display: flex;
-    border-color: var(--dl-color-gray-black);
-    border-width: 1px;
-    background-color: var(--dl-color-gray-500);
-  }
   .download-icon02 {
     fill: var(--dl-color-gray-900);
-  }
-  .download-link02 {
-    color: var(--dl-color-gray-900);
-  }
-  .download-link03 {
-    color: var(--dl-color-gray-900);
   }
   .download-wallets {
     padding-top: var(--dl-space-space-fiveunits);
