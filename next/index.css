@@ -324,7 +324,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
+  background-image: url('https://primecoin.io/assets/images/general/galaxy-pngrepo-com.png');
 }
 .index-icon04 {
   width: 36px;
@@ -366,7 +366,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
+  background-image: url('https://primecoin.io/assets/images/general/galaxy-pngrepo-com.png');
 }
 .index-icon07 {
   width: 36px;
@@ -408,7 +408,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
+  background-image: url('https://primecoin.io/assets/images/general/galaxy-pngrepo-com.png');
 }
 .index-icon10 {
   width: 36px;
@@ -449,7 +449,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
+  background-image: url('https://primecoin.io/assets/images/general/galaxy-pngrepo-com.png');
 }
 .index-icon13 {
   width: 36px;
@@ -490,7 +490,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
+  background-image: url('https://primecoin.io/assets/images/general/galaxy-pngrepo-com.png');
 }
 .index-icon16 {
   width: 36px;
@@ -531,7 +531,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://www.pngrepo.com/download/275962/galaxy.png');
+  background-image: url('https://primecoin.io/assets/images/general/galaxy-pngrepo-com.png');
 }
 .index-icon19 {
   width: 36px;
@@ -923,6 +923,7 @@
 }
 .index-link17 {
   color: var(--dl-color-gray-900);
+  text-decoration: none;
 }
 .index-service-card1 {
   width: 30%;
@@ -1008,6 +1009,7 @@
 }
 .index-link20 {
   color: var(--dl-color-gray-900);
+  text-decoration: none;
 }
 .index-service-card4 {
   width: 30%;
@@ -1059,6 +1061,7 @@
 }
 .index-link22 {
   color: var(--dl-color-gray-900);
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .index-hero {
