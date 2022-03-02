@@ -204,7 +204,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/backgrounds/pexels-photo-2825343.adrian.lang.jpg');
+  background-image: url('https://primecoin.io/images/backgrounds/pexels-photo-2825343.adrian.lang.jpg');
 }
 .download-heading-container {
   width: 45%;
@@ -867,7 +867,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/backgrounds/pexels-photo-9620611.michael.mahnert.jpg');
+  background-image: url('https://primecoin.io/images/backgrounds/pexels-photo-9620611.michael.mahnert.jpg');
 }
 .download-heading-container1 {
   width: 45%;
