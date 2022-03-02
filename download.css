@@ -255,7 +255,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/icon1.png');
+  background-image: url('https://primecoin.io/images/icons/primecoin.png');
 }
 .download-icon04 {
   width: 100%;
@@ -281,7 +281,7 @@
   margin-right: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/img/downloads/windows.png');
+  background-image: url('https://primecoin.io/images/icons/windows.png');
 }
 .download-icon07 {
   width: 100%;
@@ -403,7 +403,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/icon1.png');
+  background-image: url('https://primecoin.io/images/icons/primecoin.png');
 }
 .download-icon10 {
   width: 100%;
@@ -429,7 +429,7 @@
   padding-right: 8px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/img/downloads/linux.png');
+  background-image: url('https://primecoin.io/images/icons/linux.png');
 }
 .download-icon13 {
   fill: #D9D9D9;
@@ -438,6 +438,26 @@
   opacity: 0;
   min-width: 36px;
   min-height: 36px;
+}
+.download-icon16 {
+  width: 24px;
+  height: 24px;
+}
+.download-icon18 {
+  width: 24px;
+  height: 24px;
+}
+.download-icon20 {
+  width: 24px;
+  height: 24px;
+}
+.download-icon22 {
+  width: 24px;
+  height: 24px;
+}
+.download-icon24 {
+  width: 24px;
+  height: 24px;
 }
 .download-text-container04 {
   width: 100%;
@@ -552,9 +572,9 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/primer.png');
+  background-image: url('https://primecoin.io/images/icons/primer.png');
 }
-.download-icon16 {
+.download-icon26 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -579,9 +599,9 @@
   padding-right: 8px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/img/downloads/android.png');
+  background-image: url('https://primecoin.io/images/icons/android.png');
 }
-.download-icon19 {
+.download-icon29 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -709,9 +729,9 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/gem.png');
+  background-image: url('https://primecoin.io/images/icons/gem.png');
 }
-.download-icon22 {
+.download-icon32 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -736,9 +756,9 @@
   padding-right: 8px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/img/downloads/android.png');
+  background-image: url('https://primecoin.io/images/icons/android.png');
 }
-.download-icon25 {
+.download-icon35 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -898,9 +918,9 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/cryptomark2.png');
+  background-image: url('https://primecoin.io/images/icons/cryptomark2.png');
 }
-.download-icon28 {
+.download-icon38 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -925,9 +945,9 @@
   padding-right: 8px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/img/downloads/android.png');
+  background-image: url('https://primecoin.io/images/icons/android.png');
 }
-.download-icon31 {
+.download-icon41 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -1053,9 +1073,9 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/valory.png');
+  background-image: url('https://primecoin.io/images/icons/valory.png');
 }
-.download-icon34 {
+.download-icon44 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -1080,9 +1100,9 @@
   padding-right: 8px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/img/downloads/android.png');
+  background-image: url('https://primecoin.io/images/icons/android.png');
 }
-.download-icon37 {
+.download-icon47 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -1210,9 +1230,9 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/cryptomark1.png');
+  background-image: url('https://primecoin.io/images/icons/cryptomark1.png');
 }
-.download-icon40 {
+.download-icon50 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -1237,9 +1257,9 @@
   padding-right: 8px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/img/downloads/android.png');
+  background-image: url('https://primecoin.io/images/icons/android.png');
 }
-.download-icon43 {
+.download-icon53 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -1342,9 +1362,9 @@
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/assets/images/general/icon1.png');
+  background-image: url('https://primecoin.io/images/icons/primecoin.png');
 }
-.download-icon46 {
+.download-icon56 {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -1369,9 +1389,9 @@
   padding-right: 8px;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://primecoin.io/img/downloads/android.png');
+  background-image: url('https://primecoin.io/images/icons/android.png');
 }
-.download-icon49 {
+.download-icon59 {
   width: 100%;
   height: 100%;
   opacity: 0;
